@@ -1,8 +1,8 @@
 [
   {
     "name": "Kaine Meran",
-    "xp": 7601,
-    "gold": 3063,
+    "xp": 130725,
+    "gold": 3075,
     "history": [
       {
         "xp": 500,
@@ -15,6 +15,12 @@
         "gold": 12,
         "label": "Testing",
         "timestamp": "2026-05-29"
+      },
+      {
+        "xp": 123124,
+        "gold": 12,
+        "label": "Ga",
+        "timestamp": "2026-05-29T16:22:15.823897"
       }
     ]
   },
