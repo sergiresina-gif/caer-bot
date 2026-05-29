@@ -25,7 +25,7 @@ async def name_autocomplete(interaction: discord.Interaction, current: str):
     ]
 
 
-async def true_false_autocomplete(interaction: discord.Interaction, current: str):
+async def true_false_autocomplete():
     return [
         discord.app_commands.Choice(name="True", value="True"),
         discord.app_commands.Choice(name="False", value="False")
