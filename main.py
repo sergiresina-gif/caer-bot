@@ -8,6 +8,13 @@ import dotenv
 
 import json
 
+
+raids = [
+    {"xp": 500, "gold": 100},
+    {"xp": 1000, "gold": 250},
+    {"xp": 2000, "gold": 500},
+]
+
 # SETTING UP
 dotenv.load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
@@ -59,15 +66,41 @@ async def create(interaction: discord.Interaction, name: str):
         "name": name,
         "xp": 0,
         "gold": 0,
+        "history": []
     })
 
     with open(f"logs/{user.id}.json", "w") as f:
-        json.dump(logs, f)
+        json.dump(logs, f, indent=2)
 
     await interaction.response.send_message(f"Character '{name}' created!")    
 
+
+#AUTOCOMPLETE FOR SHOW
+
+async def name_autocomplete(interaction: discord.Interaction, current: str):
+    user = interaction.user
+    
+    # OPEN LOGS OF USER
+    try:
+        with open(f"logs/{user.id}.json", "r") as f:
+            logs = json.load(f)
+    except FileNotFoundError:
+        logs = []
+
+    return [
+        discord.app_commands.Choice(name=log["name"], value=log["name"])
+        for log in logs if current.lower() in log["name"].lower()
+    ]
+
+async def true_false_autocomplete(interaction: discord.Interaction, current: str):
+    return [
+        discord.app_commands.Choice(name="True", value="True"),
+        discord.app_commands.Choice(name="False", value="False")
+    ]
+# SHOWING CHARACTERS
 @bot.tree.command(name="show", guild=discord.Object(id=GUILD_ID), description="View your chracters!")
-async def show(interaction: discord.Interaction):
+@discord.app_commands.autocomplete(name=name_autocomplete, activity_log=true_false_autocomplete)
+async def show(interaction: discord.Interaction, name: str = None, activity_log: str = "False"):
     user = interaction.user
     
     # OPEN LOGS OF USER
@@ -77,12 +110,115 @@ async def show(interaction: discord.Interaction):
     if not logs:
         await interaction.response.send_message("You have no characters yet. Use /create to make one.")
         return
-
-    message_to_send = "Your characters:\n\n"
-    for log in logs:
-        message_to_send += f"- {log['name']}\n> XP: {log['xp']} \n> Gold: {log['gold']}\n"
     
-    await interaction.response.send_message(message_to_send)
+    if name:
+        logs = [log for log in logs if log["name"] == name]
+        if not logs:
+            await interaction.response.send_message(f"You have no character named '{name}'.")
+            return
+
+    # CREATE MESSAGE TO SEND
+    message_to_send = ""
+    for log in logs:
+        if log["xp"] < 1000:
+            level = log["xp"] // 500 + 1
+            xp_to_show = log["xp"] % 500
+        else:
+            level = log["xp"] // 1000 + 2
+            xp_to_show = log["xp"] % 1000
+        
+        message_to_send += f"# {log['name']}\n> Level: {level}\n> XP: {xp_to_show} \n> Gold: {log['gold']}\n"
+        
+        if activity_log == "True":
+            message_to_send += f"\nActivity Log: \n"
+            for activity in log["history"]:
+                message_to_send += f"- **{activity['label']}** | XP: {activity['xp']} | Gold: {activity['gold']} | ({activity['timestamp']})\n"
+            message_to_send += "\n"
+
+    
+
+
+    embed = discord.Embed(
+        title=f"{user.name}'s Characters",
+        description=message_to_send
+    )
+    
+    await interaction.response.send_message(embed=embed)
+
+# /LOG
+
+log_group = discord.app_commands.Group(name="log", description="Log activities for a character")
+
+async def write_activity(log: list, name: str, xp: int, gold: int, label: str, timestamp: str):
+    # FIND THE CHARACTER
+    log["history"].append({
+        "xp": xp,
+        "gold": gold,
+        "label": label,
+        "timestamp": timestamp
+    })
+    return True
+
+@log_group.command(name="manual", description="Log an xp and gold manually.")
+@discord.app_commands.autocomplete(name=name_autocomplete)
+async def manual(interaction: discord.Interaction, name: str, xp: int, gold: int, label: str):
+    user = interaction.user
+
+    # OPEN LOGS OF USER
+    try:
+        with open(f"logs/{user.id}.json", "r") as f:
+            logs = json.load(f)
+    except FileNotFoundError:
+        logs = []
+
+    # FIND THE CHARACTER
+    for log in logs:
+        if log["name"] == name:
+            log["xp"] += xp
+            log["gold"] += gold
+            await write_activity(log, name, xp, gold, label, datetime.now().date().isoformat())
+            break
+    else:
+        await interaction.response.send_message(f"You have no character named '{name}'.")
+        return
+
+    # SAVE THE UPDATED LOGS
+    with open(f"logs/{user.id}.json", "w") as f:
+        json.dump(logs, f, indent=2)
+
+    await interaction.response.send_message(f"Activity logged for '{name}'!")
+
+@log_group.command(name="raid", description="Log a raid completion.")
+@discord.app_commands.autocomplete(name=name_autocomplete)
+async def raid(interaction: discord.Interaction, name: str, level: int):
+    user = interaction.user
+
+    # OPEN LOGS OF USER
+    try:
+        with open(f"logs/{user.id}.json", "r") as f:
+            logs = json.load(f)
+    except FileNotFoundError:
+        logs = []
+
+    # FIND THE CHARACTER
+    for log in logs:
+        if log["name"] == name:
+            log["xp"] += raids[level-1]["xp"]
+            log["gold"] += raids[level-1]["gold"]
+            await write_activity(log, name, raids[level-1]["xp"], raids[level-1]["gold"], f"Raid Level {level}", timestamp=datetime.now().date().isoformat())
+            break
+    else:
+        await interaction.response.send_message(f"You have no character named '{name}'.")
+        return
+
+    # SAVE THE UPDATED LOGS
+    with open(f"logs/{user.id}.json", "w") as f:
+        json.dump(logs, f, indent=2)
+
+    await interaction.response.send_message(f"Raid logged for '{name}'!")
+
+bot.tree.add_command(log_group, guild=discord.Object(id=GUILD_ID))
+
 
 # QOTDS
 

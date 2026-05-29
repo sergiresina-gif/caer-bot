@@ -1,1 +1,52 @@
-[{"name": "Kaine Meran", "xp": 0, "gold": 0}]
+[
+  {
+    "name": "Kaine Meran",
+    "xp": 7601,
+    "gold": 3063,
+    "history": [
+      {
+        "xp": 500,
+        "gold": 100,
+        "label": "Raid Level 1",
+        "timestamp": "2026-05-29"
+      },
+      {
+        "xp": 100,
+        "gold": 12,
+        "label": "Testing",
+        "timestamp": "2026-05-29"
+      }
+    ]
+  },
+  {
+    "name": "Ashaira Mester",
+    "xp": 2000,
+    "gold": 250,
+    "history": [
+      {
+        "xp": 1000,
+        "gold": 250,
+        "label": "Raid Level 2",
+        "timestamp": "2026-05-29"
+      }
+    ]
+  },
+  {
+    "name": "Selhie Leinster",
+    "xp": 750,
+    "gold": 0,
+    "history": []
+  },
+  {
+    "name": "Luslec Meri",
+    "xp": 500,
+    "gold": 0,
+    "history": []
+  },
+  {
+    "name": "Laedan Grace",
+    "xp": 250,
+    "gold": 0,
+    "history": []
+  }
+]
