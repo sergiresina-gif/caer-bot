@@ -27,9 +27,13 @@ async def on_ready():
 import charater
 import log
 import qotd
+import quests
+import onMessage
 
 charater.setup(bot, GUILD_ID)
 log.setup(bot, GUILD_ID)
 qotd.setup(bot, GUILD_ID, CHANNEL_ID, TARGET_EMOTE)
+quests.setup(bot, GUILD_ID)
+onMessage.setup(bot, GUILD_ID)
 
 bot.run(TOKEN)

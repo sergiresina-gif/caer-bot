@@ -1,58 +1,18 @@
-[
-  {
-    "name": "Kaine Meran",
-    "xp": 130725,
-    "gold": 3075,
-    "history": [
-      {
-        "xp": 500,
-        "gold": 100,
-        "label": "Raid Level 1",
-        "timestamp": "2026-05-29"
-      },
-      {
-        "xp": 100,
-        "gold": 12,
-        "label": "Testing",
-        "timestamp": "2026-05-29"
-      },
-      {
-        "xp": 123124,
-        "gold": 12,
-        "label": "Ga",
-        "timestamp": "2026-05-29T16:22:15.823897"
-      }
-    ]
-  },
-  {
-    "name": "Ashaira Mester",
-    "xp": 2000,
-    "gold": 250,
-    "history": [
-      {
-        "xp": 1000,
-        "gold": 250,
-        "label": "Raid Level 2",
-        "timestamp": "2026-05-29"
-      }
-    ]
-  },
-  {
-    "name": "Selhie Leinster",
-    "xp": 750,
-    "gold": 0,
-    "history": []
-  },
-  {
-    "name": "Luslec Meri",
-    "xp": 500,
-    "gold": 0,
-    "history": []
-  },
-  {
-    "name": "Laedan Grace",
-    "xp": 250,
-    "gold": 0,
-    "history": []
-  }
-]
+{
+  "user_name": "diangelo317",
+  "user_pfp": "https://cdn.discordapp.com/avatars/466545869089669130/c0c3f837ced0d6760457cae09ed6f7d3.png?size=1024",
+  "characters": [
+    {
+      "name": "Kaine Meran",
+      "xp": 0,
+      "gold": 0,
+      "history": []
+    },
+    {
+      "name": "Ashaira Mester",
+      "xp": 0,
+      "gold": 0,
+      "history": []
+    }
+  ]
+}

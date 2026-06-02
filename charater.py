@@ -2,17 +2,25 @@ import json
 import discord
 
 
-def load_user_logs(user_id: int) -> list:
+def load_user_data(user_id: int) -> dict:
     try:
         with open(f"logs/{user_id}.json", "r") as f:
             return json.load(f)
     except FileNotFoundError:
-        return []
+        return {"user_name": None, "user_pfp": None, "characters": []}
 
+def save_user_data(user_id: int, data: dict) -> None:
+    with open(f"logs/{user_id}.json", "w") as f:
+        json.dump(data, f, indent=2)
+
+# USED FOR THINGS THAT ONLY INTERACT WITH CHARACTERS
+def load_user_logs(user_id: int) -> list:
+    return load_user_data(user_id)["characters"]
 
 def save_user_logs(user_id: int, logs: list) -> None:
-    with open(f"logs/{user_id}.json", "w") as f:
-        json.dump(logs, f, indent=2)
+    data = load_user_data(user_id)
+    data["characters"] = logs
+    save_user_data(user_id, data)
 
 
 async def name_autocomplete(interaction: discord.Interaction, current: str):
@@ -25,7 +33,7 @@ async def name_autocomplete(interaction: discord.Interaction, current: str):
     ]
 
 
-async def true_false_autocomplete():
+async def true_false_autocomplete(interaction: discord.Interaction, current: str):
     return [
         discord.app_commands.Choice(name="True", value="True"),
         discord.app_commands.Choice(name="False", value="False")
@@ -36,7 +44,13 @@ def setup(bot: discord.Client, guild_id: int):
     @bot.tree.command(name="create", guild=discord.Object(id=guild_id), description="Create a new character!")
     async def create(interaction: discord.Interaction, name: str):
         user = interaction.user
-        logs = load_user_logs(user.id)
+        data = load_user_data(user.id)
+
+        if data["user_name"] is None:
+            data["user_name"] = user.name
+            data["user_pfp"] = str(user.avatar.url) if user.avatar else None
+
+        logs = data["characters"]
 
         for log in logs:
             if log["name"] == name:
@@ -50,7 +64,7 @@ def setup(bot: discord.Client, guild_id: int):
             "history": []
         })
 
-        save_user_logs(user.id, logs)
+        save_user_data(user.id, data)   # saves full structure
         await interaction.response.send_message(f"Character '{name}' created!")
 
     @bot.tree.command(name="show", guild=discord.Object(id=guild_id), description="View your chracters!")
@@ -77,7 +91,7 @@ def setup(bot: discord.Client, guild_id: int):
             else:
                 level = log["xp"] // 1000 + 2
                 xp_to_show = log["xp"] % 1000
-            message_to_send += f" # {log['name']}\n> Level: {level}\n> XP: {xp_to_show} \n> Gold: {log['gold']}\n"
+            message_to_send += f"# {log['name']}\n> Level: {level}\n> XP: {xp_to_show} \n> Gold: {log['gold']}\n"
 
             if activity_log == "True":
                 message_to_send += "\nActivity Log:\n"
