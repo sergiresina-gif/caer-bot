@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Kaine Meran",
-      "xp": 340,
-      "gold": 400,
+      "xp": 690,
+      "gold": 450,
       "history": [
         {
           "xp": 200,
@@ -23,6 +23,18 @@
           "xp": 170,
           "gold": 200,
           "label": "Quest: asd",
+          "timestamp": "2026-06-05"
+        },
+        {
+          "xp": 200,
+          "gold": 35,
+          "label": "Quest: Under the Kortos Mounds",
+          "timestamp": "2026-06-05"
+        },
+        {
+          "xp": 150,
+          "gold": 15,
+          "label": "For the qotd",
           "timestamp": "2026-06-05"
         }
       ]

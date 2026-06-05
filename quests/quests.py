@@ -1,5 +1,6 @@
 import json
 import discord
+from datetime import datetime
 from autocompletes import all_characters_autocomplete
 
 loot_questions = [
@@ -44,9 +45,11 @@ def setup(bot: discord.Client, guild_id: int):
                 "character_8": character_8,
                 "character_9": character_9,
                 "character_10": character_10,
-                "step": 0
+                "step": 0,
+                "last_activity": datetime.now()
             }
-
+            await dm_channel.send("Hi! Let's do the loot log. These will be helpful:",
+                                files=[discord.File("quests/goldbounty.png"), discord.File("quests/goldexcursion.png")])            
             await dm_channel.send(loot_questions[loot_log[user.id]["step"]])
         except discord.Forbidden:
             await interaction.response.send_message("I can't send you a DM. Please check your privacy settings.", ephemeral=True)

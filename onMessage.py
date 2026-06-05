@@ -1,6 +1,6 @@
 import discord
 import json
-from quests import loot_log, loot_questions, loot_fields
+from quests.quests import loot_log, loot_questions, loot_fields
 from log_funcs import *
 
 

@@ -22,7 +22,7 @@ async def on_ready():
 import charater
 import log
 import qotd
-import quests
+import quests.quests as quests
 import onMessage
 
 charater.setup(bot, GUILD_ID)

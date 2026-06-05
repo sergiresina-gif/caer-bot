@@ -23,7 +23,7 @@ def setup(bot: discord.Client, guild_id: int):
             if log["name"] == name:
                 log["xp"] += xp
                 log["gold"] += gold
-                write_activity(logs, name, xp, gold, label, datetime.now().date().isoformat())
+                write_activity(log, name, xp, gold, label, datetime.now().date().isoformat())
                 save_user_logs(user.id, logs)
                 await interaction.response.send_message(f"Activity logged for '{name}'!")
                 return
@@ -46,7 +46,7 @@ def setup(bot: discord.Client, guild_id: int):
                 gold_gain = raids[level - 1]["gold"]
                 log["xp"] += xp_gain
                 log["gold"] += gold_gain
-                write_activity(logs, name, xp_gain, gold_gain, f"Raid Level {level}", datetime.now().date().isoformat())
+                write_activity(log, name, xp_gain, gold_gain, f"Raid Level {level}", datetime.now().date().isoformat())
                 save_user_logs(user.id, logs)
                 await interaction.response.send_message(f"Raid logged for '{name}'!")
                 return
