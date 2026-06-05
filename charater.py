@@ -1,43 +1,7 @@
 import json
 import discord
-
-
-def load_user_data(user_id: int) -> dict:
-    try:
-        with open(f"logs/{user_id}.json", "r") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return {"user_name": None, "user_pfp": None, "characters": []}
-
-def save_user_data(user_id: int, data: dict) -> None:
-    with open(f"logs/{user_id}.json", "w") as f:
-        json.dump(data, f, indent=2)
-
-# USED FOR THINGS THAT ONLY INTERACT WITH CHARACTERS
-def load_user_logs(user_id: int) -> list:
-    return load_user_data(user_id)["characters"]
-
-def save_user_logs(user_id: int, logs: list) -> None:
-    data = load_user_data(user_id)
-    data["characters"] = logs
-    save_user_data(user_id, data)
-
-
-async def name_autocomplete(interaction: discord.Interaction, current: str):
-    user = interaction.user
-    logs = load_user_logs(user.id)
-
-    return [
-        discord.app_commands.Choice(name=log["name"], value=log["name"])
-        for log in logs if current.lower() in log["name"].lower()
-    ]
-
-
-async def true_false_autocomplete(interaction: discord.Interaction, current: str):
-    return [
-        discord.app_commands.Choice(name="True", value="True"),
-        discord.app_commands.Choice(name="False", value="False")
-    ]
+from log_funcs import *
+from autocompletes import name_autocomplete, true_false_autocomplete
 
 
 def setup(bot: discord.Client, guild_id: int):
