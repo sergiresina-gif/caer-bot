@@ -2,6 +2,7 @@ import json
 import discord
 from datetime import datetime
 from log_funcs import *
+from autocompletes import name_autocomplete
 
 raids = [
     {"xp": 500, "gold": 100},

@@ -1,5 +1,5 @@
-import datetime
-
+from datetime import datetime
+from bot_instance import bot
 import discord
 import json
 import os
@@ -49,24 +49,25 @@ def save_user_logs(user_id: int, logs: list) -> None:
     save_user_data(user_id, data)
 
 
-def write_activity(logs: list, name: str, xp: int, gold: int, label: str, timestamp: str) -> bool:
-    for log in logs:
-        if log["name"] == name:
-            log["history"].append({
-                "xp": xp,
-                "gold": gold,
-                "label": label,
-                "timestamp": timestamp
-            })
-            print(f"Logged activity for character '{name}': +{xp} XP, +{gold} Gold, Label: {label}, Timestamp: {timestamp}")
-            return True
-    return False
+def write_activity(log: dict, name: str, xp: int, gold: int, label: str, timestamp: str) -> bool:
+    log["history"].append({
+        "xp": xp,
+        "gold": gold,
+        "label": label,
+        "timestamp": timestamp
+    })
+    print(f"Logged activity for character '{name}': +{xp} XP, +{gold} Gold, Label: {label}, Timestamp: {timestamp}")
+    return True
 
 
 async def award_xp_and_gold(character_name: str, xp: int, gold: int, reason: str) -> None:
-    character = find_character(character_name)
-    if character:
-        character["xp"] += xp
-        character["gold"] += gold
-        write_activity(load_user_logs(find_author_by_character(character_name)), character_name, xp, gold, reason, datetime.now().date().isoformat())
-        save_user_logs(find_author_by_character(character_name), load_user_logs(find_author_by_character(character_name)))
+    owner = find_author_by_character(character_name)
+    logs = load_user_logs(owner)
+    for log in logs:
+        if log["name"] == character_name:
+            log["xp"] += xp
+            log["gold"] += gold
+            write_activity(log, character_name, xp, gold, reason, datetime.now().date().isoformat())
+            save_user_logs(owner, logs)
+    user = await bot.fetch_user(owner)
+    await user.send(f"Your character {character_name} has been awarded {xp} XP and {gold} Gold from [{reason}]")

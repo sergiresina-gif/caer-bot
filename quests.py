@@ -7,7 +7,7 @@ loot_questions = [
     "Add a description. You can type Skip to not have a description.",
     "How much XP do you want to give? Just type a number.",
     "Add a break down of the XP. The text will be added as is. Example: \n\n Faked being scared by Appricott: 5xp \n Sneaked on the Lions with 4 successes: 60xp \n Combat against Lions!: 130xp \n Succesfully captured the Lion alive: 30xp \n Good RP: 5xp \n TOTAL: 230xp ",
-    "How much gold do you want to give? Just type a number.",
+    "How much gold do you want to give? Just type a number. JUST 200. No 200gp.",
     "What items do you want to give? The text will be added as is. Example: Rank 2 Scroll \n Merciful Charm \n Numbing Tonic \n Retrieval Prism \n Quicksilver Mutagen" ]
 
 
@@ -24,7 +24,7 @@ loot_log= {}
 def setup(bot: discord.Client, guild_id: int):
     @bot.tree.command(name="loot", guild=discord.Object(id=guild_id), description="Sends a DM to the command user")
     @discord.app_commands.autocomplete(character_1=all_characters_autocomplete, character_2=all_characters_autocomplete, character_3=all_characters_autocomplete, character_4=all_characters_autocomplete, character_5=all_characters_autocomplete, character_6=all_characters_autocomplete, character_7=all_characters_autocomplete, character_8=all_characters_autocomplete, character_9=all_characters_autocomplete, character_10=all_characters_autocomplete)
-    async def loot_command(interaction: discord.Interaction, character_1: str = None, character_2: str = None, character_3: str = None, character_4: str = None, character_5: str = None, character_6: str = None, character_7: str = None, character_8: str = None, character_9: str = None, character_10: str = None):
+    async def loot_command(interaction: discord.Interaction, character_1: str, character_2: str = None, character_3: str = None, character_4: str = None, character_5: str = None, character_6: str = None, character_7: str = None, character_8: str = None, character_9: str = None, character_10: str = None):
         user = interaction.user
         if user.id in loot_log.keys():
             del loot_log[user.id]

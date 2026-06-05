@@ -2,7 +2,7 @@
 import dotenv
 import discord
 from discord.ext import commands
-
+from bot_instance import bot
 
 dotenv.load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
@@ -10,11 +10,6 @@ GUILD_ID = int(os.getenv("MINE_ID"))
 CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
 TARGET_EMOTE = "🎯"
 
-intents = discord.Intents.default()
-intents.message_content = True
-intents.reactions = True
-intents.messages = True
-bot = commands.Bot(command_prefix="/", intents=intents)
 
 
 @bot.event
@@ -37,3 +32,5 @@ quests.setup(bot, GUILD_ID)
 onMessage.setup(bot, GUILD_ID)
 
 bot.run(TOKEN)
+
+

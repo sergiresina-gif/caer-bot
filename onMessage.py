@@ -8,7 +8,6 @@ async def loot_builder(loot_data: dict, message: discord.Message) -> str:
     loot_log[message.author.id][loot_fields[loot_log[message.author.id]["step"]]] = message.content
     loot_log[message.author.id]["step"] += 1
 
-
     if loot_log[message.author.id]["step"] >= len(loot_questions):
         # Create message
         message_to_send = f"__**{loot_log[message.author.id]['Title']}**__\n"
@@ -27,7 +26,13 @@ async def loot_builder(loot_data: dict, message: discord.Message) -> str:
         message_to_send += f"💎 Other goodies 💎 \n{loot_log[message.author.id]['Items']}\n"
 
 
-        await message.channel.send(message_to_send)
+        await message.channel.send(message_to_send) # TO WHAT CHANNEL
+
+        for i in range(1, 11): # AWARD XP AND GOLD
+            character_key = f"character_{i}"
+            if loot_log[message.author.id][character_key]:
+                await award_xp_and_gold(loot_log[message.author.id][character_key], int(loot_log[message.author.id]['XP']), int(loot_log[message.author.id]['Gold']), f"Quest: {loot_log[message.author.id]['Title']}")
+        del loot_log[message.author.id]
     else:
         next_question = loot_questions[loot_log[message.author.id]["step"]]
         await message.channel.send(next_question)
@@ -41,12 +46,7 @@ def setup(bot: discord.Client, guild_id: int):
 
         if message.guild is None and not message.author.bot:
             if loot_log.get(message.author.id):
-                await loot_builder(loot_log[message.author.id], message)
-                for i in range(1, 11):
-                    character_key = f"character_{i}"
-                    award_xp(loot_log[message.author.id][character_key], int(loot_log[message.author.id]['XP']))
-                
-                del loot_log[message.author.id]
+                await loot_builder(loot_log[message.author.id], message)  
 
 
                 

@@ -4,9 +4,28 @@
   "characters": [
     {
       "name": "Kaine Meran",
-      "xp": 0,
-      "gold": 0,
-      "history": []
+      "xp": 340,
+      "gold": 400,
+      "history": [
+        {
+          "xp": 200,
+          "gold": 200,
+          "label": "Quest: asd",
+          "timestamp": "2026-06-05"
+        },
+        {
+          "xp": 170,
+          "gold": 200,
+          "label": "Quest: adw",
+          "timestamp": "2026-06-05"
+        },
+        {
+          "xp": 170,
+          "gold": 200,
+          "label": "Quest: asd",
+          "timestamp": "2026-06-05"
+        }
+      ]
     },
     {
       "name": "Ashaira Mester",
