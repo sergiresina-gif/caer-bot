@@ -19,11 +19,10 @@ def setup(bot: discord.Client, guild_id: int):
         user = interaction.user
         logs = load_user_logs(user.id)
 
-        for log in logs:
-            if log["name"] == name:
-                log["xp"] += xp
-                log["gold"] += gold
-                write_activity(log, name, xp, gold, label, datetime.now().date().isoformat())
+        for character in logs:
+            if character.name == name:
+                character.add_xp_gold(xp, gold)
+                write_activity(character, name, xp, gold, label, datetime.now().date().isoformat())
                 save_user_logs(user.id, logs)
                 await interaction.response.send_message(f"Activity logged for '{name}'!")
                 return
@@ -40,13 +39,12 @@ def setup(bot: discord.Client, guild_id: int):
             await interaction.response.send_message(f"Raid level must be between 1 and {len(raids)}.")
             return
 
-        for log in logs:
-            if log["name"] == name:
+        for character in logs:
+            if character.name == name:
                 xp_gain = raids[level - 1]["xp"]
                 gold_gain = raids[level - 1]["gold"]
-                log["xp"] += xp_gain
-                log["gold"] += gold_gain
-                write_activity(log, name, xp_gain, gold_gain, f"Raid Level {level}", datetime.now().date().isoformat())
+                character.add_xp_gold(xp_gain, gold_gain)
+                write_activity(character, name, xp_gain, gold_gain, f"Raid Level {level}", datetime.now().date().isoformat())
                 save_user_logs(user.id, logs)
                 await interaction.response.send_message(f"Raid logged for '{name}'!")
                 return

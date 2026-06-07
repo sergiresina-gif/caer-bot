@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Kaine Meran",
-      "xp": 690,
-      "gold": 450,
+      "xp": 890,
+      "gold": 575,
       "history": [
         {
           "xp": 200,
@@ -36,6 +36,12 @@
           "gold": 15,
           "label": "For the qotd",
           "timestamp": "2026-06-05"
+        },
+        {
+          "xp": 200,
+          "gold": 125,
+          "label": "Quest: Pokemon",
+          "timestamp": "2026-06-07"
         }
       ]
     },
@@ -44,6 +50,19 @@
       "xp": 0,
       "gold": 0,
       "history": []
+    },
+    {
+      "name": "Mirchea Noier",
+      "xp": 1000,
+      "gold": 250,
+      "history": [
+        {
+          "xp": 1000,
+          "gold": 250,
+          "label": "Raid Level 2",
+          "timestamp": "2026-06-07"
+        }
+      ]
     }
   ]
 }

@@ -2,6 +2,7 @@ import json
 import discord
 from datetime import datetime
 from autocompletes import all_characters_autocomplete
+from models import Loot
 
 loot_questions = [
     "What is the title for the quest?",
@@ -20,7 +21,7 @@ loot_fields = [
     "Gold",
     "Items"
 ]
-loot_log= {}
+loot_log = {}
 
 def setup(bot: discord.Client, guild_id: int):
     @bot.tree.command(name="loot", guild=discord.Object(id=guild_id), description="Sends a DM to the command user")
@@ -34,22 +35,22 @@ def setup(bot: discord.Client, guild_id: int):
             # Send a public confirmation
             await interaction.response.send_message("I've sent you message for the loot log!", ephemeral=True)
 
-            loot_log[user.id] = {
-                "character_1": character_1,
-                "character_2": character_2,
-                "character_3": character_3,
-                "character_4": character_4,
-                "character_5": character_5,
-                "character_6": character_6,
-                "character_7": character_7,
-                "character_8": character_8,
-                "character_9": character_9,
-                "character_10": character_10,
-                "step": 0,
-                "last_activity": datetime.now()
-            }
+            l = Loot()
+            l.characters[0] = character_1
+            l.characters[1] = character_2
+            l.characters[2] = character_3
+            l.characters[3] = character_4
+            l.characters[4] = character_5
+            l.characters[5] = character_6
+            l.characters[6] = character_7
+            l.characters[7] = character_8
+            l.characters[8] = character_9
+            l.characters[9] = character_10
+            l.step = 0
+            l.last_activity = datetime.now().isoformat()
+            loot_log[user.id] = l
             await dm_channel.send("Hi! Let's do the loot log. These will be helpful:",
                                 files=[discord.File("quests/goldbounty.png"), discord.File("quests/goldexcursion.png")])            
-            await dm_channel.send(loot_questions[loot_log[user.id]["step"]])
+            await dm_channel.send(loot_questions[loot_log[user.id].step])
         except discord.Forbidden:
             await interaction.response.send_message("I can't send you a DM. Please check your privacy settings.", ephemeral=True)

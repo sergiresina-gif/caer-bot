@@ -3,18 +3,22 @@ from bot_instance import bot
 import discord
 import json
 import os
+from models import User, Character
 
-#Find character by name
-def find_character(name: str) -> dict:
+
+# Find character by name across all stored user files and return Character
+def find_character(name: str) -> Character:
     path_to_json_files = "logs/"
     json_file_names = [filename for filename in os.listdir(path_to_json_files) if filename.endswith('.json')]
 
     for json_file_name in json_file_names:
         with open(os.path.join(path_to_json_files, json_file_name), 'r') as f:
             data = json.load(f)
-            for character in data.get("characters", []):
-                if character["name"].lower() == name.lower():
+            user = User.from_dict(data)
+            for character in user.characters:
+                if character.name.lower() == name.lower():
                     return character
+
 
 def find_author_by_character(name: str) -> int:
     path_to_json_files = "logs/"
@@ -23,39 +27,38 @@ def find_author_by_character(name: str) -> int:
     for json_file_name in json_file_names:
         with open(os.path.join(path_to_json_files, json_file_name), 'r') as f:
             data = json.load(f)
-            for character in data.get("characters", []):
-                if character["name"].lower() == name.lower():
-                    return int(json_file_name[:-5])  # Remove .json and convert to int im a fucking genius
+            user = User.from_dict(data)
+            for character in user.characters:
+                if character.name.lower() == name.lower():
+                    return int(json_file_name[:-5])
 
 
-def load_user_data(user_id: int) -> dict:
+def load_user_data(user_id: int) -> User:
     try:
         with open(f"logs/{user_id}.json", "r") as f:
-            return json.load(f)
+            return User.from_dict(json.load(f))
     except FileNotFoundError:
-        return {"user_name": None, "user_pfp": None, "characters": []}
+        return User()
 
-def save_user_data(user_id: int, data: dict) -> None:
+
+def save_user_data(user_id: int, data: User) -> None:
     with open(f"logs/{user_id}.json", "w") as f:
-        json.dump(data, f, indent=2)
+        json.dump(data.to_dict(), f, indent=2)
+
 
 # USED FOR THINGS THAT ONLY INTERACT WITH CHARACTERS
 def load_user_logs(user_id: int) -> list:
-    return load_user_data(user_id)["characters"]
+    return load_user_data(user_id).characters
+
 
 def save_user_logs(user_id: int, logs: list) -> None:
     data = load_user_data(user_id)
-    data["characters"] = logs
+    data.characters = logs
     save_user_data(user_id, data)
 
 
-def write_activity(log: dict, name: str, xp: int, gold: int, label: str, timestamp: str) -> bool:
-    log["history"].append({
-        "xp": xp,
-        "gold": gold,
-        "label": label,
-        "timestamp": timestamp
-    })
+def write_activity(character: Character, name: str, xp: int, gold: int, label: str, timestamp: str) -> bool:
+    character.add_activity(xp, gold, label, timestamp)
     print(f"Logged activity for character '{name}': +{xp} XP, +{gold} Gold, Label: {label}, Timestamp: {timestamp}")
     return True
 
@@ -63,11 +66,10 @@ def write_activity(log: dict, name: str, xp: int, gold: int, label: str, timesta
 async def award_xp_and_gold(character_name: str, xp: int, gold: int, reason: str) -> None:
     owner = find_author_by_character(character_name)
     logs = load_user_logs(owner)
-    for log in logs:
-        if log["name"] == character_name:
-            log["xp"] += xp
-            log["gold"] += gold
-            write_activity(log, character_name, xp, gold, reason, datetime.now().date().isoformat())
+    for character in logs:
+        if character.name == character_name:
+            character.add_xp_gold(xp, gold)
+            write_activity(character, character_name, xp, gold, reason, datetime.now().date().isoformat())
             save_user_logs(owner, logs)
     user = await bot.fetch_user(owner)
     await user.send(f"Your character {character_name} has been awarded {xp} XP and {gold} Gold from [{reason}]")

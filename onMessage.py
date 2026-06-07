@@ -4,37 +4,41 @@ from quests.quests import loot_log, loot_questions, loot_fields
 from log_funcs import *
 
 
-async def loot_builder(loot_data: dict, message: discord.Message) -> str:
-    loot_log[message.author.id][loot_fields[loot_log[message.author.id]["step"]]] = message.content
-    loot_log[message.author.id]["step"] += 1
+async def loot_builder(loot_data, message: discord.Message) -> str:
+    # loot_data is a Loot instance
+    current_label = loot_fields[loot_data.step]
+    loot_data.set_field_by_label(current_label, message.content)
+    loot_data.step += 1
 
-    if loot_log[message.author.id]["step"] >= len(loot_questions):
+    if loot_data.step >= len(loot_questions):
         # Create message
-        message_to_send = f"__**{loot_log[message.author.id]['Title']}**__\n"
+        message_to_send = f"__**{loot_data.title}**__\n"
 
         for i in range(1, 11):
-            character_key = f"character_{i}"
-            if loot_log[message.author.id][character_key]:
-                author = find_author_by_character(loot_log[message.author.id][character_key])
-                message_to_send += f"> <@{author}> as {loot_log[message.author.id][character_key]}\n"
+            idx = i - 1
+            char_name = loot_data.characters[idx]
+            if char_name:
+                author = find_author_by_character(char_name)
+                message_to_send += f"> <@{author}> as {char_name}\n"
 
-        if loot_log[message.author.id]['Description'].lower() != "skip":
-            message_to_send += f"\n{loot_log[message.author.id]['Description']}\n"
+        if loot_data.description and loot_data.description.lower() != "skip":
+            message_to_send += f"\n{loot_data.description}\n"
         
-        message_to_send += f"\n\n⭐ XP ⭐ \n```{loot_log[message.author.id]['XP Breakdown']}```\n"
-        message_to_send += f"💰  Monies 💰 \n```{loot_log[message.author.id]['Gold']}gp```\n"
-        message_to_send += f"💎 Other goodies 💎 \n{loot_log[message.author.id]['Items']}\n"
+        message_to_send += f"\n\n⭐ XP ⭐ \n```{loot_data.xp_breakdown}```\n"
+        message_to_send += f"💰  Monies 💰 \n```{loot_data.gold}gp```\n"
+        message_to_send += f"💎 Other goodies 💎 \n{loot_data.items}\n"
 
 
         await message.channel.send(message_to_send) # TO WHAT CHANNEL
 
         for i in range(1, 11): # AWARD XP AND GOLD
-            character_key = f"character_{i}"
-            if loot_log[message.author.id][character_key]:
-                await award_xp_and_gold(loot_log[message.author.id][character_key], int(loot_log[message.author.id]['XP']), int(loot_log[message.author.id]['Gold']), f"Quest: {loot_log[message.author.id]['Title']}")
+            idx = i - 1
+            char_name = loot_data.characters[idx]
+            if char_name:
+                await award_xp_and_gold(char_name, int(loot_data.xp), int(loot_data.gold), f"Quest: {loot_data.title}")
         del loot_log[message.author.id]
     else:
-        next_question = loot_questions[loot_log[message.author.id]["step"]]
+        next_question = loot_questions[loot_data.step]
         await message.channel.send(next_question)
 
 
