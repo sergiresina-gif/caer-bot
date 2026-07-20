@@ -1,0 +1,18 @@
+{
+  "user_name": "paincow",
+  "user_pfp": "https://cdn.discordapp.com/avatars/254381521174003723/87455392c59b2a56ab4ec8b38eac6f03.png?size=1024",
+  "characters": [
+    {
+      "name": "stinky caerbot",
+      "xp": 0,
+      "gold": 0,
+      "history": []
+    },
+    {
+      "name": "test",
+      "xp": 0,
+      "gold": 0,
+      "history": []
+    }
+  ]
+}

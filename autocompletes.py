@@ -1,11 +1,12 @@
 import discord
 from log_funcs import *
+import json
 import os
 from models import User
 
 async def name_autocomplete(interaction: discord.Interaction, current: str):
     user = interaction.user
-    logs = load_user_logs(user.id)
+    logs = load_user_logs(user.name)
 
     return [
         discord.app_commands.Choice(name=log.name, value=log.name)
@@ -34,3 +35,6 @@ async def all_characters_autocomplete(interaction: discord.Interaction, current:
 
     return [discord.app_commands.Choice(name=character, value=character) for character in characters]
 
+async def levels_autocomplete(interaction: discord.Interaction, current: str):
+    return [discord.app_commands.Choice(name="1", value="1"),
+            discord.app_commands.Choice(name="3", value="3")]

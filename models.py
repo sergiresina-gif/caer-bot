@@ -23,6 +23,7 @@ class Character:
     name: str
     xp: int = 0
     gold: int = 0
+    pathfinder_class: Optional[str] = None
     history: List[Activity] = field(default_factory=list)
 
     def to_dict(self) -> Dict[str, Any]:

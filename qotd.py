@@ -1,3 +1,4 @@
+from enum import member
 import json
 import random
 import discord
@@ -104,6 +105,12 @@ def setup(bot: discord.Client, guild_id: int, channel_id: int, target_emote: str
     @bot.tree.command(name="qotd", guild=discord.Object(id=guild_id), description="Get a random QOTD!")
     @discord.app_commands.autocomplete(repeated=true_false_autocomplete)
     async def qotd(interaction: discord.Interaction, repeated: str = "False"):
+        allowed_roles = [1510715535136915523, 1510715535136915521, 1510715535128658073, 1516407439996489758]
+
+        if not any(role.id in allowed_roles for role in interaction.user.roles):
+            await interaction.response.send_message("You do not have access to this command.")
+            return
+        
         qotds = load_qotds()
         if not qotds:
             await interaction.response.send_message("No QOTDs are available yet.")

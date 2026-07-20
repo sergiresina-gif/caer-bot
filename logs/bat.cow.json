@@ -1,0 +1,19 @@
+{
+  "user_name": "bat.cow",
+  "user_pfp": "https://cdn.discordapp.com/avatars/310249535433867265/09f1c4f01385e50be29508d82401c85c.png?size=1024",
+  "characters": [
+    {
+      "name": "Talon",
+      "xp": 1000,
+      "gold": 0,
+      "history": [
+        {
+          "xp": 1000,
+          "gold": 0,
+          "label": "higher level start up",
+          "timestamp": "2026-07-20"
+        }
+      ]
+    }
+  ]
+}

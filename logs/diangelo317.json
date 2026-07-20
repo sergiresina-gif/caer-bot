@@ -1,0 +1,24 @@
+{
+  "user_name": "diangelo317",
+  "user_pfp": "https://cdn.discordapp.com/avatars/466545869089669130/c0c3f837ced0d6760457cae09ed6f7d3.png?size=1024",
+  "characters": [
+    {
+      "name": "Kaine Meran",
+      "xp": 0,
+      "gold": 0,
+      "history": []
+    },
+    {
+      "name": "Ashaira",
+      "xp": 0,
+      "gold": 0,
+      "history": []
+    },
+    {
+      "name": "Ashiara",
+      "xp": 1000,
+      "gold": 0,
+      "history": []
+    }
+  ]
+}

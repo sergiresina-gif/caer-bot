@@ -33,16 +33,16 @@ def find_author_by_character(name: str) -> int:
                     return int(json_file_name[:-5])
 
 
-def load_user_data(user_id: int) -> User:
+def load_user_data(user_name: str) -> User:
     try:
-        with open(f"logs/{user_id}.json", "r") as f:
+        with open(f"logs/{user_name}.json", "r") as f:
             return User.from_dict(json.load(f))
     except FileNotFoundError:
         return User()
 
 
-def save_user_data(user_id: int, data: User) -> None:
-    with open(f"logs/{user_id}.json", "w") as f:
+def save_user_data(user_name: str, data: User) -> None:
+    with open(f"logs/{user_name}.json", "w") as f:
         json.dump(data.to_dict(), f, indent=2)
 
 
@@ -51,10 +51,10 @@ def load_user_logs(user_id: int) -> list:
     return load_user_data(user_id).characters
 
 
-def save_user_logs(user_id: int, logs: list) -> None:
-    data = load_user_data(user_id)
+def save_user_logs(user_name: str, logs: list) -> None:
+    data = load_user_data(user_name)
     data.characters = logs
-    save_user_data(user_id, data)
+    save_user_data(user_name, data)
 
 
 def write_activity(character: Character, name: str, xp: int, gold: int, label: str, timestamp: str) -> bool:
