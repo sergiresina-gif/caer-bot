@@ -31,16 +31,18 @@ class Character:
             "name": self.name,
             "xp": self.xp,
             "gold": self.gold,
-            "history": [a.to_dict() for a in self.history]
+            "pathfinder_class": self.pathfinder_class,
+            "history": [a.to_dict() for a in self.history],
         }
 
     @staticmethod
     def from_dict(d: Dict[str, Any]) -> "Character":
         return Character(
-            d.get("name", ""),
-            d.get("xp", 0),
-            d.get("gold", 0),
-            [Activity.from_dict(a) for a in d.get("history", [])]
+            name=d.get("name", ""),
+            xp=d.get("xp", 0),
+            gold=d.get("gold", 0),
+            pathfinder_class=d.get("pathfinder_class"),
+            history=[Activity.from_dict(a) for a in d.get("history", [])],
         )
 
     def add_xp_gold(self, xp: int, gold: int) -> None:

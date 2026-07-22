@@ -79,7 +79,9 @@ def setup(bot: discord.Client, guild_id: int):
                 return
 
         message_to_send = ""
+        print(logs)
         for log in logs:
+            print(log)
             if log.xp < 1000:
                 level = log.xp // 500 + 1
                 xp_to_show = log.xp % 500
@@ -89,9 +91,12 @@ def setup(bot: discord.Client, guild_id: int):
             message_to_send += f"# {log.name}\n> Level: {level}\n> XP: {xp_to_show} \n> Gold: {log.gold}\n"
 
             if activity_log == "True":
+                print("asdas")
                 message_to_send += "\nActivity Log:\n"
+                print(log.history)
                 for activity in log.history:
                     message_to_send += f"- **{activity.label}** | XP: {activity.xp} | Gold: {activity.gold} | ({activity.timestamp})\n"
+                    print(message_to_send)
                 message_to_send += "\n"
 
         embed = discord.Embed(

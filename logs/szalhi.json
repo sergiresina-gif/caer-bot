@@ -1,0 +1,20 @@
+{
+  "user_name": "szalhi",
+  "user_pfp": "https://cdn.discordapp.com/avatars/180638457826246659/586de9ab26074b7ee79e14dbf85a6db9.png?size=1024",
+  "characters": [
+    {
+      "name": "Esa",
+      "xp": 4000,
+      "gold": 270,
+      "pathfinder_class": null,
+      "history": [
+        {
+          "xp": 4000,
+          "gold": 270,
+          "label": "Import",
+          "timestamp": "2026-07-22"
+        }
+      ]
+    }
+  ]
+}

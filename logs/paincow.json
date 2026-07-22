@@ -6,12 +6,14 @@
       "name": "stinky caerbot",
       "xp": 0,
       "gold": 0,
+      "pathfinder_class": null,
       "history": []
     },
     {
       "name": "test",
       "xp": 0,
       "gold": 0,
+      "pathfinder_class": null,
       "history": []
     }
   ]

@@ -6,6 +6,7 @@
       "name": "Talon",
       "xp": 1000,
       "gold": 0,
+      "pathfinder_class": null,
       "history": [
         {
           "xp": 1000,
