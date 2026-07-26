@@ -8,7 +8,7 @@ from models import Character
 def setup(bot: discord.Client, guild_id: int):
     @bot.tree.command(name="create", guild=discord.Object(id=guild_id), description="Create a new character!")
     @discord.app_commands.autocomplete(level=levels_autocomplete)
-    async def create(interaction: discord.Interaction, name: str, level: str = "1", pathfinder_class: str = None):
+    async def create(interaction: discord.Interaction, name: str, level: str, pathfinder_class: str):
         user = interaction.user
         data = load_user_data(user.name)
 

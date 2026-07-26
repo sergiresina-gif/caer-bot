@@ -1,0 +1,34 @@
+{
+  "user_name": "solarblaster",
+  "user_pfp": "https://cdn.discordapp.com/avatars/389977221659623435/6150860b27eb578b616f6af57680b5d1.png?size=1024",
+  "characters": [
+    {
+      "name": "Nargan",
+      "xp": 0,
+      "gold": 3,
+      "pathfinder_class": "Gunslinger",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 3,
+          "label": "Starting",
+          "timestamp": "2026-07-26"
+        }
+      ]
+    },
+    {
+      "name": "Sidevere",
+      "xp": 1000,
+      "gold": 34,
+      "pathfinder_class": "Guardian",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 34,
+          "label": "Starting",
+          "timestamp": "2026-07-26"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "user_name": "songfireice",
+  "user_pfp": "https://cdn.discordapp.com/avatars/209293179499839488/2500b3ce2fac8623eed890401fed38d1.png?size=1024",
+  "characters": [
+    {
+      "name": "Tilfen",
+      "xp": 1000,
+      "gold": 729,
+      "pathfinder_class": "Barbarian",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 729,
+          "label": "Starting out",
+          "timestamp": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}

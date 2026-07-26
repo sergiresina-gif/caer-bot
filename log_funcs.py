@@ -33,16 +33,24 @@ def find_author_by_character(name: str) -> int:
                     return int(json_file_name[:-5])
 
 
+def _get_log_path(user_name: str) -> str:
+    logs_dir = os.path.join(os.path.dirname(__file__), "logs")
+    os.makedirs(logs_dir, exist_ok=True)
+    return os.path.join(logs_dir, f"{user_name}.json")
+
+
 def load_user_data(user_name: str) -> User:
+    log_path = _get_log_path(user_name)
     try:
-        with open(f"logs/{user_name}.json", "r") as f:
+        with open(log_path, "r", encoding="utf-8") as f:
             return User.from_dict(json.load(f))
     except FileNotFoundError:
         return User()
 
 
 def save_user_data(user_name: str, data: User) -> None:
-    with open(f"logs/{user_name}.json", "w") as f:
+    log_path = _get_log_path(user_name)
+    with open(log_path, "w", encoding="utf-8") as f:
         json.dump(data.to_dict(), f, indent=2)
 
 

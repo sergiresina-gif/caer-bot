@@ -1,0 +1,40 @@
+{
+  "user_name": "akuakumatatata",
+  "user_pfp": "https://cdn.discordapp.com/avatars/307300407061774337/70cb0f0631d1a12dcfa9748d4f18f6b7.png?size=1024",
+  "characters": [
+    {
+      "name": "Kham Aekhvongsa",
+      "xp": 1000,
+      "gold": 7,
+      "pathfinder_class": "Barbarian",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 7,
+          "label": "meep",
+          "timestamp": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Bellamy Drake Flamestorm",
+      "xp": 3000,
+      "gold": 171,
+      "pathfinder_class": "Rogue",
+      "history": [
+        {
+          "xp": 4000,
+          "gold": 171,
+          "label": "yippee",
+          "timestamp": "2026-07-25"
+        },
+        {
+          "xp": -1000,
+          "gold": 0,
+          "label": "fix",
+          "timestamp": "2026-07-25"
+        }
+      ]
+    }
+  ]
+}

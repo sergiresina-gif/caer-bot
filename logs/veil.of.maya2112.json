@@ -1,0 +1,27 @@
+{
+  "user_name": "veil.of.maya2112",
+  "user_pfp": "https://cdn.discordapp.com/avatars/462921213816078347/e605b3cb381aea7b7e90cf5b64cf2ba0.png?size=1024",
+  "characters": [
+    {
+      "name": "Esra Anlindl",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Fighter",
+      "history": [
+        {
+          "xp": 2000,
+          "gold": 0,
+          "label": "Starting Level Adjustment",
+          "timestamp": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Sister Agatha-Laelis",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Cleric",
+      "history": []
+    }
+  ]
+}

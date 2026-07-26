@@ -6,13 +6,53 @@
       "name": "Talon",
       "xp": 1000,
       "gold": 0,
-      "pathfinder_class": null,
+      "pathfinder_class": "Ranger",
       "history": [
         {
           "xp": 1000,
           "gold": 0,
           "label": "higher level start up",
           "timestamp": "2026-07-20"
+        },
+        {
+          "xp": 0,
+          "gold": 0,
+          "label": "Ranger",
+          "timestamp": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Lysandra",
+      "xp": 1000,
+      "gold": 9,
+      "pathfinder_class": "Kineticist",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 9,
+          "label": "dick",
+          "timestamp": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Kassandra",
+      "xp": 3000,
+      "gold": 25,
+      "pathfinder_class": "Rogue",
+      "history": [
+        {
+          "xp": 2000,
+          "gold": 0,
+          "label": "Dyke",
+          "timestamp": "2026-07-25"
+        },
+        {
+          "xp": 0,
+          "gold": 25,
+          "label": "bitch",
+          "timestamp": "2026-07-25"
         }
       ]
     }

@@ -1,0 +1,27 @@
+{
+  "user_name": "couriersandy",
+  "user_pfp": "https://cdn.discordapp.com/avatars/126199652952440832/0a147a3f47d7fccae0428a7c44f29bf6.png?size=1024",
+  "characters": [
+    {
+      "name": "Dove",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Sorcerer",
+      "history": []
+    },
+    {
+      "name": "Ferra",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Inventor",
+      "history": []
+    },
+    {
+      "name": "Viclaaf \"Vicky\" Stonewater",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Witch",
+      "history": []
+    }
+  ]
+}

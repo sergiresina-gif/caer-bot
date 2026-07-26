@@ -1,0 +1,27 @@
+{
+  "user_name": "miralangsuir",
+  "user_pfp": "https://cdn.discordapp.com/avatars/64529817969631232/aac88360c824638c0900308479eb4fb9.png?size=1024",
+  "characters": [
+    {
+      "name": "Lady Azira Aldori",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Fighter",
+      "history": []
+    },
+    {
+      "name": "Zulaikha",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Monk",
+      "history": []
+    },
+    {
+      "name": "Rohina Worldbreaker",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Guardian",
+      "history": []
+    }
+  ]
+}
