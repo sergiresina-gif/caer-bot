@@ -15,6 +15,13 @@
           "timestamp": "2026-07-25"
         }
       ]
+    },
+    {
+      "name": "Lizzie",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Sorcerer",
+      "history": []
     }
   ]
 }

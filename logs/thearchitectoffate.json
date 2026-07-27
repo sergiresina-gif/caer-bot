@@ -1,0 +1,20 @@
+{
+  "user_name": "thearchitectoffate",
+  "user_pfp": "https://cdn.discordapp.com/avatars/193537246836686858/9b187b090e9965fcce660031db2947c8.png?size=1024",
+  "characters": [
+    {
+      "name": "Amelia Melvol",
+      "xp": 1000,
+      "gold": 74,
+      "pathfinder_class": "Summoner",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 74,
+          "label": "sexy",
+          "timestamp": "2026-07-26"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "user_name": "errantsparks",
+  "user_pfp": "https://cdn.discordapp.com/avatars/129711897950945281/08787e87a2e3805a1e0b1ef3db3a7da5.png?size=1024",
+  "characters": [
+    {
+      "name": "Keffa",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Witchwarper",
+      "history": []
+    },
+    {
+      "name": "Kanha",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Kineticist",
+      "history": []
+    },
+    {
+      "name": "Yvuri",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Rogue",
+      "history": []
+    }
+  ]
+}

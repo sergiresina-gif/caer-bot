@@ -19,7 +19,7 @@
     {
       "name": "Bellamy Drake Flamestorm",
       "xp": 3000,
-      "gold": 171,
+      "gold": 71,
       "pathfinder_class": "Rogue",
       "history": [
         {
@@ -33,6 +33,12 @@
           "gold": 0,
           "label": "fix",
           "timestamp": "2026-07-25"
+        },
+        {
+          "xp": 0,
+          "gold": -100,
+          "label": "Buying a Burning Banner :3",
+          "timestamp": "2026-07-27"
         }
       ]
     }

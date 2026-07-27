@@ -6,7 +6,7 @@
       "name": "Esa",
       "xp": 4000,
       "gold": 270,
-      "pathfinder_class": null,
+      "pathfinder_class": "Exemplar",
       "history": [
         {
           "xp": 4000,
