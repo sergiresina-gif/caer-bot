@@ -15,6 +15,56 @@
           "timestamp": "2026-07-26"
         }
       ]
+    },
+    {
+      "name": "Aisayll Avenstar",
+      "xp": 8670,
+      "gold": 1724,
+      "pathfinder_class": "Fighter",
+      "history": [
+        {
+          "xp": 670,
+          "gold": 1724,
+          "label": "Awesome",
+          "timestamp": "2026-07-27"
+        },
+        {
+          "xp": 10670,
+          "gold": 1724,
+          "label": "Awesome",
+          "timestamp": "2026-07-27"
+        },
+        {
+          "xp": 10000,
+          "gold": -5000,
+          "label": "Awesome",
+          "timestamp": "2026-07-27"
+        },
+        {
+          "xp": -20000,
+          "gold": 1552,
+          "label": "Awesome",
+          "timestamp": "2026-07-27"
+        },
+        {
+          "xp": 8000,
+          "gold": 1724,
+          "label": "Awesome",
+          "timestamp": "2026-07-27"
+        },
+        {
+          "xp": -1000,
+          "gold": 0,
+          "label": "Awesome",
+          "timestamp": "2026-07-27"
+        },
+        {
+          "xp": 330,
+          "gold": 0,
+          "label": "Awesome",
+          "timestamp": "2026-07-27"
+        }
+      ]
     }
   ]
 }

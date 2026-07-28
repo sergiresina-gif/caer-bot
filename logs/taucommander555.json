@@ -1,0 +1,34 @@
+{
+  "user_name": "taucommander555",
+  "user_pfp": "https://cdn.discordapp.com/avatars/285205490311364608/6d3382664d14aa398bb1244f991dc6c3.png?size=1024",
+  "characters": [
+    {
+      "name": "Diovaldo Masser",
+      "xp": 1000,
+      "gold": 1,
+      "pathfinder_class": "Fighter",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 1,
+          "label": "Starting",
+          "timestamp": "2026-07-28"
+        }
+      ]
+    },
+    {
+      "name": "Fetcher Grimes",
+      "xp": 0,
+      "gold": 10,
+      "pathfinder_class": "Rogue",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 10,
+          "label": "Starting",
+          "timestamp": "2026-07-28"
+        }
+      ]
+    }
+  ]
+}

@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Esa",
-      "xp": 4000,
-      "gold": 270,
+      "xp": 3000,
+      "gold": 85,
       "pathfinder_class": "Exemplar",
       "history": [
         {
@@ -13,6 +13,32 @@
           "gold": 270,
           "label": "Import",
           "timestamp": "2026-07-22"
+        },
+        {
+          "xp": -1000,
+          "gold": 0,
+          "label": "fix",
+          "timestamp": "2026-07-27"
+        },
+        {
+          "xp": 0,
+          "gold": -185,
+          "label": "fix",
+          "timestamp": "2026-07-27"
+        }
+      ]
+    },
+    {
+      "name": "Gretia",
+      "xp": 1000,
+      "gold": 46,
+      "pathfinder_class": "Commander",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 46,
+          "label": "Start",
+          "timestamp": "2026-07-27"
         }
       ]
     }

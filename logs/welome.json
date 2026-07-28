@@ -1,0 +1,20 @@
+{
+  "user_name": "welome",
+  "user_pfp": "https://cdn.discordapp.com/avatars/350780456679243776/d76c2d73c21d4c56492c6240c909ed82.png?size=1024",
+  "characters": [
+    {
+      "name": "Rosalinde",
+      "xp": 0,
+      "gold": 0,
+      "pathfinder_class": "Fighter",
+      "history": []
+    },
+    {
+      "name": "Benzo",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Barbarian",
+      "history": []
+    }
+  ]
+}
