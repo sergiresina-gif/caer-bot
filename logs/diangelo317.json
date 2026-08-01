@@ -11,10 +11,29 @@
     },
     {
       "name": "Elle Mellei",
-      "xp": 1000,
+      "xp": 1020,
       "gold": 0,
       "pathfinder_class": "Alchemist",
-      "history": []
+      "history": [
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 0,
+          "gold": 0,
+          "label": "test",
+          "timestamp": "2026-08-01"
+        }
+      ]
     }
   ]
 }

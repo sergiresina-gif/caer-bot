@@ -68,7 +68,7 @@ def setup(bot: discord.Client, guild_id: int):
 
         await interaction.response.send_message(f"You have no character named '{name}'.", ephemeral=True)
 
-    @log_group.command(name="skirmish", description="Log a skirmish completion.")
+    @log_group.command(name="qotd", description="Log a qotd completion.")
     @discord.app_commands.autocomplete(name=name_autocomplete)
     async def qotd(interaction: discord.Interaction, name: str):
         user = interaction.user
