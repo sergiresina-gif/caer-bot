@@ -4,10 +4,41 @@
   "characters": [
     {
       "name": "Dalea",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 3020,
+      "gold": 503,
       "pathfinder_class": "Magus",
-      "history": []
+      "history": [
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "qotd 7-28",
+          "timestamp": "2026-07-29"
+        },
+        {
+          "xp": 0,
+          "gold": 63,
+          "label": "starting gold",
+          "timestamp": "2026-07-29"
+        },
+        {
+          "xp": 0,
+          "gold": -60,
+          "label": "aerial cloak",
+          "timestamp": "2026-07-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "qotd 7-30",
+          "timestamp": "2026-07-31"
+        },
+        {
+          "xp": 2000,
+          "gold": 500,
+          "label": "Raid Level 3",
+          "timestamp": "2026-08-01"
+        }
+      ]
     }
   ]
 }

@@ -15,6 +15,13 @@
       "gold": 0,
       "pathfinder_class": "Barbarian",
       "history": []
+    },
+    {
+      "name": "Leyna",
+      "xp": 0,
+      "gold": 0,
+      "pathfinder_class": "Cleric",
+      "history": []
     }
   ]
 }

@@ -4,16 +4,30 @@
   "characters": [
     {
       "name": "Ulrika",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 3000,
+      "gold": 500,
       "pathfinder_class": "Barbarian",
-      "history": []
+      "history": [
+        {
+          "xp": 2000,
+          "gold": 500,
+          "label": "Raid Level 3",
+          "timestamp": "2026-07-31"
+        }
+      ]
     },
     {
       "name": "Adrian of Ramsgate",
       "xp": 1000,
       "gold": 0,
       "pathfinder_class": "Soldier",
+      "history": []
+    },
+    {
+      "name": "Honest Eland Crosses The Horizon",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Champion",
       "history": []
     }
   ]

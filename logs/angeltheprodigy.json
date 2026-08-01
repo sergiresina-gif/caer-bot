@@ -1,0 +1,13 @@
+{
+  "user_name": "angeltheprodigy",
+  "user_pfp": "https://cdn.discordapp.com/avatars/957425120325038152/30f749667f21b08d642f9e80ba4d1a9a.png?size=1024",
+  "characters": [
+    {
+      "name": "Grato",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "necromancer",
+      "history": []
+    }
+  ]
+}

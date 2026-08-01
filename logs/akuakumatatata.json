@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Kham Aekhvongsa",
-      "xp": 1000,
+      "xp": 1020,
       "gold": 7,
       "pathfinder_class": "Barbarian",
       "history": [
@@ -13,6 +13,18 @@
           "gold": 7,
           "label": "meep",
           "timestamp": "2026-07-25"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": ".",
+          "timestamp": "2026-07-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "0",
+          "timestamp": "2026-07-31"
         }
       ]
     },

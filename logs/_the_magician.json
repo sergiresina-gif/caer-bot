@@ -1,0 +1,70 @@
+{
+  "user_name": "_the_magician",
+  "user_pfp": "https://cdn.discordapp.com/avatars/486279353899155468/eeb0d756eb30c3d14ad74f77c7988e7e.png?size=1024",
+  "characters": [
+    {
+      "name": "Aelmoryn",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Necromancer",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 0,
+          "label": "test",
+          "timestamp": "2026-07-28"
+        },
+        {
+          "xp": 0,
+          "gold": 0,
+          "label": "https://discord.com/channels/1510715535061684396/1510715536009330795/1532425159980613802",
+          "timestamp": "2026-07-30"
+        },
+        {
+          "xp": 0,
+          "gold": 0,
+          "label": "[please work](https://discord.com/channels/1510715535061684396/1510715536009330795/1532425475870425352)",
+          "timestamp": "2026-07-30"
+        }
+      ]
+    },
+    {
+      "name": "Aelmoryn Drav Thyrsang",
+      "xp": 1230,
+      "gold": 27,
+      "pathfinder_class": "Necromancer",
+      "history": [
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "qotd 7/28",
+          "timestamp": "2026-07-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 7/30](https://discord.com/channels/1510715535061684396/1510715536227696824/1532435918797930558)",
+          "timestamp": "2026-07-30"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "[writing prompt](https://discord.com/channels/1510715535061684396/1532215596576407573)",
+          "timestamp": "2026-07-30"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "[skirmish](https://discord.com/channels/1510715535061684396/1532554424277401667)",
+          "timestamp": "2026-07-31"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 7/31](https://discord.com/channels/1510715535061684396/1510715536227696824/1532815109317988395)",
+          "timestamp": "2026-07-31"
+        }
+      ]
+    }
+  ]
+}

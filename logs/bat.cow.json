@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Talon",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1330,
+      "gold": 27,
       "pathfinder_class": "Ranger",
       "history": [
         {
@@ -19,13 +19,55 @@
           "gold": 0,
           "label": "Ranger",
           "timestamp": "2026-07-25"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "vicky likes girls",
+          "timestamp": "2026-07-28"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "get bent",
+          "timestamp": "2026-07-29"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "wow",
+          "timestamp": "2026-07-30"
+        },
+        {
+          "xp": 0,
+          "gold": 10,
+          "label": "i",
+          "timestamp": "2026-07-30"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "raid suggestions",
+          "timestamp": "2026-07-30"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "raid",
+          "timestamp": "2026-07-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "qotd",
+          "timestamp": "2026-07-31"
         }
       ]
     },
     {
       "name": "Lysandra",
       "xp": 1000,
-      "gold": 9,
+      "gold": 7,
       "pathfinder_class": "Kineticist",
       "history": [
         {
@@ -33,6 +75,24 @@
           "gold": 9,
           "label": "dick",
           "timestamp": "2026-07-25"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "raid",
+          "timestamp": "2026-07-31"
+        },
+        {
+          "xp": 0,
+          "gold": -2,
+          "label": "bought stuff",
+          "timestamp": "2026-07-31"
+        },
+        {
+          "xp": -100,
+          "gold": -17,
+          "label": "oops",
+          "timestamp": "2026-07-31"
         }
       ]
     },
@@ -53,6 +113,20 @@
           "gold": 25,
           "label": "bitch",
           "timestamp": "2026-07-25"
+        }
+      ]
+    },
+    {
+      "name": "Magnis Valdis",
+      "xp": 500,
+      "gold": 2,
+      "pathfinder_class": "Summoner",
+      "history": [
+        {
+          "xp": 500,
+          "gold": 2,
+          "label": "gay",
+          "timestamp": "2026-07-31"
         }
       ]
     }

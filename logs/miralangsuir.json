@@ -18,10 +18,17 @@
     },
     {
       "name": "Rohina Worldbreaker",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1100,
+      "gold": 17,
       "pathfinder_class": "Guardian",
-      "history": []
+      "history": [
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "raid",
+          "timestamp": "2026-07-30"
+        }
+      ]
     }
   ]
 }

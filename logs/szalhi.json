@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Esa",
-      "xp": 3000,
+      "xp": 3010,
       "gold": 85,
       "pathfinder_class": "Exemplar",
       "history": [
@@ -25,13 +25,19 @@
           "gold": -185,
           "label": "fix",
           "timestamp": "2026-07-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-07-29"
         }
       ]
     },
     {
       "name": "Gretia",
-      "xp": 1000,
-      "gold": 46,
+      "xp": 1310,
+      "gold": 76,
       "pathfinder_class": "Commander",
       "history": [
         {
@@ -39,6 +45,30 @@
           "gold": 46,
           "label": "Start",
           "timestamp": "2026-07-27"
+        },
+        {
+          "xp": 200,
+          "gold": 20,
+          "label": "Live Bounty: Leslie's New Life",
+          "timestamp": "2026-07-31"
+        },
+        {
+          "xp": 2000,
+          "gold": 500,
+          "label": "Raid Level 3",
+          "timestamp": "2026-07-31"
+        },
+        {
+          "xp": -1900,
+          "gold": -490,
+          "label": "Skirmish fix",
+          "timestamp": "2026-07-31"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-07-31"
         }
       ]
     }

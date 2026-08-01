@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Nargan",
-      "xp": 0,
+      "xp": 100,
       "gold": 3,
       "pathfinder_class": "Gunslinger",
       "history": [
@@ -13,12 +13,18 @@
           "gold": 3,
           "label": "Starting",
           "timestamp": "2026-07-26"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "RPXP",
+          "timestamp": "2026-07-30"
         }
       ]
     },
     {
       "name": "Sidevere",
-      "xp": 1000,
+      "xp": 1100,
       "gold": 34,
       "pathfinder_class": "Guardian",
       "history": [
@@ -27,6 +33,12 @@
           "gold": 34,
           "label": "Starting",
           "timestamp": "2026-07-26"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "RPXP",
+          "timestamp": "2026-07-30"
         }
       ]
     }

@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Amelia Melvol",
-      "xp": 1000,
-      "gold": 74,
+      "xp": 1220,
+      "gold": 94,
       "pathfinder_class": "Summoner",
       "history": [
         {
@@ -13,12 +13,30 @@
           "gold": 74,
           "label": "sexy",
           "timestamp": "2026-07-26"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "qotd",
+          "timestamp": "2026-07-30"
+        },
+        {
+          "xp": 200,
+          "gold": 20,
+          "label": "Live",
+          "timestamp": "2026-07-31"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "qotd",
+          "timestamp": "2026-07-31"
         }
       ]
     },
     {
       "name": "Aisayll Avenstar",
-      "xp": 8670,
+      "xp": 8680,
       "gold": 1724,
       "pathfinder_class": "Fighter",
       "history": [
@@ -63,6 +81,12 @@
           "gold": 0,
           "label": "Awesome",
           "timestamp": "2026-07-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "qotd",
+          "timestamp": "2026-07-30"
         }
       ]
     }

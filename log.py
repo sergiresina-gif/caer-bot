@@ -4,10 +4,27 @@ from datetime import datetime
 from log_funcs import *
 from autocompletes import name_autocomplete
 
-raids = [
-    {"xp": 500, "gold": 100},
-    {"xp": 1000, "gold": 250},
-    {"xp": 2000, "gold": 500},
+skirmishes = [
+    {"xp": 100, "gold": 5}, # Level 1
+    {"xp": 100, "gold": 7}, # Level 2
+    {"xp": 100, "gold": 10}, # Level 3
+    {"xp": 100, "gold": 17}, # Level 4
+    {"xp": 100, "gold": 25}, # Level 5
+    {"xp": 100, "gold": 40}, # Level 6
+    {"xp": 100, "gold": 60}, # Level 7
+    {"xp": 100, "gold": 82}, # Level 8
+    {"xp": 100, "gold": 115}, # Level 9
+    {"xp": 100, "gold": 165}, # Level 10
+    {"xp": 100, "gold": 232}, # Level 11
+    {"xp": 100, "gold": 332}, # Level 12
+    {"xp": 100, "gold": 500}, # Level 13
+    {"xp": 100, "gold": 750}, # Level 14
+    {"xp": 100, "gold": 1125}, # Level 15
+    {"xp": 100, "gold": 1700}, # Level 16
+    {"xp": 100, "gold": 2650}, # Level 17
+    {"xp": 100, "gold": 4150}, # Level 18
+    {"xp": 100, "gold": 7000}, # Level 19
+    {"xp": 100, "gold": 20000}, # Level 20
 ]
 
 def setup(bot: discord.Client, guild_id: int):
@@ -29,24 +46,24 @@ def setup(bot: discord.Client, guild_id: int):
 
         await interaction.response.send_message(f"You have no character named '{name}'.")
 
-    @log_group.command(name="raid", description="Log a raid completion.")
+    @log_group.command(name="skirmish", description="Log a skirmish completion.")
     @discord.app_commands.autocomplete(name=name_autocomplete)
-    async def raid(interaction: discord.Interaction, name: str, level: int):
+    async def skirmish(interaction: discord.Interaction, name: str, level: int):
         user = interaction.user
         logs = load_user_logs(user.name)
 
-        if level < 1 or level > len(raids):
-            await interaction.response.send_message(f"Raid level must be between 1 and {len(raids)}.")
+        if level < 1 or level > len(skirmishes):
+            await interaction.response.send_message(f"Skirmish level must be between 1 and {len(skirmishes)}.")
             return
 
         for character in logs:
             if character.name == name:
-                xp_gain = raids[level - 1]["xp"]
-                gold_gain = raids[level - 1]["gold"]
+                xp_gain = skirmishes[level - 1]["xp"]
+                gold_gain = skirmishes[level - 1]["gold"]
                 character.add_xp_gold(xp_gain, gold_gain)
-                write_activity(character, name, xp_gain, gold_gain, f"Raid Level {level}", datetime.now().date().isoformat())
+                write_activity(character, name, xp_gain, gold_gain, f"Skirmish Level {level}", datetime.now().date().isoformat())
                 save_user_logs(user.name, logs)
-                await interaction.response.send_message(f"Raid logged for '{name}'!")
+                await interaction.response.send_message(f"Skirmish logged for '{name}'!")
                 return
 
         await interaction.response.send_message(f"You have no character named '{name}'.")

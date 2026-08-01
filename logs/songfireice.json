@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Tilfen",
-      "xp": 1000,
-      "gold": 729,
+      "xp": 1200,
+      "gold": 744,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -13,6 +13,12 @@
           "gold": 729,
           "label": "Starting out",
           "timestamp": "2026-07-25"
+        },
+        {
+          "xp": 200,
+          "gold": 15,
+          "label": "Leslie's New Life",
+          "timestamp": "2026-07-31"
         }
       ]
     },

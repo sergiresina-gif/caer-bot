@@ -8,6 +8,20 @@
       "gold": 0,
       "pathfinder_class": "Magus",
       "history": []
+    },
+    {
+      "name": "Arabella Nexia",
+      "xp": 1020,
+      "gold": 0,
+      "pathfinder_class": "Magus",
+      "history": [
+        {
+          "xp": 20,
+          "gold": 0,
+          "label": "QOTD 1 and 2",
+          "timestamp": "2026-07-30"
+        }
+      ]
     }
   ]
 }

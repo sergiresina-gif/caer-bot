@@ -4,10 +4,41 @@
   "characters": [
     {
       "name": "Keffa",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1330,
+      "gold": 37,
       "pathfinder_class": "Witchwarper",
-      "history": []
+      "history": [
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QotD 7/28/26",
+          "timestamp": "2026-07-29"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QotD 7/30",
+          "timestamp": "2026-07-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QotD 7/31",
+          "timestamp": "2026-07-31"
+        },
+        {
+          "xp": 200,
+          "gold": 20,
+          "label": "7/30 Bounty",
+          "timestamp": "2026-07-31"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish 7/31",
+          "timestamp": "2026-07-31"
+        }
+      ]
     },
     {
       "name": "Kanha",
