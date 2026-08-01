@@ -39,12 +39,12 @@ def setup(bot: discord.Client, guild_id: int):
         for character in logs:
             if character.name == name:
                 character.add_xp_gold(xp, gold)
-                write_activity(character, name, xp, gold, label, datetime.now().date().isoformat())
+                await write_activity(character, name, xp, gold, label, datetime.now().date().isoformat())
                 save_user_logs(user.name, logs)
-                await interaction.response.send_message(f"Activity logged for '{name}'!")
+                await interaction.response.send_message(f"Activity logged for '{name}'!", ephemeral=True)
                 return
 
-        await interaction.response.send_message(f"You have no character named '{name}'.")
+        await interaction.response.send_message(f"You have no character named '{name}'.", ephemeral=True)
 
     @log_group.command(name="skirmish", description="Log a skirmish completion.")
     @discord.app_commands.autocomplete(name=name_autocomplete)
@@ -53,7 +53,7 @@ def setup(bot: discord.Client, guild_id: int):
         logs = load_user_logs(user.name)
 
         if level < 1 or level > len(skirmishes):
-            await interaction.response.send_message(f"Skirmish level must be between 1 and {len(skirmishes)}.")
+            await interaction.response.send_message(f"Skirmish level must be between 1 and {len(skirmishes)}.", ephemeral=True)
             return
 
         for character in logs:
@@ -61,11 +61,27 @@ def setup(bot: discord.Client, guild_id: int):
                 xp_gain = skirmishes[level - 1]["xp"]
                 gold_gain = skirmishes[level - 1]["gold"]
                 character.add_xp_gold(xp_gain, gold_gain)
-                write_activity(character, name, xp_gain, gold_gain, f"Skirmish Level {level}", datetime.now().date().isoformat())
+                await write_activity(character, name, xp_gain, gold_gain, f"Skirmish Level {level}", datetime.now().date().isoformat())
                 save_user_logs(user.name, logs)
-                await interaction.response.send_message(f"Skirmish logged for '{name}'!")
+                await interaction.response.send_message(f"Skirmish logged for '{name}'!", ephemeral=True)
                 return
 
-        await interaction.response.send_message(f"You have no character named '{name}'.")
+        await interaction.response.send_message(f"You have no character named '{name}'.", ephemeral=True)
+
+    @log_group.command(name="skirmish", description="Log a skirmish completion.")
+    @discord.app_commands.autocomplete(name=name_autocomplete)
+    async def qotd(interaction: discord.Interaction, name: str):
+        user = interaction.user
+        logs = load_user_logs(user.name)
+
+        for character in logs:
+            if character.name == name:
+                character.add_xp_gold(10, 0)
+                await write_activity(character, name, 10, 0, "QOTD", datetime.now().date().isoformat())
+                save_user_logs(user.name, logs)
+                await interaction.response.send_message(f"QOTD logged for '{name}'!", ephemeral=True)
+                return
+
+
 
     bot.tree.add_command(log_group, guild=discord.Object(id=guild_id))

@@ -5,6 +5,14 @@ import json
 import os
 from models import User, Character
 
+async def send_it_to_victoria(content: str) -> None:
+    victoria_id = int(os.getenv("VICTORIA_ID"))  # Replace with Victoria's actual Discord user ID
+    victoria = bot.get_user(victoria_id)
+    if victoria:
+        dm_channel = await victoria.create_dm()
+        dm_channel.send(content)
+    else:
+        print("Victoria not found.")
 
 # Find character by name across all stored user files and return Character
 def find_character(name: str) -> Character:
@@ -65,9 +73,10 @@ def save_user_logs(user_name: str, logs: list) -> None:
     save_user_data(user_name, data)
 
 
-def write_activity(character: Character, name: str, xp: int, gold: int, label: str, timestamp: str) -> bool:
+async def write_activity(character: Character, name: str, xp: int, gold: int, label: str, timestamp: str) -> bool:
     character.add_activity(xp, gold, label, timestamp)
     print(f"Logged activity for character '{name}': +{xp} XP, +{gold} Gold, Label: {label}, Timestamp: {timestamp}")
+    await send_it_to_victoria(f"Logged activity for character '{name}': +{xp} XP, +{gold} Gold, Label: {label}, Timestamp: {timestamp}")
     return True
 
 
@@ -77,7 +86,7 @@ async def award_xp_and_gold(character_name: str, xp: int, gold: int, reason: str
     for character in logs:
         if character.name == character_name:
             character.add_xp_gold(xp, gold)
-            write_activity(character, character_name, xp, gold, reason, datetime.now().date().isoformat())
+            await write_activity(character, character_name, xp, gold, reason, datetime.now().date().isoformat())
             save_user_logs(owner, logs)
     user = await bot.fetch_user(owner)
     await user.send(f"Your character {character_name} has been awarded {xp} XP and {gold} Gold from [{reason}]")
