@@ -49,16 +49,13 @@ def load_recap() -> dict:
         return {"index": 0, "last_seven": []}
 
 
-def setup(bot: discord.Client, guild_id: int, channel_id: int, target_emote: str):
+def setup(bot: discord.Client, guild_id: int, channel_id_sug: int, channel_id_qotd: int, target_emote: str, target_emote_2: str):
     @bot.event
     async def on_raw_reaction_add(payload):
-        if payload.channel_id != channel_id:
+        if payload.channel_id != channel_id_sug and payload.channel_id != channel_id_qotd:
             return
 
-        if str(payload.emoji) != target_emote:
-            return
-
-        if payload.user_id == bot.user.id:
+        if str(payload.emoji) != target_emote and str(payload.emoji) != target_emote_2:
             return
 
         channel = bot.get_channel(payload.channel_id)
@@ -75,32 +72,61 @@ def setup(bot: discord.Client, guild_id: int, channel_id: int, target_emote: str
                 print("Failed fetching channel:", e)
                 return
 
-        try:
-            message = await channel.fetch_message(payload.message_id)
-        except discord.NotFound:
-            print("fetch_message NotFound for", payload.message_id)
-            return
-        except discord.Forbidden:
-            print("fetch_message Forbidden for", payload.message_id)
-            return
-        except Exception as e:
-            print("fetch_message exception:", type(e), e)
-            return
-
-        qotds = load_qotds()
-        for qotd in qotds:
-            if qotd["content"] == message.content:
-                print("QOTD already exists:", message.content)
+        if channel.id == channel_id_sug:
+            try:
+                message = await channel.fetch_message(payload.message_id)
+            except discord.NotFound:
+                print("fetch_message NotFound for", payload.message_id)
                 return
-        qotds.append({
-            "content": message.content,
-            "author": str(message.author),
-            "datestamp": discord.utils.utcnow().isoformat(),
-            "times-asked": 0,
-            "author-id": message.author.id
-        })
-        print(f"Added QOTD: {message.content} by {message.author} (ID: {message.author.id})")
-        save_qotds(qotds)
+            except discord.Forbidden:
+                print("fetch_message Forbidden for", payload.message_id)
+                return
+            except Exception as e:
+                print("fetch_message exception:", type(e), e)
+                return
+
+            qotds = load_qotds()
+            for qotd in qotds:
+                if qotd["content"] == message.content:
+                    print("QOTD already exists:", message.content)
+                    return
+            qotds.append({
+                "content": message.content,
+                "author": str(message.author),
+                "datestamp": discord.utils.utcnow().isoformat(),
+                "times-asked": 0,
+                "author-id": message.author.id
+            })
+            print(f"Added QOTD: {message.content} by {message.author} (ID: {message.author.id})")
+            save_qotds(qotds)
+
+        if channel.id == channel_id_qotd:
+            try:
+                message = await channel.fetch_message(payload.message_id)
+            except discord.NotFound:
+                print("fetch_message NotFound for", payload.message_id)
+                return
+            except discord.Forbidden:
+                print("fetch_message Forbidden for", payload.message_id)
+                return
+            except Exception as e:
+                print("fetch_message exception:", type(e), e)
+                return
+
+            recap = load_recap()
+            for item in recap["last_seven"]:
+                if item["content"] == message.content:
+                    print("QOTD already in recap:", message.content)
+                    return
+            qotd_entry = {
+                "content": message.content,
+                "author": str(message.author),
+                "datestamp": discord.utils.utcnow().isoformat(),
+                "times-asked": 0,
+                "author-id": message.author.id
+            }
+            print(f"Added QOTD to recap: {message.content} by {message.author} (ID: {message.author.id})")
+            save_recap(qotd_entry)
 
     @bot.tree.command(name="qotd", guild=discord.Object(id=guild_id), description="Get a random QOTD!")
     @discord.app_commands.autocomplete(repeated=true_false_autocomplete)
@@ -127,7 +153,7 @@ def setup(bot: discord.Client, guild_id: int, channel_id: int, target_emote: str
         save_qotds(qotds)
 
         embed = discord.Embed(title=chosen["content"])
-        await interaction.response.send_message(embed=embed, content=f"New QOTD <@&1509831193942691910>! Thanks for the suggestion <@{chosen['author-id']}>!")
+        await interaction.response.send_message(embed=embed, content=f"New QOTD <@&1510715535116206298>! Thanks for the suggestion <@{chosen['author-id']}>!")
         save_recap(chosen)
 
     @bot.tree.command(name="recap", guild=discord.Object(id=guild_id), description="Get a recap of last week's QOTDs!")

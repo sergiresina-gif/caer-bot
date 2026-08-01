@@ -7,8 +7,11 @@ from bot_instance import bot
 dotenv.load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
 GUILD_ID = int(os.getenv("MINE_ID"))
-CHANNEL_ID = int(os.getenv("CHANNEL_ID"))
+CHANNEL_ID_SUG = int(os.getenv("CHANNEL_ID_SUG"))
+CHANNEL_ID_QOTD = int(os.getenv("CHANNEL_ID_QOTD"))
+
 TARGET_EMOTE = "🎯"
+TARGET_EMOTE_2 = "💠"
 
 
 
@@ -27,7 +30,7 @@ import onMessage
 
 charater.setup(bot, GUILD_ID)
 log.setup(bot, GUILD_ID)
-qotd.setup(bot, GUILD_ID, CHANNEL_ID, TARGET_EMOTE)
+qotd.setup(bot, GUILD_ID, CHANNEL_ID_SUG, CHANNEL_ID_QOTD, TARGET_EMOTE, TARGET_EMOTE_2)
 quests.setup(bot, GUILD_ID)
 onMessage.setup(bot, GUILD_ID)
 

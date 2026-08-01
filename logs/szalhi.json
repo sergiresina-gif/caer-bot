@@ -36,8 +36,8 @@
     },
     {
       "name": "Gretia",
-      "xp": 1310,
-      "gold": 76,
+      "xp": 1520,
+      "gold": 86,
       "pathfinder_class": "Commander",
       "history": [
         {
@@ -69,6 +69,18 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-07-31"
+        },
+        {
+          "xp": 200,
+          "gold": 10,
+          "label": "Live bounty: Hiring thugs to beat up your opponent is not a legal move!",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-01"
         }
       ]
     }
