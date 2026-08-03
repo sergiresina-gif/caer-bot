@@ -116,7 +116,7 @@ def setup(bot: discord.Client, guild_id: int):
         for log in logs:
             if log.name == name:
                 logs.remove(log)
-                save_user_data(user.name, {"characters": [l.__dict__ for l in logs]})
+                await save_user_data(user.name, {"characters": [l.__dict__ for l in logs]})
                 await interaction.response.send_message(f"Character '{name}' removed.")
                 return
 
