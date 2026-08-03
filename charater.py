@@ -116,7 +116,7 @@ def setup(bot: discord.Client, guild_id: int):
         for log in logs:
             if log.name == name:
                 logs.remove(log)
-                save_user_data(user.name, {"characters": [l.__dict__ for l in logs]})
+                save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"Character '{name}' removed.")
                 return
 
@@ -136,7 +136,7 @@ def setup(bot: discord.Client, guild_id: int):
                 log.name = new_name
                 if new_class:
                     log.pathfinder_class = new_class
-                save_user_data(user.name, {"characters": [l.__dict__ for l in logs]})
+                save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"Character '{name}' updated to '{new_name}' with class '{log.pathfinder_class}'.")
                 return
 
