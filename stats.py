@@ -1,7 +1,12 @@
+import io
 import json
 import discord
 from datetime import datetime
 from log_funcs import *
+
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
 #from autocompletes import 
 
 
@@ -126,9 +131,35 @@ def setup(bot: discord.Client, guild_id: int):
         for level, count in sorted(level_counts.items()):
             lines.append(f"- Level {level}: {count}")
 
+        sorted_levels = sorted(level_counts.items())
+        if sorted_levels:
+            plt.figure(figsize=(6, 4))
+            levels = [level for level, _ in sorted_levels]
+            counts = [count for _, count in sorted_levels]
+            plt.bar(levels, counts, color=discord.Color.blurple().value)
+            plt.xlabel("Level")
+            plt.ylabel("Count")
+            plt.title("Server Character Levels")
+            plt.tight_layout()
+
+            buffer = io.BytesIO()
+            plt.savefig(buffer, format="png")
+            buffer.seek(0)
+            plt.close()
+            chart_file = discord.File(buffer, filename="character_levels.png")
+        else:
+            chart_file = None
+            plt.close("all")
+
         embed = discord.Embed(
             title="Server Character Levels",
             description="\n".join(lines),
             color=discord.Color.blurple()
         )
-        await interaction.response.send_message(embed=embed)
+        if chart_file is not None:
+            embed.set_image(url="attachment://character_levels.png")
+
+        if chart_file is not None:
+            await interaction.response.send_message(embed=embed, file=chart_file)
+        else:
+            await interaction.response.send_message(embed=embed)
