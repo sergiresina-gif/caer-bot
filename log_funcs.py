@@ -82,11 +82,11 @@ async def write_activity(character: Character, name: str, xp: int, gold: int, la
 
 async def award_xp_and_gold(character_name: str, xp: int, gold: int, reason: str) -> None:
     owner = await find_author_by_character(character_name)
-    logs = await load_user_logs(owner)
+    logs = load_user_logs(owner)
     for character in logs:
         if character.name == character_name:
             character.add_xp_gold(xp, gold)
             await write_activity(character, character_name, xp, gold, reason, datetime.now().date().isoformat())
-            await save_user_logs(owner, logs)
+            save_user_logs(owner, logs)
     user = await bot.fetch_user(owner)
     await user.send(f"Your character {character_name} has been awarded {xp} XP and {gold} Gold from [{reason}]")
