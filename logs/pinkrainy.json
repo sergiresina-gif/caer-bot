@@ -32,8 +32,8 @@
     },
     {
       "name": "Yuki",
-      "xp": 1000,
-      "gold": 60,
+      "xp": 1100,
+      "gold": 70,
       "pathfinder_class": "Runesmith",
       "history": [
         {
@@ -41,6 +41,12 @@
           "gold": 60,
           "label": "Creation",
           "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-03"
         }
       ]
     }
