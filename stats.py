@@ -136,7 +136,7 @@ def setup(bot: discord.Client, guild_id: int):
             plt.figure(figsize=(6, 4))
             levels = [level for level, _ in sorted_levels]
             counts = [count for _, count in sorted_levels]
-            plt.bar(levels, counts, color=discord.Color.blurple().to_rgb())
+            plt.bar(levels, counts, color="#5865F2")
             plt.xlabel("Level")
             plt.ylabel("Count")
             plt.title("Server Character Levels")
