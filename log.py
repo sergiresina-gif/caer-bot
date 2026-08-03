@@ -34,7 +34,7 @@ def setup(bot: discord.Client, guild_id: int):
     @discord.app_commands.autocomplete(name=name_autocomplete)
     async def manual(interaction: discord.Interaction, name: str, xp: int, gold: int, label: str):
         user = interaction.user
-        logs = await load_user_logs(user.name)
+        logs = load_user_logs(user.name)
 
         for character in logs:
             if character.name == name:
@@ -50,7 +50,7 @@ def setup(bot: discord.Client, guild_id: int):
     @discord.app_commands.autocomplete(name=name_autocomplete)
     async def skirmish(interaction: discord.Interaction, name: str, level: int):
         user = interaction.user
-        logs = await load_user_logs(user.name)
+        logs = load_user_logs(user.name)
 
         if level < 1 or level > len(skirmishes):
             await interaction.response.send_message(f"Skirmish level must be between 1 and {len(skirmishes)}.", ephemeral=True)
@@ -72,7 +72,7 @@ def setup(bot: discord.Client, guild_id: int):
     @discord.app_commands.autocomplete(name=name_autocomplete)
     async def qotd(interaction: discord.Interaction, name: str):
         user = interaction.user
-        logs = await load_user_logs(user.name)
+        logs = load_user_logs(user.name)
 
         for character in logs:
             if character.name == name:
@@ -86,7 +86,7 @@ def setup(bot: discord.Client, guild_id: int):
     @discord.app_commands.autocomplete(name=name_autocomplete)
     async def undo(interaction: discord.Interaction, name: str):
         user = interaction.user
-        logs = await load_user_logs(user.name)
+        logs = load_user_logs(user.name)
 
         for character in logs:
             if character.name == name:
