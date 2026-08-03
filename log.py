@@ -40,7 +40,7 @@ def setup(bot: discord.Client, guild_id: int):
             if character.name == name:
                 character.add_xp_gold(xp, gold)
                 await write_activity(character, name, xp, gold, label, datetime.now().date().isoformat())
-                await save_user_logs(user.name, logs)
+                save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"Activity logged for '{name}'!", ephemeral=True)
                 return
 
@@ -62,7 +62,7 @@ def setup(bot: discord.Client, guild_id: int):
                 gold_gain = skirmishes[level - 1]["gold"]
                 character.add_xp_gold(xp_gain, gold_gain)
                 await write_activity(character, name, xp_gain, gold_gain, f"Skirmish Level {level}", datetime.now().date().isoformat())
-                await save_user_logs(user.name, logs)
+                save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"Skirmish logged for '{name}'!", ephemeral=True)
                 return
 
@@ -78,7 +78,7 @@ def setup(bot: discord.Client, guild_id: int):
             if character.name == name:
                 character.add_xp_gold(10, 0)
                 await write_activity(character, name, 10, 0, "QOTD", datetime.now().date().isoformat())
-                await save_user_logs(user.name, logs)
+                save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"QOTD logged for '{name}'!", ephemeral=True)
                 return
 
@@ -97,7 +97,7 @@ def setup(bot: discord.Client, guild_id: int):
                 last_activity = character.history.pop()
                 character.xp -= last_activity.xp
                 character.gold -= last_activity.gold
-                await save_user_logs(user.name, logs)
+                save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"Last activity undone for {name}!", ephemeral=True)
                 return
 
