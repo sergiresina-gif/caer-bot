@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Tilfen",
-      "xp": 1200,
-      "gold": 744,
+      "xp": 1210,
+      "gold": 22,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -19,15 +19,70 @@
           "gold": 15,
           "label": "Leslie's New Life",
           "timestamp": "2026-07-31"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 0,
+          "gold": -722,
+          "label": "Fixing Error",
+          "timestamp": "2026-08-01"
         }
       ]
     },
     {
       "name": "Lizzie",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1530,
+      "gold": 58,
       "pathfinder_class": "Sorcerer",
-      "history": []
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 200,
+          "gold": 10,
+          "label": "Hiring Thugs Quest",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 0,
+          "gold": 18,
+          "label": "Character creation gold",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 200,
+          "gold": 20,
+          "label": "Concerning Noises",
+          "timestamp": "2026-08-01"
+        }
+      ]
     }
   ]
 }

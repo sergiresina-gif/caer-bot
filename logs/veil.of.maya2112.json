@@ -18,13 +18,13 @@
     },
     {
       "name": "Sister Agatha-Laelis",
-      "xp": 3000,
-      "gold": 500,
+      "xp": 100,
+      "gold": 17,
       "pathfinder_class": "Cleric",
       "history": [
         {
-          "xp": 2000,
-          "gold": 500,
+          "xp": 100,
+          "gold": 17,
           "label": "Raid Level 3",
           "timestamp": "2026-07-31"
         }

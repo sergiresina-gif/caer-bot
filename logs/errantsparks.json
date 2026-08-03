@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Keffa",
-      "xp": 1330,
+      "xp": 1640,
       "gold": 37,
       "pathfinder_class": "Witchwarper",
       "history": [
@@ -37,15 +37,40 @@
           "gold": 17,
           "label": "Skirmish 7/31",
           "timestamp": "2026-07-31"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "8/2 Reset (RP)",
+          "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Writing Prompt 7/28",
+          "timestamp": "2026-08-03"
         }
       ]
     },
     {
       "name": "Kanha",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1100,
+      "gold": 10,
       "pathfinder_class": "Kineticist",
-      "history": []
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-03"
+        }
+      ]
     },
     {
       "name": "Yvuri",
@@ -53,6 +78,20 @@
       "gold": 0,
       "pathfinder_class": "Rogue",
       "history": []
+    },
+    {
+      "name": "Zhato",
+      "xp": 1010,
+      "gold": 0,
+      "pathfinder_class": "Solarian",
+      "history": [
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-01"
+        }
+      ]
     }
   ]
 }

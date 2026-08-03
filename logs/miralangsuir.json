@@ -29,6 +29,13 @@
           "timestamp": "2026-07-30"
         }
       ]
+    },
+    {
+      "name": "Lady Ixora Despereaux",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Sorcerer",
+      "history": []
     }
   ]
 }

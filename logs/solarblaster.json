@@ -24,8 +24,8 @@
     },
     {
       "name": "Sidevere",
-      "xp": 1100,
-      "gold": 34,
+      "xp": 1600,
+      "gold": 84,
       "pathfinder_class": "Guardian",
       "history": [
         {
@@ -39,6 +39,24 @@
           "gold": 0,
           "label": "RPXP",
           "timestamp": "2026-07-30"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 200,
+          "gold": 20,
+          "label": "My First Quest",
+          "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 200,
+          "gold": 20,
+          "label": "Concerning Noises",
+          "timestamp": "2026-08-02"
         }
       ]
     }

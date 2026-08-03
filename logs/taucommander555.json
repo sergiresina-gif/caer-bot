@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Diovaldo Masser",
-      "xp": 1000,
+      "xp": 1270,
       "gold": 1,
       "pathfinder_class": "Fighter",
       "history": [
@@ -13,13 +13,31 @@
           "gold": 1,
           "label": "Starting",
           "timestamp": "2026-07-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 60,
+          "gold": 0,
+          "label": "0",
+          "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly Rp Bonus",
+          "timestamp": "2026-08-03"
         }
       ]
     },
     {
       "name": "Fetcher Grimes",
-      "xp": 0,
-      "gold": 10,
+      "xp": 200,
+      "gold": 20,
       "pathfinder_class": "Rogue",
       "history": [
         {
@@ -27,6 +45,12 @@
           "gold": 10,
           "label": "Starting",
           "timestamp": "2026-07-28"
+        },
+        {
+          "xp": 200,
+          "gold": 10,
+          "label": "Hiring thugs to beat up your opponent is not a legal move!",
+          "timestamp": "2026-08-02"
         }
       ]
     }

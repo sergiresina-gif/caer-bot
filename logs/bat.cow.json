@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Talon",
-      "xp": 1330,
-      "gold": 27,
+      "xp": 1650,
+      "gold": 44,
       "pathfinder_class": "Ranger",
       "history": [
         {
@@ -61,6 +61,30 @@
           "gold": 0,
           "label": "qotd",
           "timestamp": "2026-07-31"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "qotd",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "raid log",
+          "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "qotd",
+          "timestamp": "2026-08-03"
         }
       ]
     },

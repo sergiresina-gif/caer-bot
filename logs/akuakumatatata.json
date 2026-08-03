@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Kham Aekhvongsa",
-      "xp": 1020,
-      "gold": 7,
+      "xp": 1240,
+      "gold": 27,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -25,6 +25,30 @@
           "gold": 0,
           "label": "0",
           "timestamp": "2026-07-31"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Raid",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-03"
         }
       ]
     },

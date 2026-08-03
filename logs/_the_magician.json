@@ -30,7 +30,7 @@
     },
     {
       "name": "Aelmoryn Drav Thyrsang",
-      "xp": 1230,
+      "xp": 1450,
       "gold": 27,
       "pathfinder_class": "Necromancer",
       "history": [
@@ -63,6 +63,24 @@
           "gold": 0,
           "label": "[qotd 7/31](https://discord.com/channels/1510715535061684396/1510715536227696824/1532815109317988395)",
           "timestamp": "2026-07-31"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/1](https://discord.com/channels/1510715535061684396/1510715536227696824/1533118246662701196)",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "[weekly reset](https://discord.com/channels/1510715535061684396/1510715535619395801/1533322304589664399)",
+          "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/2](https://discord.com/channels/1510715535061684396/1510715536227696824/1533693825804140605)",
+          "timestamp": "2026-08-03"
         }
       ]
     }

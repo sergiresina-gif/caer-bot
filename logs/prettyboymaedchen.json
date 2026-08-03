@@ -11,8 +11,8 @@
     },
     {
       "name": "Arabella Nexia",
-      "xp": 1020,
-      "gold": 0,
+      "xp": 1550,
+      "gold": 8,
       "pathfinder_class": "Magus",
       "history": [
         {
@@ -20,8 +20,46 @@
           "gold": 0,
           "label": "QOTD 1 and 2",
           "timestamp": "2026-07-30"
+        },
+        {
+          "xp": 200,
+          "gold": 8,
+          "label": "quest",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "qotds",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "0",
+          "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "0",
+          "timestamp": "2026-08-02"
         }
       ]
+    },
+    {
+      "name": "Tethra",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "investigator",
+      "history": []
+    },
+    {
+      "name": "Nadia",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "cleric",
+      "history": []
     }
   ]
 }

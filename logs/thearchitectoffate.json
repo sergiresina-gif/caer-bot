@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Amelia Melvol",
-      "xp": 1220,
+      "xp": 1520,
       "gold": 94,
       "pathfinder_class": "Summoner",
       "history": [
@@ -31,6 +31,18 @@
           "gold": 0,
           "label": "qotd",
           "timestamp": "2026-07-31"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Writing Prompt",
+          "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "RP XP",
+          "timestamp": "2026-08-03"
         }
       ]
     },
@@ -87,6 +99,32 @@
           "gold": 0,
           "label": "qotd",
           "timestamp": "2026-07-30"
+        }
+      ]
+    },
+    {
+      "name": "Kaida 'Stormlash'",
+      "xp": 4010,
+      "gold": 550,
+      "pathfinder_class": "Draconic Sorcerer / Tempest Oracle",
+      "history": [
+        {
+          "xp": 1000,
+          "gold": 0,
+          "label": "hawt",
+          "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 2000,
+          "gold": 0,
+          "label": "hawt",
+          "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 1010,
+          "gold": 550,
+          "label": "final adjustments",
+          "timestamp": "2026-08-03"
         }
       ]
     }

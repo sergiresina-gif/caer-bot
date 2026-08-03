@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Dalea",
-      "xp": 3020,
-      "gold": 503,
+      "xp": 1440,
+      "gold": 30,
       "pathfinder_class": "Magus",
       "history": [
         {
@@ -33,10 +33,40 @@
           "timestamp": "2026-07-31"
         },
         {
-          "xp": 2000,
-          "gold": 500,
+          "xp": 100,
+          "gold": 17,
           "label": "Raid Level 3",
           "timestamp": "2026-08-01"
+        },
+        {
+          "xp": -1000,
+          "gold": -483,
+          "label": "fixing",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "rpxp 8-2",
+          "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-03"
         }
       ]
     }

@@ -72,13 +72,13 @@ def setup(bot: discord.Client, guild_id: int):
     @discord.app_commands.autocomplete(name=name_autocomplete)
     async def qotd(interaction: discord.Interaction, name: str):
         user = interaction.user
-        logs = load_user_logs(user.name)
+        logs = await load_user_logs(user.name)
 
         for character in logs:
             if character.name == name:
                 character.add_xp_gold(10, 0)
                 await write_activity(character, name, 10, 0, "QOTD", datetime.now().date().isoformat())
-                save_user_logs(user.name, logs)
+                await save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"QOTD logged for '{name}'!", ephemeral=True)
                 return
 

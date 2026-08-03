@@ -11,10 +11,17 @@
     },
     {
       "name": "Ferra",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1300,
+      "gold": 27,
       "pathfinder_class": "Inventor",
-      "history": []
+      "history": [
+        {
+          "xp": 300,
+          "gold": 27,
+          "label": "Rp+Skirmish",
+          "timestamp": "2026-08-02"
+        }
+      ]
     },
     {
       "name": "Viclaaf \"Vicky\" Stonewater",

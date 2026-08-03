@@ -1,0 +1,48 @@
+{
+  "user_name": "pinkrainy",
+  "user_pfp": "https://cdn.discordapp.com/avatars/123853769279537152/98c35599b6ee891c72aff4a515897182.png?size=1024",
+  "characters": [
+    {
+      "name": "Effenxy",
+      "xp": 1000,
+      "gold": 43,
+      "pathfinder_class": "Magus",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 43,
+          "label": "a",
+          "timestamp": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "name": "Camilla",
+      "xp": 1000,
+      "gold": 11,
+      "pathfinder_class": "Barbarian",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 11,
+          "label": "Creation",
+          "timestamp": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "name": "Yuki",
+      "xp": 1000,
+      "gold": 60,
+      "pathfinder_class": "Runesmith",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 60,
+          "label": "Creation",
+          "timestamp": "2026-08-02"
+        }
+      ]
+    }
+  ]
+}

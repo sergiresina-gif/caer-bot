@@ -1,0 +1,53 @@
+{
+  "user_name": "qsbun",
+  "user_pfp": "https://cdn.discordapp.com/avatars/153237544241332224/6ea4c42b3b7d9b816e39a5b900f64e41.png?size=1024",
+  "characters": [
+    {
+      "name": "Liu  | Atoth | Xia",
+      "xp": 700,
+      "gold": 59,
+      "pathfinder_class": "Necromancer",
+      "history": [
+        {
+          "xp": 500,
+          "gold": 0,
+          "label": "idk",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 200,
+          "gold": 20,
+          "label": "Quest",
+          "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 0,
+          "gold": 39,
+          "label": "character creation and job",
+          "timestamp": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "name": ".Lia",
+      "xp": 0,
+      "gold": 0,
+      "pathfinder_class": "Alchemist",
+      "history": []
+    },
+    {
+      "name": "Liza",
+      "xp": 10,
+      "gold": 0,
+      "pathfinder_class": "Alchemist",
+      "history": [
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-03"
+        }
+      ]
+    }
+  ]
+}
