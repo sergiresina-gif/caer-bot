@@ -6,7 +6,7 @@ from models import User
 
 async def name_autocomplete(interaction: discord.Interaction, current: str):
     user = interaction.user
-    logs = load_user_logs(user.name)
+    logs = await load_user_logs(user.name)
 
     return [
         discord.app_commands.Choice(name=log.name, value=log.name)

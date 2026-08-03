@@ -38,7 +38,7 @@ def setup(bot: discord.Client, guild_id: int):
                 if not stem.isdigit():
                     continue
                 try:
-                    other_logs = load_user_logs(int(stem))
+                    other_logs = await load_user_logs(int(stem))
                 except Exception:
                     # fallback: try to read raw json and inspect
                     try:
@@ -69,7 +69,7 @@ def setup(bot: discord.Client, guild_id: int):
     @discord.app_commands.autocomplete(name=name_autocomplete, activity_log=true_false_autocomplete)
     async def show(interaction: discord.Interaction, name: str = None, activity_log: str = "False"):
         user = interaction.user
-        logs = load_user_logs(user.name)
+        logs = await load_user_logs(user.name)
 
         if not logs:
             await interaction.response.send_message("You have no characters yet. Use /create to make one.")
@@ -107,7 +107,7 @@ def setup(bot: discord.Client, guild_id: int):
     @discord.app_commands.autocomplete(name=name_autocomplete)
     async def remove(interaction: discord.Interaction, name: str):
         user = interaction.user
-        logs = load_user_logs(user.name)
+        logs = await load_user_logs(user.name)
 
         if not logs:
             await interaction.response.send_message("You have no characters to remove.")
@@ -125,7 +125,7 @@ def setup(bot: discord.Client, guild_id: int):
     @discord.app_commands.autocomplete(name=name_autocomplete)
     async def edit(interaction: discord.Interaction, name: str, new_name: str, new_class: str = None):
         user = interaction.user
-        logs = load_user_logs(user.name)
+        logs = await load_user_logs(user.name)
 
         if not logs:
             await interaction.response.send_message("You have no characters yet. Use /create to make one.")

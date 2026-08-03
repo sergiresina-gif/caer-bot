@@ -34,13 +34,13 @@ def setup(bot: discord.Client, guild_id: int):
     @discord.app_commands.autocomplete(name=name_autocomplete)
     async def manual(interaction: discord.Interaction, name: str, xp: int, gold: int, label: str):
         user = interaction.user
-        logs = load_user_logs(user.name)
+        logs = await load_user_logs(user.name)
 
         for character in logs:
             if character.name == name:
                 character.add_xp_gold(xp, gold)
                 await write_activity(character, name, xp, gold, label, datetime.now().date().isoformat())
-                save_user_logs(user.name, logs)
+                await save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"Activity logged for '{name}'!", ephemeral=True)
                 return
 
@@ -50,7 +50,7 @@ def setup(bot: discord.Client, guild_id: int):
     @discord.app_commands.autocomplete(name=name_autocomplete)
     async def skirmish(interaction: discord.Interaction, name: str, level: int):
         user = interaction.user
-        logs = load_user_logs(user.name)
+        logs = await load_user_logs(user.name)
 
         if level < 1 or level > len(skirmishes):
             await interaction.response.send_message(f"Skirmish level must be between 1 and {len(skirmishes)}.", ephemeral=True)
@@ -62,7 +62,7 @@ def setup(bot: discord.Client, guild_id: int):
                 gold_gain = skirmishes[level - 1]["gold"]
                 character.add_xp_gold(xp_gain, gold_gain)
                 await write_activity(character, name, xp_gain, gold_gain, f"Skirmish Level {level}", datetime.now().date().isoformat())
-                save_user_logs(user.name, logs)
+                await save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"Skirmish logged for '{name}'!", ephemeral=True)
                 return
 
@@ -86,7 +86,7 @@ def setup(bot: discord.Client, guild_id: int):
     @discord.app_commands.autocomplete(name=name_autocomplete)
     async def undo(interaction: discord.Interaction, name: str):
         user = interaction.user
-        logs = load_user_logs(user.name)
+        logs = await load_user_logs(user.name)
 
         for character in logs:
             if character.name == name:
@@ -97,7 +97,7 @@ def setup(bot: discord.Client, guild_id: int):
                 last_activity = character.history.pop()
                 character.xp -= last_activity.xp
                 character.gold -= last_activity.gold
-                save_user_logs(user.name, logs)
+                await save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"Last activity undone for {name}!", ephemeral=True)
                 return
 
