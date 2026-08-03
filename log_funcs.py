@@ -63,14 +63,14 @@ def save_user_data(user_name: str, data: User) -> None:
 
 
 # USED FOR THINGS THAT ONLY INTERACT WITH CHARACTERS
-async def load_user_logs(user_id: int) -> list:
-    return (await load_user_data(user_id)).characters
+def load_user_logs(user_id: int) -> list:
+    return load_user_data(user_id).characters
 
 
-async def save_user_logs(user_name: str, logs: list) -> None:
-    data = await load_user_data(user_name)
+def save_user_logs(user_name: str, logs: list) -> None:
+    data = load_user_data(user_name)
     data.characters = logs
-    await save_user_data(user_name, data)
+    save_user_data(user_name, data)
 
 
 async def write_activity(character: Character, name: str, xp: int, gold: int, label: str, timestamp: str) -> bool:
