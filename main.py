@@ -3,6 +3,7 @@ import dotenv
 import discord
 from discord.ext import commands
 from bot_instance import bot
+import stats
 
 dotenv.load_dotenv()
 TOKEN = os.getenv("BOT_TOKEN")
@@ -33,6 +34,7 @@ log.setup(bot, GUILD_ID)
 qotd.setup(bot, GUILD_ID, CHANNEL_ID_SUG, CHANNEL_ID_QOTD, TARGET_EMOTE, TARGET_EMOTE_2)
 quests.setup(bot, GUILD_ID)
 onMessage.setup(bot, GUILD_ID)
+stats.setup(bot, GUILD_ID)
 
 bot.run(TOKEN)
 
