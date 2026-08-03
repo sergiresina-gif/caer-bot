@@ -82,6 +82,25 @@ def setup(bot: discord.Client, guild_id: int):
                 await interaction.response.send_message(f"QOTD logged for '{name}'!", ephemeral=True)
                 return
 
+    @log_group.command(name="undo", description="Undo the last activity logged for a character.")
+    @discord.app_commands.autocomplete(name=name_autocomplete)
+    async def undo(interaction: discord.Interaction, name: str):
+        user = interaction.user
+        logs = load_user_logs(user.name)
 
+        for character in logs:
+            if character.name == name:
+                if not character.history:
+                    await interaction.response.send_message(f"No activities to undo for {name}.", ephemeral=True)
+                    return
+
+                last_activity = character.history.pop()
+                character.xp -= last_activity.xp
+                character.gold -= last_activity.gold
+                save_user_logs(user.name, logs)
+                await interaction.response.send_message(f"Last activity undone for {name}!", ephemeral=True)
+                return
+
+        await interaction.response.send_message(f"You have no character named {name}.", ephemeral=True)
 
     bot.tree.add_command(log_group, guild=discord.Object(id=guild_id))

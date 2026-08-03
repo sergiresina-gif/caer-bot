@@ -51,14 +51,14 @@
       "name": "Tethra",
       "xp": 1000,
       "gold": 0,
-      "pathfinder_class": "investigator",
+      "pathfinder_class": "Investigator",
       "history": []
     },
     {
       "name": "Nadia",
       "xp": 1000,
       "gold": 0,
-      "pathfinder_class": "cleric",
+      "pathfinder_class": "Cleric",
       "history": []
     }
   ]

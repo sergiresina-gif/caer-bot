@@ -6,7 +6,10 @@ from models import Character
 
 
 def setup(bot: discord.Client, guild_id: int):
-    @bot.tree.command(name="create", guild=discord.Object(id=guild_id), description="Create a new character!")
+    character_group = discord.app_commands.Group(name="character", description="Create, show and remove characters")
+
+
+    @character_group.command(name="create", description="Create a new character!")
     @discord.app_commands.autocomplete(level=levels_autocomplete)
     async def create(interaction: discord.Interaction, name: str, level: str, pathfinder_class: str):
         user = interaction.user
@@ -62,7 +65,7 @@ def setup(bot: discord.Client, guild_id: int):
         await interaction.response.send_message(f"Character '{name}' created!")
 
 
-    @bot.tree.command(name="show", guild=discord.Object(id=guild_id), description="View your chracters!")
+    @character_group.command(name="show", description="View your chracters!")
     @discord.app_commands.autocomplete(name=name_autocomplete, activity_log=true_false_autocomplete)
     async def show(interaction: discord.Interaction, name: str = None, activity_log: str = "False"):
         user = interaction.user
@@ -100,3 +103,43 @@ def setup(bot: discord.Client, guild_id: int):
         )
 
         await interaction.response.send_message(embed=embed)
+    @character_group.command(name="remove", description="Remove your character!")
+    @discord.app_commands.autocomplete(name=name_autocomplete)
+    async def remove(interaction: discord.Interaction, name: str):
+        user = interaction.user
+        logs = load_user_logs(user.name)
+
+        if not logs:
+            await interaction.response.send_message("You have no characters to remove.")
+            return
+
+        for log in logs:
+            if log.name == name:
+                logs.remove(log)
+                save_user_data(user.name, {"characters": [l.__dict__ for l in logs]})
+                await interaction.response.send_message(f"Character '{name}' removed.")
+                return
+
+        await interaction.response.send_message(f"You have no character named '{name}'.")
+    @character_group.command(name="edit", description="Edit your character!")
+    @discord.app_commands.autocomplete(name=name_autocomplete)
+    async def edit(interaction: discord.Interaction, name: str, new_name: str, new_class: str = None):
+        user = interaction.user
+        logs = load_user_logs(user.name)
+
+        if not logs:
+            await interaction.response.send_message("You have no characters yet. Use /create to make one.")
+            return
+
+        for log in logs:
+            if log.name == name:
+                log.name = new_name
+                if new_class:
+                    log.pathfinder_class = new_class
+                save_user_data(user.name, {"characters": [l.__dict__ for l in logs]})
+                await interaction.response.send_message(f"Character '{name}' updated to '{new_name}' with class '{log.pathfinder_class}'.")
+                return
+
+        await interaction.response.send_message(f"You have no character named '{name}'.")
+
+    bot.tree.add_command(character_group, guild=discord.Object(id=guild_id))
