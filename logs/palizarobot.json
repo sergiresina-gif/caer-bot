@@ -24,8 +24,8 @@
     },
     {
       "name": "Espes",
-      "xp": 1620,
-      "gold": 68,
+      "xp": 2010,
+      "gold": 53,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -75,6 +75,66 @@
           "gold": 0,
           "label": "QOTD (Recap)",
           "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly roleplay",
+          "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Writing Prompt",
+          "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 50,
+          "gold": 10,
+          "label": "Sidequest",
+          "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD recap",
+          "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD recap",
+          "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD recap",
+          "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 0,
+          "gold": -35,
+          "label": "Buying Hellknight Plate",
+          "timestamp": "2026-08-10"
+        },
+        {
+          "xp": -10,
+          "gold": 0,
+          "label": "Fixing bug. QOTD xp got sent twice.",
+          "timestamp": "2026-08-10"
         }
       ]
     }

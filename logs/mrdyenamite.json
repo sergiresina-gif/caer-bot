@@ -4,10 +4,59 @@
   "characters": [
     {
       "name": "Imiola \"Moony\" Iasoga Gul",
-      "xp": 1000,
+      "xp": 1170,
       "gold": 0,
       "pathfinder_class": "Summoner",
-      "history": []
+      "history": [
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1533770100329681038",
+          "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1533946559660822559",
+          "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Writing Prompt https://discord.com/channels/1510715535061684396/1533443456377032835",
+          "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1534195560385482962",
+          "timestamp": "2026-08-04"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1534474958439321630",
+          "timestamp": "2026-08-05"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1535180197203025940",
+          "timestamp": "2026-08-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1535379716083552356",
+          "timestamp": "2026-08-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1535598979663003648",
+          "timestamp": "2026-08-09"
+        }
+      ]
     }
   ]
 }

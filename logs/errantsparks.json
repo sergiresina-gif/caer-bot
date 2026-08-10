@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Keffa",
-      "xp": 1640,
-      "gold": 37,
+      "xp": 2250,
+      "gold": 111,
       "pathfinder_class": "Witchwarper",
       "history": [
         {
@@ -55,6 +55,78 @@
           "gold": 0,
           "label": "Writing Prompt 7/28",
           "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-05"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-05"
+        },
+        {
+          "xp": 190,
+          "gold": 20,
+          "label": "Mahjong Bangers! Bounty 8/6",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 170,
+          "gold": 20,
+          "label": "\"Recognize the Bodies\" Bounty 8/8",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "QotD Streak Bonus",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 50,
+          "gold": 17,
+          "label": "Sidequest 8/9",
+          "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-08-10"
         }
       ]
     },

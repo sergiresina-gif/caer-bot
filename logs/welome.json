@@ -22,6 +22,20 @@
       "gold": 0,
       "pathfinder_class": "Cleric",
       "history": []
+    },
+    {
+      "name": "Ta\u00efsia",
+      "xp": 200,
+      "gold": 0,
+      "pathfinder_class": "Sorcerer",
+      "history": [
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-08-09"
+        }
+      ]
     }
   ]
 }

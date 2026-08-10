@@ -3,35 +3,9 @@
   "user_pfp": "https://cdn.discordapp.com/avatars/486279353899155468/eeb0d756eb30c3d14ad74f77c7988e7e.png?size=1024",
   "characters": [
     {
-      "name": "Aelmoryn",
-      "xp": 1000,
-      "gold": 0,
-      "pathfinder_class": "Necromancer",
-      "history": [
-        {
-          "xp": 0,
-          "gold": 0,
-          "label": "test",
-          "timestamp": "2026-07-28"
-        },
-        {
-          "xp": 0,
-          "gold": 0,
-          "label": "https://discord.com/channels/1510715535061684396/1510715536009330795/1532425159980613802",
-          "timestamp": "2026-07-30"
-        },
-        {
-          "xp": 0,
-          "gold": 0,
-          "label": "[please work](https://discord.com/channels/1510715535061684396/1510715536009330795/1532425475870425352)",
-          "timestamp": "2026-07-30"
-        }
-      ]
-    },
-    {
       "name": "Aelmoryn Drav Thyrsang",
-      "xp": 1450,
-      "gold": 27,
+      "xp": 1910,
+      "gold": 31,
       "pathfinder_class": "Necromancer",
       "history": [
         {
@@ -81,6 +55,108 @@
           "gold": 0,
           "label": "[qotd 8/2](https://discord.com/channels/1510715535061684396/1510715536227696824/1533693825804140605)",
           "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/3](https://discord.com/channels/1510715535061684396/1510715536227696824/1533887832706256907)",
+          "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "[skirmish](https://discord.com/channels/1510715535061684396/1533300032751534220)",
+          "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 0,
+          "gold": -8,
+          "label": "Fear, Ghoulish Cravings",
+          "timestamp": "2026-08-04"
+        },
+        {
+          "xp": 0,
+          "gold": -4,
+          "label": "Invisibility, Sure Strike (crits)",
+          "timestamp": "2026-08-05"
+        },
+        {
+          "xp": 0,
+          "gold": 10,
+          "label": "Andromeda Consortium",
+          "timestamp": "2026-08-05"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/4](https://discord.com/channels/1510715535061684396/1510715536227696824/1534188009946349752)",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/5](https://discord.com/channels/1510715535061684396/1510715536227696824/1534552695833362472)",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/6](https://discord.com/channels/1510715535061684396/1510715536227696824/1534965870818889809)",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 0,
+          "gold": -15,
+          "label": "Carrion Mire, Bone Spray, Horrifying Blood Loss",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 0,
+          "gold": -6,
+          "label": "Worm's Repast, Albatross Curse",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/7](https://discord.com/channels/1510715535061684396/1510715536227696824/1535285322626105407)",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/8](https://discord.com/channels/1510715535061684396/1510715536227696824/1535587693071695902)",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "[weekly reset](https://discord.com/channels/1510715535061684396/1510715535619395801/1535960023279206531)",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/9](https://discord.com/channels/1510715535061684396/1510715536227696824/1536020781321027726)",
+          "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "qotd full week bonus",
+          "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/10](https://discord.com/channels/1510715535061684396/1510715536227696824/1536384954861232139)",
+          "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 50,
+          "gold": 10,
+          "label": "[side quest](https://discord.com/channels/1510715535061684396/1520777223110398002/1536369309503201291)",
+          "timestamp": "2026-08-10"
         }
       ]
     }

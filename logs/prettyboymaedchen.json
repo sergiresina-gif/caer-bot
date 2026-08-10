@@ -11,8 +11,8 @@
     },
     {
       "name": "Arabella Nexia",
-      "xp": 1550,
-      "gold": 8,
+      "xp": 2010,
+      "gold": 47,
       "pathfinder_class": "Magus",
       "history": [
         {
@@ -44,22 +44,84 @@
           "gold": 0,
           "label": "0",
           "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 20,
+          "gold": 0,
+          "label": "0",
+          "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "raid",
+          "timestamp": "2026-08-04"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-07"
+        },
+        {
+          "xp": 170,
+          "gold": 22,
+          "label": "antiplague as well",
+          "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "0",
+          "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 40,
+          "gold": 0,
+          "label": "0",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "week",
+          "timestamp": "2026-08-09"
         }
       ]
     },
     {
       "name": "Tethra",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1100,
+      "gold": 17,
       "pathfinder_class": "Investigator",
-      "history": []
+      "history": [
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "raid",
+          "timestamp": "2026-08-03"
+        }
+      ]
     },
     {
       "name": "Nadia",
-      "xp": 1000,
+      "xp": 1100,
       "gold": 0,
       "pathfinder_class": "Cleric",
-      "history": []
+      "history": [
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "week",
+          "timestamp": "2026-08-09"
+        }
+      ]
     }
   ]
 }

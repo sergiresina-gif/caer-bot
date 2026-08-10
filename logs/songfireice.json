@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Tilfen",
-      "xp": 1210,
-      "gold": 22,
+      "xp": 1310,
+      "gold": 32,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -31,13 +31,19 @@
           "gold": -722,
           "label": "Fixing Error",
           "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-04"
         }
       ]
     },
     {
       "name": "Lizzie",
-      "xp": 1530,
-      "gold": 58,
+      "xp": 2220,
+      "gold": 78,
       "pathfinder_class": "Sorcerer",
       "history": [
         {
@@ -81,6 +87,100 @@
           "gold": 20,
           "label": "Concerning Noises",
           "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-08-04"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-04"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Writing Prompt",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 170,
+          "gold": 20,
+          "label": "Not Recognise the Bodies in the Water",
+          "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-08-09"
+        }
+      ]
+    },
+    {
+      "name": "Eris Lockwood",
+      "xp": 1010,
+      "gold": 58,
+      "pathfinder_class": "Witch",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 6,
+          "label": "Character creation",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 0,
+          "gold": 100,
+          "label": "Advance payment Crimson Lies Voyage",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 0,
+          "gold": -48,
+          "label": "Buying Scrolls and feeding them: Albatross Curse, Mist, Summon Elemental, Worm's Repast.",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "name": "Paulie",
+      "xp": 3000,
+      "gold": 602,
+      "pathfinder_class": "Champion",
+      "history": [
+        {
+          "xp": 4000,
+          "gold": 0,
+          "label": "Maybe this auto-levels",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": -1000,
+          "gold": 0,
+          "label": "Oops too far",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 0,
+          "gold": 602,
+          "label": "Carried over Gold from Caer Addewid",
+          "timestamp": "2026-08-10"
         }
       ]
     }

@@ -2,5 +2,51 @@
   "user_name": "paincow",
   "user_pfp": "https://cdn.discordapp.com/avatars/254381521174003723/87455392c59b2a56ab4ec8b38eac6f03.png?size=1024",
   "characters": [
+    {
+      "name": "Cynthia Hall",
+      "xp": 1790,
+      "gold": 40,
+      "pathfinder_class": "Wizard",
+      "history": [
+        {
+          "xp": 200,
+          "gold": 20,
+          "label": "quest",
+          "timestamp": "2026-08-04"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-08-04"
+        },
+        {
+          "xp": 190,
+          "gold": 20,
+          "label": "quest",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-08-09"
+        }
+      ]
+    },
+    {
+      "name": "Violette Bettencourt",
+      "xp": 1100,
+      "gold": 10,
+      "pathfinder_class": "Rogue",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-04"
+        }
+      ]
+    }
   ]
 }

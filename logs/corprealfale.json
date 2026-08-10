@@ -1,0 +1,108 @@
+{
+  "user_name": "corprealfale",
+  "user_pfp": "https://cdn.discordapp.com/avatars/354660175744991232/33c038b9cd34d9cb735d47428016f6ff.png?size=1024",
+  "characters": [
+    {
+      "name": "Thirsting Eagle",
+      "xp": 1100,
+      "gold": 5,
+      "pathfinder_class": "Wizard",
+      "history": [
+        {
+          "xp": 70,
+          "gold": 0,
+          "label": "0",
+          "timestamp": "2026-08-04"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-05"
+        },
+        {
+          "xp": 20,
+          "gold": 0,
+          "label": "Two missed QotD (yesterday and today)",
+          "timestamp": "2026-08-07"
+        },
+        {
+          "xp": 0,
+          "gold": 5,
+          "label": "Character Creation",
+          "timestamp": "2026-08-09"
+        }
+      ]
+    },
+    {
+      "name": "Carlouis de Carensale",
+      "xp": 1360,
+      "gold": 38,
+      "pathfinder_class": "Guardian",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-08-05"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "7day QotD",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 0,
+          "gold": 4,
+          "label": "Character creation",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "name": "Isa the White Orchid",
+      "xp": 1000,
+      "gold": 1,
+      "pathfinder_class": "Alchemist",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 1,
+          "label": "Character Creation",
+          "timestamp": "2026-08-09"
+        }
+      ]
+    }
+  ]
+}

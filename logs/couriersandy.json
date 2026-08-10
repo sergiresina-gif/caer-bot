@@ -5,9 +5,22 @@
     {
       "name": "Dove",
       "xp": 1000,
-      "gold": 0,
+      "gold": 16,
       "pathfinder_class": "Sorcerer",
-      "history": []
+      "history": [
+        {
+          "xp": 0,
+          "gold": 34,
+          "label": "Starting Gold",
+          "timestamp": "2026-08-07"
+        },
+        {
+          "xp": 0,
+          "gold": -18,
+          "label": "https://discord.com/channels/1510715535061684396/1530573463830532156/1535141852674785362 6 gold spent to create a permanent lock on her Mask.",
+          "timestamp": "2026-08-07"
+        }
+      ]
     },
     {
       "name": "Ferra",

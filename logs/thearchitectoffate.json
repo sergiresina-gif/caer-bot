@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Amelia Melvol",
-      "xp": 1520,
-      "gold": 94,
+      "xp": 1930,
+      "gold": 111,
       "pathfinder_class": "Summoner",
       "history": [
         {
@@ -43,6 +43,30 @@
           "gold": 0,
           "label": "RP XP",
           "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "skirmish",
+          "timestamp": "2026-08-04"
+        },
+        {
+          "xp": 80,
+          "gold": 0,
+          "label": "qotd recap+chosen qotd",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly rp!",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "completed qotd bonus!",
+          "timestamp": "2026-08-09"
         }
       ]
     },
@@ -106,7 +130,7 @@
       "name": "Kaida 'Stormlash'",
       "xp": 4010,
       "gold": 550,
-      "pathfinder_class": "Draconic Sorcerer / Tempest Oracle",
+      "pathfinder_class": "Sorcerer",
       "history": [
         {
           "xp": 1000,

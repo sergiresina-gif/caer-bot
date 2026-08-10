@@ -8,6 +8,26 @@
       "gold": 0,
       "pathfinder_class": "Necromancer",
       "history": []
+    },
+    {
+      "name": "Esta",
+      "xp": 1110,
+      "gold": 10,
+      "pathfinder_class": "commander",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-07"
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,54 @@
 {
-  "index": 1,
+  "index": 6,
   "last_seven": [
     {
-      "content": "<@&1510715535116206298> Hello! Right now the server is named In The Isles, but this name was temporary. Give us suggestions for the server name!\n\n[React to those suggestions you like]",
-      "author": "Divine Wordkeeper#0000",
-      "datestamp": "2026-08-01T08:20:03.391765+00:00",
-      "times-asked": 0,
-      "author-id": 1518879132589752392
+      "content": "Pick up to three TVTropes pages to represent your character.",
+      "author": "akuakumatatata",
+      "datestamp": "2026-07-26T21:27:03.366636+00:00",
+      "times-asked": 1,
+      "author-id": 307300407061774337
+    },
+    {
+      "content": "How early do you wake up? And what is your morning routine?",
+      "author": "akuakumatatata",
+      "datestamp": "2026-07-26T21:26:43.981404+00:00",
+      "times-asked": 1,
+      "author-id": 307300407061774337
+    },
+    {
+      "content": "If your character lived in our world, what would they do?",
+      "author": "akuakumatatata",
+      "datestamp": "2026-07-26T21:27:09.480139+00:00",
+      "times-asked": 2,
+      "author-id": 307300407061774337
+    },
+    {
+      "content": "Which of your characters would hate each other? Which of them would like each other? What would they do if they met?",
+      "author": "thearchitectoffate",
+      "datestamp": "2026-07-26T21:25:08.644686+00:00",
+      "times-asked": 2,
+      "author-id": 193537246836686858
+    },
+    {
+      "content": "If your character lived in our world, what kind of music would they listen to?",
+      "author": "akuakumatatata",
+      "datestamp": "2026-07-26T21:27:11.222855+00:00",
+      "times-asked": 1,
+      "author-id": 307300407061774337
+    },
+    {
+      "content": "Two Truths, One Lie!",
+      "author": "akuakumatatata",
+      "datestamp": "2026-07-26T21:27:05.280826+00:00",
+      "times-asked": 1,
+      "author-id": 307300407061774337
+    },
+    {
+      "content": "You've been invited to dinner by one of your friends. They asked to meet you at 7. When are you showing up?",
+      "author": "akuakumatatata",
+      "datestamp": "2026-07-26T21:25:23.187840+00:00",
+      "times-asked": 1,
+      "author-id": 307300407061774337
     }
   ]
 }

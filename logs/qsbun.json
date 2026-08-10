@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Liu  | Atoth | Xia",
-      "xp": 700,
-      "gold": 59,
+      "xp": 1100,
+      "gold": 66,
       "pathfinder_class": "Necromancer",
       "history": [
         {
@@ -25,19 +25,30 @@
           "gold": 39,
           "label": "character creation and job",
           "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 100,
+          "gold": 7,
+          "label": "Skirmish Level 2",
+          "timestamp": "2026-08-04"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "writing prompt 27.07.26",
+          "timestamp": "2026-08-07"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "RP exp (02.06.26 - 09.06.26)",
+          "timestamp": "2026-08-10"
         }
       ]
     },
     {
-      "name": ".Lia",
-      "xp": 0,
-      "gold": 0,
-      "pathfinder_class": "Alchemist",
-      "history": []
-    },
-    {
       "name": "Liza",
-      "xp": 10,
+      "xp": 170,
       "gold": 0,
       "pathfinder_class": "Alchemist",
       "history": [
@@ -46,6 +57,48 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-05"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "qotd 06.08.26",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "RP exp (02.06.26 - 09.06.26)",
+          "timestamp": "2026-08-10"
         }
       ]
     }

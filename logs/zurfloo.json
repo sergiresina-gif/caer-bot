@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Dalea",
-      "xp": 1440,
+      "xp": 1460,
       "gold": 30,
       "pathfinder_class": "Magus",
       "history": [
@@ -67,6 +67,44 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "name": "Jarla",
+      "xp": 300,
+      "gold": 122,
+      "pathfinder_class": "Gunslinger",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 105,
+          "label": "starting gold",
+          "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-08-10"
         }
       ]
     }

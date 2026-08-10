@@ -45,14 +45,14 @@
     "content": "Which of your characters would hate each other? Which of them would like each other? What would they do if they met?",
     "author": "thearchitectoffate",
     "datestamp": "2026-07-26T21:25:08.644686+00:00",
-    "times-asked": 1,
+    "times-asked": 2,
     "author-id": 193537246836686858
   },
   {
     "content": "You've been invited to dinner by one of your friends. They asked to meet you at 7. When are you showing up?",
     "author": "akuakumatatata",
     "datestamp": "2026-07-26T21:25:23.187840+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 307300407061774337
   },
   {
@@ -66,7 +66,7 @@
     "content": "How early do you wake up? And what is your morning routine?",
     "author": "akuakumatatata",
     "datestamp": "2026-07-26T21:26:43.981404+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 307300407061774337
   },
   {
@@ -87,7 +87,7 @@
     "content": "What Pokemon would you call your partner?",
     "author": "akuakumatatata",
     "datestamp": "2026-07-26T21:26:56.161390+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 307300407061774337
   },
   {
@@ -101,14 +101,14 @@
     "content": "Pick up to three TVTropes pages to represent your character.",
     "author": "akuakumatatata",
     "datestamp": "2026-07-26T21:27:03.366636+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 307300407061774337
   },
   {
     "content": "Two Truths, One Lie!",
     "author": "akuakumatatata",
     "datestamp": "2026-07-26T21:27:05.280826+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 307300407061774337
   },
   {
@@ -122,14 +122,14 @@
     "content": "If your character lived in our world, what would they do?",
     "author": "akuakumatatata",
     "datestamp": "2026-07-26T21:27:09.480139+00:00",
-    "times-asked": 0,
+    "times-asked": 2,
     "author-id": 307300407061774337
   },
   {
     "content": "If your character lived in our world, what kind of music would they listen to?",
     "author": "akuakumatatata",
     "datestamp": "2026-07-26T21:27:11.222855+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 307300407061774337
   },
   {
@@ -152,5 +152,103 @@
     "datestamp": "2026-07-26T21:28:14.914858+00:00",
     "times-asked": 1,
     "author-id": 310249535433867265
+  },
+  {
+    "content": "What do your characters look like when they've been well and truly pissed off?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-08-04T07:33:51.189895+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "Why are you an adventurer/mercenary/freelancer, rather than having a stable and relatively safe job?",
+    "author": "_the_magician",
+    "datestamp": "2026-08-04T07:33:54.354007+00:00",
+    "times-asked": 0,
+    "author-id": 486279353899155468
+  },
+  {
+    "content": "What musical piece, or theme, best represents your character(s)?",
+    "author": "taucommander555",
+    "datestamp": "2026-08-04T07:33:57.736582+00:00",
+    "times-asked": 0,
+    "author-id": 285205490311364608
+  },
+  {
+    "content": "What are your character's favorite and least favorite colors?",
+    "author": "errantsparks",
+    "datestamp": "2026-08-04T07:57:26.284874+00:00",
+    "times-asked": 0,
+    "author-id": 129711897950945281
+  },
+  {
+    "content": "What other places outside of Absalom have you visited in your life? (if any)",
+    "author": "qsbun",
+    "datestamp": "2026-08-04T07:58:40.221048+00:00",
+    "times-asked": 0,
+    "author-id": 153237544241332224
+  },
+  {
+    "content": "Your character is a protagonist in a book you\u2019re authoring. Name that book.",
+    "author": "mrdyenamite",
+    "datestamp": "2026-08-06T12:12:08.020434+00:00",
+    "times-asked": 0,
+    "author-id": 363431378597052427
+  },
+  {
+    "content": "You are given an item representative or complementary to you as part of a prophecy, what is it?",
+    "author": "taucommander555",
+    "datestamp": "2026-08-08T14:12:21.290566+00:00",
+    "times-asked": 0,
+    "author-id": 285205490311364608
+  },
+  {
+    "content": "What is something that reminds you of home, or your family, or better times? Could be something you do, or a comfort food, anything of that sort.",
+    "author": "welome",
+    "datestamp": "2026-08-08T14:12:38.103674+00:00",
+    "times-asked": 0,
+    "author-id": 350780456679243776
+  },
+  {
+    "content": "How much or how little would you like your characters to suffer? Per character if possible.",
+    "author": "mrdyenamite",
+    "datestamp": "2026-08-08T14:12:40.948033+00:00",
+    "times-asked": 0,
+    "author-id": 363431378597052427
+  },
+  {
+    "content": "What's your favourite Golarion region? (OOC)",
+    "author": "diangelo317",
+    "datestamp": "2026-08-08T23:22:27.957647+00:00",
+    "times-asked": 0,
+    "author-id": 466545869089669130
+  },
+  {
+    "content": "What's your favourite Golarion organization? (OOC)",
+    "author": "diangelo317",
+    "datestamp": "2026-08-08T23:22:39.384800+00:00",
+    "times-asked": 0,
+    "author-id": 466545869089669130
+  },
+  {
+    "content": "What would be the worst name from Pathfinder to give to your child?",
+    "author": "akuakumatatata",
+    "datestamp": "2026-08-09T04:46:30.508927+00:00",
+    "times-asked": 0,
+    "author-id": 307300407061774337
+  },
+  {
+    "content": "Which monster would make the best marketable plush?",
+    "author": "akuakumatatata",
+    "datestamp": "2026-08-09T04:47:14.984516+00:00",
+    "times-asked": 0,
+    "author-id": 307300407061774337
+  },
+  {
+    "content": "How often is your character's name is not their actual name? Can you give examples?",
+    "author": "mrdyenamite",
+    "datestamp": "2026-08-09T14:05:22.084794+00:00",
+    "times-asked": 0,
+    "author-id": 363431378597052427
   }
 ]

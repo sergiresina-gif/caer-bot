@@ -17,20 +17,6 @@
       ]
     },
     {
-      "name": "Camilla",
-      "xp": 1000,
-      "gold": 11,
-      "pathfinder_class": "Barbarian",
-      "history": [
-        {
-          "xp": 0,
-          "gold": 11,
-          "label": "Creation",
-          "timestamp": "2026-08-02"
-        }
-      ]
-    },
-    {
       "name": "Yuki",
       "xp": 1100,
       "gold": 70,
@@ -47,6 +33,56 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "name": "Hitala",
+      "xp": 1570,
+      "gold": 73,
+      "pathfinder_class": "Barbarian",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 47,
+          "label": "Creation",
+          "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 0,
+          "gold": -24,
+          "label": "Buying potions",
+          "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 170,
+          "gold": 20,
+          "label": "You do not recognize the bodies in the water 08/08/2026 (Gained Blazing bolt R2 scroll)",
+          "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Rpexp 8/9/2026",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Sidquest",
+          "timestamp": "2026-08-10"
         }
       ]
     }

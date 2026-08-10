@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Diovaldo Masser",
-      "xp": 1270,
+      "xp": 1750,
       "gold": 1,
       "pathfinder_class": "Fighter",
       "history": [
@@ -31,6 +31,12 @@
           "gold": 0,
           "label": "Weekly Rp Bonus",
           "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 480,
+          "gold": 0,
+          "label": "Catch-Up from week 1 and week 2",
+          "timestamp": "2026-08-09"
         }
       ]
     },

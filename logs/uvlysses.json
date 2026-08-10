@@ -37,7 +37,7 @@
     {
       "name": "Silas Gasluz",
       "xp": 1000,
-      "gold": 5,
+      "gold": 6,
       "pathfinder_class": "Gunslinger",
       "history": [
         {
@@ -57,13 +57,37 @@
           "gold": -60,
           "label": "3",
           "timestamp": "2026-07-26"
+        },
+        {
+          "xp": 100,
+          "gold": 5,
+          "label": "1",
+          "timestamp": "2026-08-04"
+        },
+        {
+          "xp": 20,
+          "gold": 0,
+          "label": "1",
+          "timestamp": "2026-08-05"
+        },
+        {
+          "xp": 0,
+          "gold": 9,
+          "label": "for da venture",
+          "timestamp": "2026-08-07"
+        },
+        {
+          "xp": -120,
+          "gold": -13,
+          "label": "fixing SIlas+expenditures for pbp",
+          "timestamp": "2026-08-07"
         }
       ]
     },
     {
       "name": "Jarakiel Javon",
-      "xp": 0,
-      "gold": 0,
+      "xp": 990,
+      "gold": 50,
       "pathfinder_class": "Magus",
       "history": [
         {
@@ -83,6 +107,60 @@
           "gold": -2,
           "label": "1",
           "timestamp": "2026-07-26"
+        },
+        {
+          "xp": 100,
+          "gold": 5,
+          "label": "Skirmish Level 1",
+          "timestamp": "2026-08-05"
+        },
+        {
+          "xp": 100,
+          "gold": 5,
+          "label": "1",
+          "timestamp": "2026-08-05"
+        },
+        {
+          "xp": 200,
+          "gold": 10,
+          "label": "2",
+          "timestamp": "2026-08-05"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly xp",
+          "timestamp": "2026-08-05"
+        },
+        {
+          "xp": 20,
+          "gold": 0,
+          "label": "recaps",
+          "timestamp": "2026-08-05"
+        },
+        {
+          "xp": 100,
+          "gold": 7,
+          "label": "Skirmish Level 2",
+          "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 0,
+          "gold": 3,
+          "label": "fixing skirmish https://discord.com/channels/1510715535061684396/1535326120252276907/1535537729025220659",
+          "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 170,
+          "gold": 20,
+          "label": "le quest https://discord.com/channels/1510715535061684396/1510715538219728897/1535667394855309413",
+          "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Weekly rp",
+          "timestamp": "2026-08-10"
         }
       ]
     }

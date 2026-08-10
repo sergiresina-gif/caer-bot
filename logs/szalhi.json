@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Esa",
-      "xp": 3020,
-      "gold": 85,
+      "xp": 3030,
+      "gold": 86,
       "pathfinder_class": "Exemplar",
       "history": [
         {
@@ -37,13 +37,25 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-06"
+        },
+        {
+          "xp": 0,
+          "gold": 1,
+          "label": "Earn Income",
+          "timestamp": "2026-08-08"
         }
       ]
     },
     {
       "name": "Gretia",
-      "xp": 2030,
-      "gold": 116,
+      "xp": 2280,
+      "gold": 140,
       "pathfinder_class": "Commander",
       "history": [
         {
@@ -111,8 +123,63 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-08-02"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-04"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-05"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 0,
+          "gold": 4,
+          "label": "Earn Income",
+          "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 170,
+          "gold": 20,
+          "label": "Live bounty: \"You do not recognize the bodies in the water.\"",
+          "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "QOTD Bonus",
+          "timestamp": "2026-08-10"
         }
       ]
+    },
+    {
+      "name": "Kio",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Mystic",
+      "history": []
     }
   ]
 }
