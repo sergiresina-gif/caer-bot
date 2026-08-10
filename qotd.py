@@ -18,6 +18,20 @@ def save_qotds(qotds: list) -> None:
     with open("qotds/qotds.json", "w") as f:
         json.dump(qotds, f, indent=2)
 
+
+def select_qotd(qotds: list, repeated: str = "False") -> dict | None:
+    if repeated == "True":
+        pool = qotds
+    else:
+        pool = [item for item in qotds if item["times-asked"] == 0]
+
+    if not pool:
+        return None
+
+    weights = [1 / (item["times-asked"] + 1) for item in pool]
+    return random.choices(pool, weights=weights, k=1)[0]
+
+
 def save_recap(qotd: dict, index: int = None) -> None:
     try:
         with open("qotds/recap.json", "r") as f:
@@ -141,14 +155,12 @@ def setup(bot: discord.Client, guild_id: int, channel_id_sug: int, channel_id_qo
         if not qotds:
             await interaction.response.send_message("No QOTDs are available yet.")
             return
-        
-        repeated_qotds = [item for item in qotds if item["times-asked"] > 0]
-        not_repeated_qotds = [item for item in qotds if item["times-asked"] == 0]
 
-        if repeated == "True":
-            chosen = random.choices(not_repeated_qotds, weights=[1 / (item["times-asked"] + 1) for item in not_repeated_qotds], k=1)[0]
-        else:
-            chosen = random.choices(qotds, weights=[1 / (item["times-asked"] + 1) for item in qotds], k=1)[0]
+        chosen = select_qotd(qotds, repeated=repeated)
+        if chosen is None:
+            await interaction.response.send_message("All QOTDs have already been used. Use /qotd repeated True to include previously asked ones.")
+            return
+
         chosen["times-asked"] += 1
         save_qotds(qotds)
 
@@ -162,10 +174,15 @@ def setup(bot: discord.Client, guild_id: int, channel_id_sug: int, channel_id_qo
         if not qotds:
             await interaction.response.send_message("No QOTDs are available yet.")
             return
+
+        allowed_roles = [1510715535136915523, 1510715535136915521, 1510715535128658073, 1516407439996489758]
+        if not any(role.id in allowed_roles for role in interaction.user.roles):
+            await interaction.response.send_message("You do not have access to this command.")
+            return
         
         recap = load_recap()
 
-        message_to_send = "New Recap <@&1509831193942691910>! Remember, this will last until next Sunday\n\n"
+        message_to_send = "New Recap <@&1510715535116206298>! Remember, this will last until next Sunday\n\n"
         embed = discord.Embed(title="Recap")
         embed_description = ""
         idx = recap["index"]
