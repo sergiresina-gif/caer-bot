@@ -70,7 +70,7 @@ def setup(bot: discord.Client, guild_id: int):
 
     @log_group.command(name="qotd", description="Log a qotd completion.")
     @discord.app_commands.autocomplete(name=name_autocomplete)
-    async def qotd(interaction: discord.Interaction, name: str):
+    async def qotd(interaction: discord.Interaction, name: str, whole_week: bool = False):
         user = interaction.user
         logs = load_user_logs(user.name)
 
@@ -81,6 +81,15 @@ def setup(bot: discord.Client, guild_id: int):
                 save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"QOTD logged for '{name}'!", ephemeral=True)
                 return
+
+        if whole_week:
+            for character in logs:
+                if character.name == name:
+                    character.add_xp_gold(100, 0)
+                    await write_activity(character, name, 100, 0, "QOTD (Whole Week)", datetime.now().date().isoformat())
+                    save_user_logs(user.name, logs)
+                    await interaction.response.send_message(f"QOTD for the whole week logged for '{name}'!", ephemeral=True)
+                    return
 
     @log_group.command(name="undo", description="Undo the last activity logged for a character.")
     @discord.app_commands.autocomplete(name=name_autocomplete)
@@ -104,3 +113,53 @@ def setup(bot: discord.Client, guild_id: int):
         await interaction.response.send_message(f"You have no character named {name}.", ephemeral=True)
 
     bot.tree.add_command(log_group, guild=discord.Object(id=guild_id))
+
+    @log_group.command(name="sidequest", description="Log sidequest completion.")
+    @discord.app_commands.autocomplete(name=name_autocomplete)
+    async def sidequest(interaction: discord.Interaction, name: str):
+        user = interaction.user
+        logs = load_user_logs(user.name)
+
+        for character in logs:
+            if character.name == name:
+                character.add_xp_gold(50, 0)
+
+                #find the char level
+
+                if character.xp < 1000:
+                    level = character.xp // 500 + 1
+                else:
+                    level = character.xp // 1000 + 2
+
+                
+                await write_activity(character, name, 50, skirmish[level-1]["gold"], "Sidequest", datetime.now().date().isoformat())
+                save_user_logs(user.name, logs)
+                await interaction.response.send_message(f"Activity logged for '{name}'!", ephemeral=True)
+                return
+
+        await interaction.response.send_message(f"You have no character named '{name}'.", ephemeral=True)
+
+    @log_group.command(name="writingprompt", description="Log writing prompt completion.")
+    @discord.app_commands.autocomplete(name=name_autocomplete)
+    async def writingprompt(interaction: discord.Interaction, name: str):
+        user = interaction.user
+        logs = load_user_logs(user.name)
+
+        for character in logs:
+            if character.name == name:
+                character.add_xp_gold(50, 0)
+
+                #find the char level
+
+                if character.xp < 1000:
+                    level = character.xp // 500 + 1
+                else:
+                    level = character.xp // 1000 + 2
+
+                
+                await write_activity(character, name, 100, skirmish[level-1]["gold"], "Writing Prompt", datetime.now().date().isoformat())
+                save_user_logs(user.name, logs)
+                await interaction.response.send_message(f"Activity logged for '{name}'!", ephemeral=True)
+                return
+
+        await interaction.response.send_message(f"You have no character named '{name}'.", ephemeral=True)
