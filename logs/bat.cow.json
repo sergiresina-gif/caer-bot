@@ -138,8 +138,8 @@
     },
     {
       "name": "Lysandra",
-      "xp": 1250,
-      "gold": 7,
+      "xp": 1360,
+      "gold": 17,
       "pathfinder_class": "Kineticist",
       "history": [
         {
@@ -189,6 +189,18 @@
           "gold": 0,
           "label": "full week bonus",
           "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-11"
         }
       ]
     },

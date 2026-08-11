@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Aelmoryn Drav Thyrsang",
-      "xp": 1910,
-      "gold": 31,
+      "xp": 2020,
+      "gold": 48,
       "pathfinder_class": "Necromancer",
       "history": [
         {
@@ -157,6 +157,18 @@
           "gold": 10,
           "label": "[side quest](https://discord.com/channels/1510715535061684396/1520777223110398002/1536369309503201291)",
           "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "[writing prompt](https://discord.com/channels/1510715535061684396/1536554674449285152)",
+          "timestamp": "2026-08-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/11](https://discord.com/channels/1510715535061684396/1510715536227696824/1536707974028861471)",
+          "timestamp": "2026-08-11"
         }
       ]
     }

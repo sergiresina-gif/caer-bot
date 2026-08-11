@@ -78,7 +78,7 @@
     },
     {
       "name": "Nettle",
-      "xp": 30,
+      "xp": 40,
       "gold": 0,
       "pathfinder_class": "Bard",
       "history": [
@@ -99,6 +99,26 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-11"
+        }
+      ]
+    },
+    {
+      "name": "Issira",
+      "xp": 1050,
+      "gold": 10,
+      "pathfinder_class": "Inventor",
+      "history": [
+        {
+          "xp": 50,
+          "gold": 10,
+          "label": "Sidequest",
+          "timestamp": "2026-08-11"
         }
       ]
     }

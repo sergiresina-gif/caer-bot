@@ -42,8 +42,8 @@
     },
     {
       "name": "Lizzie",
-      "xp": 2220,
-      "gold": 78,
+      "xp": 2320,
+      "gold": 95,
       "pathfinder_class": "Sorcerer",
       "history": [
         {
@@ -123,6 +123,12 @@
           "gold": 0,
           "label": "Weekly RP",
           "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-08-11"
         }
       ]
     },
