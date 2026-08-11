@@ -132,7 +132,7 @@ def setup(bot: discord.Client, guild_id: int):
                     level = character.xp // 1000 + 2
 
                 
-                await write_activity(character, name, 50, skirmish[level-1]["gold"], "Sidequest", datetime.now().date().isoformat())
+                await write_activity(character, name, 100, skirmish[level-1]["gold"], "Sidequest", datetime.now().date().isoformat())
                 save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"Activity logged for '{name}'!", ephemeral=True)
                 return
@@ -156,7 +156,7 @@ def setup(bot: discord.Client, guild_id: int):
                 else:
                     level = character.xp // 1000 + 2
 
-                
+                print(level)
                 await write_activity(character, name, 100, skirmish[level-1]["gold"], "Writing Prompt", datetime.now().date().isoformat())
                 save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"Activity logged for '{name}'!", ephemeral=True)
