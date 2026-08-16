@@ -84,39 +84,21 @@
     },
     {
       "name": "Jarla",
-      "xp": 320,
-      "gold": 122,
+      "xp": 2730,
+      "gold": 222,
       "pathfinder_class": "Gunslinger",
       "history": [
         {
-          "xp": 0,
+          "xp": 1000,
           "gold": 105,
-          "label": "starting gold",
-          "timestamp": "2026-08-08"
+          "label": "getting my girl to level 4",
+          "timestamp": "2026-08-14"
         },
         {
-          "xp": 200,
-          "gold": 0,
-          "label": "weekly",
-          "timestamp": "2026-08-09"
-        },
-        {
-          "xp": 100,
-          "gold": 17,
-          "label": "Skirmish Level 4",
-          "timestamp": "2026-08-10"
-        },
-        {
-          "xp": 10,
-          "gold": 0,
-          "label": "QOTD",
-          "timestamp": "2026-08-11"
-        },
-        {
-          "xp": 10,
-          "gold": 0,
-          "label": "QOTD",
-          "timestamp": "2026-08-11"
+          "xp": 730,
+          "gold": 117,
+          "label": "had to recreate her because I did a silly",
+          "timestamp": "2026-08-14"
         }
       ]
     }

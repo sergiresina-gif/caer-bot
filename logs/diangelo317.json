@@ -3,23 +3,9 @@
   "user_pfp": "https://cdn.discordapp.com/avatars/466545869089669130/69a3824267a481cb31f638ef34f28e7e.png?size=1024",
   "characters": [
     {
-      "name": "Arlet Rower",
-      "xp": 1100,
-      "gold": 10,
-      "pathfinder_class": "Guardian",
-      "history": [
-        {
-          "xp": 100,
-          "gold": 10,
-          "label": "Skirmish Level 3",
-          "timestamp": "2026-08-01"
-        }
-      ]
-    },
-    {
       "name": "Elle Mellei",
-      "xp": 1030,
-      "gold": 0,
+      "xp": 1590,
+      "gold": 29,
       "pathfinder_class": "Alchemist",
       "history": [
         {
@@ -45,13 +31,49 @@
           "gold": 0,
           "label": "Qotd",
           "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 0,
+          "gold": 19,
+          "label": "Starting gold",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "RPXP",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-15"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Sidequest",
+          "timestamp": "2026-08-15"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "RPXP",
+          "timestamp": "2026-08-16"
         }
       ]
     },
     {
       "name": "Adelaide Merr",
-      "xp": 1000,
-      "gold": 22,
+      "xp": 1400,
+      "gold": 106,
       "pathfinder_class": "Wizard",
       "history": [
         {
@@ -77,6 +99,32 @@
           "gold": 15,
           "label": "GMXP Leslie's New Life",
           "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 0,
+          "gold": 24,
+          "label": "Starting gold",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 400,
+          "gold": 60,
+          "label": "Maya gamepbp",
+          "timestamp": "2026-08-13"
+        }
+      ]
+    },
+    {
+      "name": "Aina Meritxe-Thundermaw",
+      "xp": 500,
+      "gold": 23,
+      "pathfinder_class": "Fighter",
+      "history": [
+        {
+          "xp": 500,
+          "gold": 23,
+          "label": "Starting out",
+          "timestamp": "2026-08-13"
         }
       ]
     }

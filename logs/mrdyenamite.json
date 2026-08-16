@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Imiola \"Moony\" Iasoga Gul",
-      "xp": 1170,
+      "xp": 1380,
       "gold": 0,
       "pathfinder_class": "Summoner",
       "history": [
@@ -55,6 +55,18 @@
           "gold": 0,
           "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1535598979663003648",
           "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[Qotd](https://discord.com/channels/1510715535061684396/1510715536227696824/1537951918133870783)",
+          "timestamp": "2026-08-15"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RPxP (https://discord.com/channels/1510715535061684396/1510715535619395801/1535960023279206531)",
+          "timestamp": "2026-08-15"
         }
       ]
     }

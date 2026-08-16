@@ -54,7 +54,7 @@
     },
     {
       "name": "Gretia",
-      "xp": 2590,
+      "xp": 2600,
       "gold": 157,
       "pathfinder_class": "Commander",
       "history": [
@@ -189,6 +189,12 @@
           "gold": 17,
           "label": "Skirmish Level 4",
           "timestamp": "2026-08-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-15"
         }
       ]
     },

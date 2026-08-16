@@ -18,8 +18,8 @@
     },
     {
       "name": "Ulrika",
-      "xp": 1300,
-      "gold": 120,
+      "xp": 1800,
+      "gold": 40,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -33,6 +33,24 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 400,
+          "gold": 60,
+          "label": "Show Must Go On",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 0,
+          "gold": -150,
+          "label": "Amphisbaena Handwrap Purchase",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Side Quest",
+          "timestamp": "2026-08-13"
         }
       ]
     }

@@ -166,7 +166,7 @@
     },
     {
       "name": "Paulie",
-      "xp": 3000,
+      "xp": 3200,
       "gold": 602,
       "pathfinder_class": "Champion",
       "history": [
@@ -187,6 +187,26 @@
           "gold": 602,
           "label": "Carried over Gold from Caer Addewid",
           "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "WeeklyRP",
+          "timestamp": "2026-08-16"
+        }
+      ]
+    },
+    {
+      "name": "Lucy Barber",
+      "xp": 1100,
+      "gold": 10,
+      "pathfinder_class": "Investigator",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-16"
         }
       ]
     }

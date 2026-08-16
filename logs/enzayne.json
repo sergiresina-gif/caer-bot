@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Lady Aurelia de Carensale",
-      "xp": 1340,
+      "xp": 1440,
       "gold": 35,
       "pathfinder_class": "Commander",
       "history": [
@@ -73,12 +73,18 @@
           "gold": 17,
           "label": "Skirmish Level 4",
           "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "RP",
+          "timestamp": "2026-08-16"
         }
       ]
     },
     {
       "name": "Nettle",
-      "xp": 40,
+      "xp": 70,
       "gold": 0,
       "pathfinder_class": "Bard",
       "history": [
@@ -105,12 +111,30 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-14"
         }
       ]
     },
     {
       "name": "Issira",
-      "xp": 1050,
+      "xp": 1100,
       "gold": 10,
       "pathfinder_class": "Inventor",
       "history": [
@@ -118,6 +142,12 @@
           "xp": 50,
           "gold": 10,
           "label": "Sidequest",
+          "timestamp": "2026-08-11"
+        },
+        {
+          "xp": 50,
+          "gold": 0,
+          "label": "SQ Adjustment",
           "timestamp": "2026-08-11"
         }
       ]

@@ -48,7 +48,7 @@
     },
     {
       "name": "Liza",
-      "xp": 170,
+      "xp": 250,
       "gold": 0,
       "pathfinder_class": "Alchemist",
       "history": [
@@ -99,6 +99,38 @@
           "gold": 0,
           "label": "RP exp (02.06.26 - 09.06.26)",
           "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-12"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "Qotd 13-15.08.26",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 40,
+          "gold": 0,
+          "label": "07.08.26 Qotd recap + 30 bonus xp",
+          "timestamp": "2026-08-16"
+        }
+      ]
+    },
+    {
+      "name": "Driari",
+      "xp": 1100,
+      "gold": 10,
+      "pathfinder_class": "Barbarian",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-16"
         }
       ]
     }

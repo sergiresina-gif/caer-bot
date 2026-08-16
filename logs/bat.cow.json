@@ -138,8 +138,8 @@
     },
     {
       "name": "Lysandra",
-      "xp": 1360,
-      "gold": 17,
+      "xp": 1850,
+      "gold": 77,
       "pathfinder_class": "Kineticist",
       "history": [
         {
@@ -201,6 +201,54 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-12"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "achievements: ...When the Fire Nation Attacked, Drizzt, Wait, it's Not Spelled \"Rouge\"?, Stand User,",
+          "timestamp": "2026-08-12"
+        },
+        {
+          "xp": 400,
+          "gold": 60,
+          "label": "quest",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "nepobaby,",
+          "timestamp": "2026-08-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-15"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "achievement",
+          "timestamp": "2026-08-16"
         }
       ]
     },
@@ -241,6 +289,20 @@
           "gold": 7,
           "label": "writting",
           "timestamp": "2026-08-10"
+        }
+      ]
+    },
+    {
+      "name": "Orethyia",
+      "xp": 1000,
+      "gold": 5,
+      "pathfinder_class": "Druid",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 5,
+          "label": "start",
+          "timestamp": "2026-08-14"
         }
       ]
     }

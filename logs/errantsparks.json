@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Keffa",
-      "xp": 2260,
-      "gold": 111,
+      "xp": 2750,
+      "gold": 128,
       "pathfinder_class": "Witchwarper",
       "history": [
         {
@@ -133,12 +133,78 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-11"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Writing Prompt",
+          "timestamp": "2026-08-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Achievement: Nepo Baby",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 50,
+          "gold": 0,
+          "label": "Achievement: \"Hunters Hunted\"",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Roleplay EXP Week 8/16",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "QotD Full Clear Bonus",
+          "timestamp": "2026-08-16"
         }
       ]
     },
     {
       "name": "Kanha",
-      "xp": 1100,
+      "xp": 1110,
       "gold": 10,
       "pathfinder_class": "Kineticist",
       "history": [
@@ -147,20 +213,39 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Achievement \"When the Fire Nation Attacked...\"",
+          "timestamp": "2026-08-13"
         }
       ]
     },
     {
       "name": "Yvuri",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1410,
+      "gold": 60,
       "pathfinder_class": "Rogue",
-      "history": []
+      "history": [
+        {
+          "xp": 400,
+          "gold": 60,
+          "label": "\"The Show Must Go On!\" Excursion",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Achievement: \"Wait, it's not Spelled 'Rouge'?\"",
+          "timestamp": "2026-08-13"
+        }
+      ]
     },
     {
       "name": "Zhato",
-      "xp": 1010,
-      "gold": 0,
+      "xp": 1470,
+      "gold": 60,
       "pathfinder_class": "Solarian",
       "history": [
         {
@@ -168,12 +253,24 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Achievement:  \"The Narrative's Favorite\"",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 450,
+          "gold": 60,
+          "label": "\"CRABGAME\" Excursion",
+          "timestamp": "2026-08-14"
         }
       ]
     },
     {
       "name": "Tetrapteriel",
-      "xp": 1000,
+      "xp": 1010,
       "gold": 12,
       "pathfinder_class": "Oracle",
       "history": [
@@ -182,6 +279,32 @@
           "gold": 12,
           "label": "Leftover Starting Gold",
           "timestamp": "2026-08-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Achievement: \"Curse of Cassandra\"",
+          "timestamp": "2026-08-13"
+        }
+      ]
+    },
+    {
+      "name": "Melve",
+      "xp": 1020,
+      "gold": 0,
+      "pathfinder_class": "Witch",
+      "history": [
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Achievement: \"Toil and Trouble\"",
+          "timestamp": "2026-08-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Achievement: \"Book Nerd\"",
+          "timestamp": "2026-08-14"
         }
       ]
     }

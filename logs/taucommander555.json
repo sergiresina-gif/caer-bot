@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Diovaldo Masser",
-      "xp": 1750,
+      "xp": 1850,
       "gold": 1,
       "pathfinder_class": "Fighter",
       "history": [
@@ -37,6 +37,12 @@
           "gold": 0,
           "label": "Catch-Up from week 1 and week 2",
           "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Writing Prompt",
+          "timestamp": "2026-08-14"
         }
       ]
     },

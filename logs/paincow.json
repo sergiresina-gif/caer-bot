@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Cynthia Hall",
-      "xp": 1790,
-      "gold": 40,
+      "xp": 2000,
+      "gold": 50,
       "pathfinder_class": "Wizard",
       "history": [
         {
@@ -31,6 +31,18 @@
           "gold": 0,
           "label": "weekly",
           "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-12"
+        },
+        {
+          "xp": 110,
+          "gold": 0,
+          "label": "11 qotds",
+          "timestamp": "2026-08-14"
         }
       ]
     },
@@ -45,6 +57,20 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-08-04"
+        }
+      ]
+    },
+    {
+      "name": "Leilani",
+      "xp": 1450,
+      "gold": 60,
+      "pathfinder_class": "Ranger",
+      "history": [
+        {
+          "xp": 450,
+          "gold": 60,
+          "label": "quest",
+          "timestamp": "2026-08-14"
         }
       ]
     }

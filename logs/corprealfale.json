@@ -5,7 +5,7 @@
     {
       "name": "Thirsting Eagle",
       "xp": 1110,
-      "gold": 5,
+      "gold": 7,
       "pathfinder_class": "Wizard",
       "history": [
         {
@@ -37,13 +37,19 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-11"
+        },
+        {
+          "xp": 0,
+          "gold": 2,
+          "label": "Earned income",
+          "timestamp": "2026-08-13"
         }
       ]
     },
     {
       "name": "Carlouis de Carensale",
-      "xp": 1360,
-      "gold": 38,
+      "xp": 1600,
+      "gold": 34,
       "pathfinder_class": "Guardian",
       "history": [
         {
@@ -93,13 +99,55 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-12"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Side Quest",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 0,
+          "gold": -14,
+          "label": "Correcting gold amount",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-15"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Weekly scene RP",
+          "timestamp": "2026-08-16"
         }
       ]
     },
     {
       "name": "Isa the White Orchid",
-      "xp": 1000,
-      "gold": 1,
+      "xp": 1450,
+      "gold": 18,
       "pathfinder_class": "Alchemist",
       "history": [
         {
@@ -107,6 +155,24 @@
           "gold": 1,
           "label": "Character Creation",
           "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 450,
+          "gold": 60,
+          "label": "Crab Delivery",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 0,
+          "gold": 2,
+          "label": "earn income",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 0,
+          "gold": -45,
+          "label": "Backfire Mantle",
+          "timestamp": "2026-08-13"
         }
       ]
     }

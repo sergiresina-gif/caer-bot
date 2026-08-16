@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Kham Aekhvongsa",
-      "xp": 1760,
+      "xp": 1830,
       "gold": 45,
       "pathfinder_class": "Barbarian",
       "history": [
@@ -97,12 +97,24 @@
           "gold": 0,
           "label": "Weekly",
           "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Sidequest",
+          "timestamp": "2026-08-11"
+        },
+        {
+          "xp": 20,
+          "gold": 0,
+          "label": "Achievements!",
+          "timestamp": "2026-08-13"
         }
       ]
     },
     {
       "name": "Bellamy Drake Flamestorm",
-      "xp": 3240,
+      "xp": 3260,
       "gold": 71,
       "pathfinder_class": "Rogue",
       "history": [
@@ -147,12 +159,18 @@
           "gold": 0,
           "label": "Weekly",
           "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 20,
+          "gold": 0,
+          "label": "Achievements",
+          "timestamp": "2026-08-13"
         }
       ]
     },
     {
       "name": "First to Ten",
-      "xp": 1010,
+      "xp": 1040,
       "gold": 6,
       "pathfinder_class": "Oracle",
       "history": [
@@ -167,6 +185,24 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Achievements",
+          "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-15"
         }
       ]
     }
