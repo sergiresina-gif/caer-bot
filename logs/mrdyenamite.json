@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Imiola \"Moony\" Iasoga Gul",
-      "xp": 1570,
+      "xp": 1580,
       "gold": 31,
       "pathfinder_class": "Summoner",
       "history": [
@@ -108,6 +108,12 @@
           "xp": 100,
           "gold": 20,
           "label": "Skirmish (+10gp more from previous writing prompt) https://discord.com/channels/1510715535061684396/1540684334389006346",
+          "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1540721779012669580",
           "timestamp": "2026-08-22"
         }
       ]

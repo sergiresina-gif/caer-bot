@@ -1,8 +1,26 @@
 import json
 import discord
 from log_funcs import *
+from pageview import CharacterPaginationView
 from autocompletes import name_autocomplete, true_false_autocomplete, levels_autocomplete
 from models import Character
+
+ENTRIES_PER_PAGE = 10
+
+
+# Helper to format stats
+def build_stats_block(log):
+    if log.xp < 1000:
+        level = log.xp // 500 + 1
+        xp_to_show = log.xp % 500
+    else:
+        level = log.xp // 1000 + 2
+        xp_to_show = log.xp % 1000
+    return f"**Level:** {level} | **XP:** {xp_to_show} | **Gold:** {log.gold}"
+
+# Helper to format a single history entry
+def format_entry(entry):
+    return f"- **{entry.label}** | XP: {entry.xp} | Gold: {entry.gold} | ({entry.timestamp})"
 
 
 def setup(bot: discord.Client, guild_id: int):
@@ -59,50 +77,82 @@ def setup(bot: discord.Client, guild_id: int):
 
         if level == "3":
             logs.append(Character(name=name, pathfinder_class=pathfinder_class, xp=1000))
-        else:
-            logs.append(Character(name=name, pathfinder_class=pathfinder_class, xp=0))
-        save_user_data(user.name, data)   # saves full structure
-        await interaction.response.send_message(f"Character '{name}' created!")
+        elif level == "2":
+            logs.append(Character(name=name, pathfinder_class=pathfinder_class, xp=500))
 
 
-    @character_group.command(name="show", description="View your chracters!")
+    @character_group.command(name="show", description="View your characters!")
     @discord.app_commands.autocomplete(name=name_autocomplete, activity_log=true_false_autocomplete)
     async def show(interaction: discord.Interaction, name: str = None, activity_log: str = "False"):
+
         user = interaction.user
-        logs = load_user_logs(user.name)
+        logs = load_user_logs(user.name)  # Consider switching to user.id later
 
         if not logs:
-            await interaction.response.send_message("You have no characters yet. Use /create to make one.")
+            await interaction.response.send_message(
+                "You have no characters yet. Use /create to make one."
+            )
             return
 
+        # Filter by name if provided
         if name:
             logs = [log for log in logs if log.name == name]
             if not logs:
-                await interaction.response.send_message(f"You have no character named '{name}'.")
+                await interaction.response.send_message(
+                    f"You have no character named '{name}'."
+                )
                 return
 
-        message_to_send = ""
+        # --- Build all embed pages ---
+        all_embeds = []
+
         for log in logs:
-            if log.xp < 1000:
-                level = log.xp // 500 + 1
-                xp_to_show = log.xp % 500
-            else:
-                level = log.xp // 1000 + 2
-                xp_to_show = log.xp % 1000
-            message_to_send += f"# {log.name}\n> Level: {level}\n> XP: {xp_to_show} \n> Gold: {log.gold}\n"
+            stats = build_stats_block(log)
+            history = log.history if activity_log == "True" else []
 
-            if activity_log == "True":
-                message_to_send += "\nActivity Log:\n"
-                for activity in log.history:
-                    message_to_send += f"- **{activity.label}** | XP: {activity.xp} | Gold: {activity.gold} | ({activity.timestamp})\n"
-                message_to_send += "\n"
+            # If no history, just show stats on a single page
+            if not history:
+                desc = f"{stats}\n\n*No activity recorded.*"
+                embed = discord.Embed(
+                    title=f"{user.name}'s Characters",
+                    description=desc,
+                    color=discord.Color.blue()
+                )
+                embed.set_footer(text=f"{log.name} | 1/1")
+                all_embeds.append(embed)
+                continue
 
-        embed = discord.Embed(
-            title=f"{user.name}'s Characters",
-            description=message_to_send
-        )
+            # Calculate total pages for this character
+            total_pages = (len(history) + ENTRIES_PER_PAGE - 1) // ENTRIES_PER_PAGE
 
-        await interaction.response.send_message(embed=embed)
+            # Split history into chunks and create an embed for each chunk
+            for i in range(0, len(history), ENTRIES_PER_PAGE):
+                page_num = (i // ENTRIES_PER_PAGE) + 1
+                batch = history[i:i + ENTRIES_PER_PAGE]
+                entries_text = "\n".join([format_entry(e) for e in batch])
+
+                # Page 1 shows "Activity Log:", later pages show "Activity Log (cont.):"
+                if page_num == 1:
+                    desc = f"{stats}\n\n**Activity Log:**\n{entries_text}"
+                else:
+                    desc = f"{stats}\n\n**Activity Log (cont.):**\n{entries_text}"
+
+                # --- Safety: Discord desc limit is 4096 chars ---
+                if len(desc) > 4000:
+                    desc = desc[:3990] + "\n... (truncated)"
+
+                embed = discord.Embed(
+                    title=f"{user.name}'s Characters",
+                    description=desc,
+                    color=discord.Color.blue()
+                )
+                embed.set_footer(text=f"{log.name} | Page {page_num}/{total_pages}")
+                all_embeds.append(embed)
+
+        # --- Send the first page with the pagination view ---
+        view = CharacterPaginationView(all_embeds, author_id=user.id)
+        await interaction.response.send_message(embed=all_embeds[0], view=view)
+
     @character_group.command(name="remove", description="Remove your character!")
     @discord.app_commands.autocomplete(name=name_autocomplete)
     async def remove(interaction: discord.Interaction, name: str):

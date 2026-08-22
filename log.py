@@ -122,7 +122,7 @@ def setup(bot: discord.Client, guild_id: int):
 
         for character in logs:
             if character.name == name:
-                character.add_xp_gold(50, 0)
+                character.add_xp_gold(100, 0)
 
                 #find the char level
 
@@ -147,7 +147,7 @@ def setup(bot: discord.Client, guild_id: int):
 
         for character in logs:
             if character.name == name:
-                character.add_xp_gold(50, 0)
+                character.add_xp_gold(100, 0)
 
                 #find the char level
 

@@ -170,7 +170,7 @@
     },
     {
       "name": "First to Ten",
-      "xp": 1725,
+      "xp": 1735,
       "gold": 36,
       "pathfinder_class": "Oracle",
       "history": [
@@ -244,6 +244,12 @@
           "xp": 325,
           "gold": 20,
           "label": "Running Fire quest :3",
+          "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
           "timestamp": "2026-08-22"
         }
       ]
