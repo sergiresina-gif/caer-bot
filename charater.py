@@ -112,7 +112,7 @@ def setup(bot: discord.Client, guild_id: int):
 
             # If no history, just show stats on a single page
             if not history:
-                desc = f"{stats}\n\n*No activity recorded.*"
+                desc = f"{stats}\n\n*No activity recorded or activity log disabled.*"
                 embed = discord.Embed(
                     title=f"{user.name}'s Characters",
                     description=desc,
@@ -135,7 +135,7 @@ def setup(bot: discord.Client, guild_id: int):
                 if page_num == 1:
                     desc = f"{stats}\n\n**Activity Log:**\n{entries_text}"
                 else:
-                    desc = f"{stats}\n\n**Activity Log (cont.):**\n{entries_text}"
+                    desc = f"{stats}\n\n**Activity Log:**\n{entries_text}"
 
                 # --- Safety: Discord desc limit is 4096 chars ---
                 if len(desc) > 4000:

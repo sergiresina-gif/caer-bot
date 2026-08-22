@@ -68,10 +68,15 @@ def setup(bot: discord.Client, guild_id: int):
     bot.tree.add_command(stats_group, guild=discord.Object(id=guild_id))
 
     @stats_group.command(name="classes", description="View the distribution of character classes in the server.")
-    async def classes(interaction: discord.Interaction):
+    async def classes(interaction: discord.Interaction, class_name: str = None):
         class_counts = {}
+        class_members = []
 
-        # open each user's log and count character classes
+        def get_level(xp: int) -> int:
+            if xp < 1000:
+                return xp // 500 + 1
+            return xp // 1000 + 2
+
         logs_dir = os.path.join(os.path.dirname(__file__), "logs")
         if os.path.isdir(logs_dir):
             for filename in os.listdir(logs_dir):
@@ -89,9 +94,45 @@ def setup(bot: discord.Client, guild_id: int):
                     char_class = character.get("pathfinder_class", "Unknown")
                     class_counts[char_class] = class_counts.get(char_class, 0) + 1
 
-        lines = ["Character Class Distribution:"]
-        for char_class, count in class_counts.items():
-            lines.append(f"- {char_class}: {count}")
+                    if class_name and char_class.casefold() == class_name.casefold():
+                        xp = character.get("xp", 0)
+                        class_members.append({
+                            "name": character.get("name", "Unknown"),
+                            "owner": (
+                                character.get("owner")
+                                or data.get("owner")
+                                or data.get("username")
+                                or os.path.splitext(filename)[0]
+                            ),
+                            "level": get_level(xp),
+                            "xp": xp,
+                        })
+
+        if class_name:
+            class_members.sort(
+                key=lambda member: (
+                    -member["level"],
+                    -member["xp"],
+                    member["name"].casefold(),
+                )
+            )
+
+            lines = [f"{class_name} Ranking:"]
+            if class_members:
+                for index, member in enumerate(class_members, start=1):
+                    lines.append(
+                        f"{index}. {member['name']} — Level {member['level']} "
+                        f"(Owner: {member['owner']}, XP: {member['xp']})"
+                    )
+            else:
+                lines.append("No characters found for that class.")
+        else:
+            lines = ["Character Class Distribution:"]
+            for char_class, count in sorted(
+                class_counts.items(),
+                key=lambda item: (-item[1], item[0].casefold()),
+            ):
+                lines.append(f"- {char_class}: {count}")
 
         embed = discord.Embed(
             title="Server Character Classes",

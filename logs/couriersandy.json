@@ -50,10 +50,17 @@
     },
     {
       "name": "Viclaaf \"Vicky\" Stonewater",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 3000,
+      "gold": 214,
       "pathfinder_class": "Witch",
-      "history": []
+      "history": [
+        {
+          "xp": 2000,
+          "gold": 214,
+          "label": "Levelling",
+          "timestamp": "2026-08-22"
+        }
+      ]
     },
     {
       "name": "Lonan Widowknife",
