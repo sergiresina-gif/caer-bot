@@ -89,6 +89,20 @@
           "timestamp": "2026-08-12"
         }
       ]
+    },
+    {
+      "name": "Gug",
+      "xp": 200,
+      "gold": 0,
+      "pathfinder_class": "Summoner",
+      "history": [
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "RPXP",
+          "timestamp": "2026-08-21"
+        }
+      ]
     }
   ]
 }

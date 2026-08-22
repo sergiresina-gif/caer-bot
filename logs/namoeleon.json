@@ -18,8 +18,8 @@
     },
     {
       "name": "Ulrika",
-      "xp": 1800,
-      "gold": 40,
+      "xp": 2040,
+      "gold": 60,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -51,6 +51,32 @@
           "gold": 10,
           "label": "Side Quest",
           "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 240,
+          "gold": 20,
+          "label": "Paracidal Intent",
+          "timestamp": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "name": "She",
+      "xp": 1100,
+      "gold": 26,
+      "pathfinder_class": "Swashbuckler",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 16,
+          "label": "Starting gold",
+          "timestamp": "2026-08-18"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish",
+          "timestamp": "2026-08-22"
         }
       ]
     }

@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Keffa",
-      "xp": 2750,
-      "gold": 128,
+      "xp": 3000,
+      "gold": 65,
       "pathfinder_class": "Witchwarper",
       "history": [
         {
@@ -199,12 +199,66 @@
           "gold": 0,
           "label": "QotD Full Clear Bonus",
           "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-19"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-20"
+        },
+        {
+          "xp": 0,
+          "gold": -44,
+          "label": "Item Purchase",
+          "timestamp": "2026-08-21"
+        },
+        {
+          "xp": 0,
+          "gold": -50,
+          "label": "Item Purchase",
+          "timestamp": "2026-08-21"
+        },
+        {
+          "xp": 0,
+          "gold": -4,
+          "label": "Item Purchase",
+          "timestamp": "2026-08-21"
+        },
+        {
+          "xp": 200,
+          "gold": 35,
+          "label": "GM Reward: Corpse Contagion",
+          "timestamp": "2026-08-22"
         }
       ]
     },
     {
       "name": "Kanha",
-      "xp": 1110,
+      "xp": 1120,
       "gold": 10,
       "pathfinder_class": "Kineticist",
       "history": [
@@ -219,13 +273,19 @@
           "gold": 0,
           "label": "Achievement \"When the Fire Nation Attacked...\"",
           "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-22"
         }
       ]
     },
     {
       "name": "Yvuri",
-      "xp": 1410,
-      "gold": 60,
+      "xp": 1420,
+      "gold": 23,
       "pathfinder_class": "Rogue",
       "history": [
         {
@@ -239,6 +299,18 @@
           "gold": 0,
           "label": "Achievement: \"Wait, it's not Spelled 'Rouge'?\"",
           "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 0,
+          "gold": -37,
+          "label": "Item Purchase 8/20",
+          "timestamp": "2026-08-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-21"
         }
       ]
     },
@@ -305,6 +377,20 @@
           "gold": 0,
           "label": "Achievement: \"Book Nerd\"",
           "timestamp": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "name": "Prissy",
+      "xp": 1025,
+      "gold": 0,
+      "pathfinder_class": "Exemplar",
+      "history": [
+        {
+          "xp": 25,
+          "gold": 0,
+          "label": "Achievement \"The Most Heroic Point\"",
+          "timestamp": "2026-08-21"
         }
       ]
     }

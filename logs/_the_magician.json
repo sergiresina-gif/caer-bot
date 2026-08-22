@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Aelmoryn Drav Thyrsang",
-      "xp": 2190,
-      "gold": 29,
+      "xp": 2590,
+      "gold": 46,
       "pathfinder_class": "Necromancer",
       "history": [
         {
@@ -199,6 +199,66 @@
           "gold": 17,
           "label": "weekly activity (craft)",
           "timestamp": "2026-08-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/14](https://discord.com/channels/1510715535061684396/1510715536227696824/1537855921223631020)",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/15](https://discord.com/channels/1510715535061684396/1510715536227696824/1538206045841657897)",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "[weekly reset](https://discord.com/channels/1510715535061684396/1510715535619395801/1538437196812525618)",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/16](https://discord.com/channels/1510715535061684396/1510715536227696824/1538557853764161616)",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "qotd full week bonus",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/17](https://discord.com/channels/1510715535061684396/1510715536227696824/1538910448236363836)",
+          "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "[skirmish](https://discord.com/channels/1510715535061684396/1537451053048529008)",
+          "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/18](https://discord.com/channels/1510715535061684396/1510715536227696824/1539255438917246976)",
+          "timestamp": "2026-08-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/19](https://discord.com/channels/1510715535061684396/1510715536227696824/1539625739886919811)",
+          "timestamp": "2026-08-19"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/20](https://discord.com/channels/1510715535061684396/1510715536227696824/1539968888375083199)",
+          "timestamp": "2026-08-20"
         }
       ]
     }

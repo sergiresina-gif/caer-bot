@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Cynthia Hall",
-      "xp": 2000,
-      "gold": 50,
+      "xp": 2240,
+      "gold": 70,
       "pathfinder_class": "Wizard",
       "history": [
         {
@@ -43,6 +43,12 @@
           "gold": 0,
           "label": "11 qotds",
           "timestamp": "2026-08-14"
+        },
+        {
+          "xp": 240,
+          "gold": 20,
+          "label": "quest",
+          "timestamp": "2026-08-22"
         }
       ]
     },
@@ -71,6 +77,26 @@
           "gold": 60,
           "label": "quest",
           "timestamp": "2026-08-14"
+        }
+      ]
+    },
+    {
+      "name": "Fabrice",
+      "xp": 300,
+      "gold": 5,
+      "pathfinder_class": "Summoner",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 5,
+          "label": "Skirmish Level 1",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-08-16"
         }
       ]
     }

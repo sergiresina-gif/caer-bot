@@ -48,7 +48,7 @@
     },
     {
       "name": "Carlouis de Carensale",
-      "xp": 1600,
+      "xp": 1690,
       "gold": 34,
       "pathfinder_class": "Guardian",
       "history": [
@@ -141,13 +141,55 @@
           "gold": 0,
           "label": "Weekly scene RP",
           "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "Weekly QotD bonus",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-19"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-21"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-22"
         }
       ]
     },
     {
       "name": "Isa the White Orchid",
       "xp": 1450,
-      "gold": 18,
+      "gold": 20,
       "pathfinder_class": "Alchemist",
       "history": [
         {
@@ -173,6 +215,12 @@
           "gold": -45,
           "label": "Backfire Mantle",
           "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 0,
+          "gold": 2,
+          "label": "Earn Income",
+          "timestamp": "2026-08-22"
         }
       ]
     }

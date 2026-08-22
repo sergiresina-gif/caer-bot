@@ -11,10 +11,17 @@
     },
     {
       "name": "Benzo",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1325,
+      "gold": 20,
       "pathfinder_class": "Barbarian",
-      "history": []
+      "history": [
+        {
+          "xp": 325,
+          "gold": 20,
+          "label": "Quest - Let's Get Lit!",
+          "timestamp": "2026-08-19"
+        }
+      ]
     },
     {
       "name": "Leyna",

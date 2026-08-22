@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Elle Mellei",
-      "xp": 1590,
-      "gold": 29,
+      "xp": 1690,
+      "gold": 51,
       "pathfinder_class": "Alchemist",
       "history": [
         {
@@ -67,6 +67,18 @@
           "gold": 0,
           "label": "RPXP",
           "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-19"
+        },
+        {
+          "xp": 0,
+          "gold": 12,
+          "label": "Crafting Commission",
+          "timestamp": "2026-08-22"
         }
       ]
     },

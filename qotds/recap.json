@@ -1,61 +1,47 @@
 {
-  "index": 1,
+  "index": 14,
   "last_seven": [
     {
-      "content": "You've been invited to dinner by one of your friends. They asked to meet you at 7. When are you showing up?",
+      "content": "What do you do to relax after a long day?",
       "author": "akuakumatatata",
-      "datestamp": "2026-07-26T21:27:03.366636+00:00",
+      "datestamp": "2026-07-26T21:27:14.741387+00:00",
       "times-asked": 1,
       "author-id": 307300407061774337
     },
     {
-      "content": "What would be the worst name from Pathfinder to give to your child?",
-      "author": "akuakumatatata",
-      "datestamp": "2026-08-09T04:46:30.508927+00:00",
+      "content": "What kind of weather does your character like and dislike, and why?",
+      "author": "errantsparks",
+      "datestamp": "2026-08-11T22:28:18.770819+00:00",
       "times-asked": 1,
-      "author-id": 307300407061774337
+      "author-id": 129711897950945281
     },
     {
-      "content": "Pick a song to represent your character.",
-      "author": "akuakumatatata",
-      "datestamp": "2026-07-26T21:27:07.127350+00:00",
-      "times-asked": 1,
-      "author-id": 307300407061774337
-    },
-    {
-      "content": "What would be a cool weapon to add to Pathfinder Second Edition?",
-      "author": "akuakumatatata",
-      "datestamp": "2026-08-13T07:57:50.828861+00:00",
-      "times-asked": 1,
-      "author-id": 307300407061774337
-    },
-    {
-      "content": "What musical piece, or theme, best represents your character(s)?",
-      "author": "taucommander555",
-      "datestamp": "2026-08-04T07:33:57.736582+00:00",
-      "times-asked": 1,
-      "author-id": 285205490311364608
-    },
-    {
-      "content": "Is it appropriate to eat in bed?",
-      "author": "akuakumatatata",
-      "datestamp": "2026-08-11T22:28:38.846828+00:00",
-      "times-asked": 1,
-      "author-id": 307300407061774337
-    },
-    {
-      "content": "How does your character do with alcohol?",
-      "author": "akuakumatatata",
-      "datestamp": "2026-07-26T21:27:12.940863+00:00",
-      "times-asked": 1,
-      "author-id": 307300407061774337
-    },
-    {
-      "content": "<@&1510715535116206298> Tell me a pathfinder/ttrpg/Starstone Echo thing that has you reacting like this\n\nAlso! Please confirm me in <#1510715535846019152> if you got pinged by this message (if you have the qotd role) and if you got pinged by yesterday's",
+      "content": "<@&1510715535116206298> Where do you live? Do you live with someone? Do you aspire to better living arrangements? Are you seeking roommates with whom to split rent?",
       "author": "Divine Wordkeeper#0000",
-      "datestamp": "2026-08-16T14:28:13.352259+00:00",
+      "datestamp": "2026-08-20T08:15:32.507768+00:00",
       "times-asked": 0,
       "author-id": 1518879132589752392
+    },
+    {
+      "content": "<@&1510715535116206298> Rank the next sword styles (either OOC or IC)\n\nTwo-handed heavy sword\nSword and shield\nSword and free hand\nSymmetric dual wielding\nAsymmetric dual wielding",
+      "author": "Divine Wordkeeper#0000",
+      "datestamp": "2026-08-20T08:19:39.291108+00:00",
+      "times-asked": 0,
+      "author-id": 1518879132589752392
+    },
+    {
+      "content": "Describe your finishing move!",
+      "author": "akuakumatatata",
+      "datestamp": "2026-08-13T07:59:19.629854+00:00",
+      "times-asked": 1,
+      "author-id": 307300407061774337
+    },
+    {
+      "content": "What's your favourite Golarion organization? (OOC)",
+      "author": "diangelo317",
+      "datestamp": "2026-08-08T23:22:39.384800+00:00",
+      "times-asked": 1,
+      "author-id": 466545869089669130
     }
   ]
 }

@@ -170,8 +170,8 @@
     },
     {
       "name": "First to Ten",
-      "xp": 1040,
-      "gold": 6,
+      "xp": 1725,
+      "gold": 36,
       "pathfinder_class": "Oracle",
       "history": [
         {
@@ -203,6 +203,48 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-15"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "Weekly QotD",
+          "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-19"
+        },
+        {
+          "xp": 325,
+          "gold": 20,
+          "label": "Running Fire quest :3",
+          "timestamp": "2026-08-22"
         }
       ]
     }

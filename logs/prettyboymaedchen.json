@@ -11,8 +11,8 @@
     },
     {
       "name": "Arabella Nexia",
-      "xp": 2010,
-      "gold": 47,
+      "xp": 2110,
+      "gold": 289,
       "pathfinder_class": "Magus",
       "history": [
         {
@@ -92,6 +92,18 @@
           "gold": 0,
           "label": "week",
           "timestamp": "2026-08-09"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "writing prompt",
+          "timestamp": "2026-08-21"
+        },
+        {
+          "xp": 0,
+          "gold": 225,
+          "label": "crafting of healing staff major weekly",
+          "timestamp": "2026-08-21"
         }
       ]
     },
@@ -111,8 +123,8 @@
     },
     {
       "name": "Nadia",
-      "xp": 1500,
-      "gold": 10,
+      "xp": 1925,
+      "gold": 40,
       "pathfinder_class": "Cleric",
       "history": [
         {
@@ -132,6 +144,32 @@
           "gold": 10,
           "label": "catch up on qotd + weekly qotd + non-logged raid + rp exp",
           "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "sidequest",
+          "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 325,
+          "gold": 20,
+          "label": "quest lets get lit",
+          "timestamp": "2026-08-18"
+        }
+      ]
+    },
+    {
+      "name": "Eriu",
+      "xp": 1100,
+      "gold": 10,
+      "pathfinder_class": "Wizard",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skrimish",
+          "timestamp": "2026-08-21"
         }
       ]
     }

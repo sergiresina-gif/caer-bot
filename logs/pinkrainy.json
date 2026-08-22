@@ -38,8 +38,8 @@
     },
     {
       "name": "Hitala",
-      "xp": 1570,
-      "gold": 73,
+      "xp": 1910,
+      "gold": 103,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -83,6 +83,18 @@
           "gold": 10,
           "label": "Sidquest",
           "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-19"
+        },
+        {
+          "xp": 240,
+          "gold": 20,
+          "label": "Paracidal Intent (Gained Elixir of Life (lesser))",
+          "timestamp": "2026-08-22"
         }
       ]
     }

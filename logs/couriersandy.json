@@ -54,6 +54,68 @@
       "gold": 0,
       "pathfinder_class": "Witch",
       "history": []
+    },
+    {
+      "name": "Lonan Widowknife",
+      "xp": 1660,
+      "gold": 48,
+      "pathfinder_class": "Exemplar",
+      "history": [
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-19"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Sidequest",
+          "timestamp": "2026-08-20"
+        },
+        {
+          "xp": 50,
+          "gold": 34,
+          "label": "Fixing unapplied gold and xp",
+          "timestamp": "2026-08-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-21"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Writing Prompt",
+          "timestamp": "2026-08-21"
+        },
+        {
+          "xp": 50,
+          "gold": 10,
+          "label": "Another Fix",
+          "timestamp": "2026-08-21"
+        },
+        {
+          "xp": 200,
+          "gold": 20,
+          "label": "Corpse Contagion",
+          "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 240,
+          "gold": 20,
+          "label": "Patricidal Intent GMing",
+          "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 0,
+          "gold": -36,
+          "label": "Cold Iron Scythe",
+          "timestamp": "2026-08-22"
+        }
+      ]
     }
   ]
 }

@@ -49,7 +49,7 @@
     {
       "name": "Liza",
       "xp": 250,
-      "gold": 0,
+      "gold": 1,
       "pathfinder_class": "Alchemist",
       "history": [
         {
@@ -117,6 +117,12 @@
           "gold": 0,
           "label": "07.08.26 Qotd recap + 30 bonus xp",
           "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 0,
+          "gold": 1,
+          "label": "downtime earn income",
+          "timestamp": "2026-08-21"
         }
       ]
     },

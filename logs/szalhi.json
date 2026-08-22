@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Esa",
-      "xp": 3030,
+      "xp": 3040,
       "gold": 86,
       "pathfinder_class": "Exemplar",
       "history": [
@@ -49,12 +49,18 @@
           "gold": 1,
           "label": "Earn Income",
           "timestamp": "2026-08-08"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-17"
         }
       ]
     },
     {
       "name": "Gretia",
-      "xp": 2600,
+      "xp": 2810,
       "gold": 157,
       "pathfinder_class": "Commander",
       "history": [
@@ -195,6 +201,18 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-15"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-08-19"
         }
       ]
     },

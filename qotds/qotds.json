@@ -143,7 +143,7 @@
     "content": "What do you do to relax after a long day?",
     "author": "akuakumatatata",
     "datestamp": "2026-07-26T21:27:14.741387+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 307300407061774337
   },
   {
@@ -227,7 +227,7 @@
     "content": "What's your favourite Golarion organization? (OOC)",
     "author": "diangelo317",
     "datestamp": "2026-08-08T23:22:39.384800+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 466545869089669130
   },
   {
@@ -255,7 +255,7 @@
     "content": "What kind of weather does your character like and dislike, and why?",
     "author": "errantsparks",
     "datestamp": "2026-08-11T22:28:18.770819+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 129711897950945281
   },
   {
@@ -353,7 +353,7 @@
     "content": "Describe your finishing move!",
     "author": "akuakumatatata",
     "datestamp": "2026-08-13T07:59:19.629854+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 307300407061774337
   },
   {
@@ -369,5 +369,40 @@
     "datestamp": "2026-08-15T11:50:13.597895+00:00",
     "times-asked": 0,
     "author-id": 363431378597052427
+  },
+  {
+    "content": "What's something you really really like about someone else's character?",
+    "author": "akuakumatatata",
+    "datestamp": "2026-08-16T15:04:38.512916+00:00",
+    "times-asked": 0,
+    "author-id": 307300407061774337
+  },
+  {
+    "content": "Runes for Runesmith seem to get their names from more specific cultural origins, if you were to introduce an alternative to some examples, what would they be? (I.e. suggest alternative Rune names)",
+    "author": "mrdyenamite",
+    "datestamp": "2026-08-16T22:49:29.558780+00:00",
+    "times-asked": 0,
+    "author-id": 363431378597052427
+  },
+  {
+    "content": "Your character walks into a bar.  Ouch! How do they respond to bonking themselves on a metal beam?",
+    "author": "errantsparks",
+    "datestamp": "2026-08-16T22:49:31.299608+00:00",
+    "times-asked": 0,
+    "author-id": 129711897950945281
+  },
+  {
+    "content": "What does your character hate, but is secretly very good or a savant at?",
+    "author": "taucommander555",
+    "datestamp": "2026-08-17T13:37:49.831510+00:00",
+    "times-asked": 0,
+    "author-id": 285205490311364608
+  },
+  {
+    "content": "If you had to put one of your characters on the Major Arcana tarot cards, which card would they go on?",
+    "author": "akuakumatatata",
+    "datestamp": "2026-08-21T08:34:59.102389+00:00",
+    "times-asked": 0,
+    "author-id": 307300407061774337
   }
 ]

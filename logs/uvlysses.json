@@ -54,8 +54,8 @@
     },
     {
       "name": "Jarakiel Javon",
-      "xp": 1360,
-      "gold": 60,
+      "xp": 1875,
+      "gold": 67,
       "pathfinder_class": "Magus",
       "history": [
         {
@@ -159,6 +159,78 @@
           "gold": 0,
           "label": "weekly rp",
           "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 0,
+          "gold": -30,
+          "label": "addictions+donations in the puddle",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 325,
+          "gold": 20,
+          "label": "Let's Get Lit!  Quest",
+          "timestamp": "2026-08-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-18"
         }
       ]
     },

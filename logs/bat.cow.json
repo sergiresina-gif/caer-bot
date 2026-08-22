@@ -138,7 +138,7 @@
     },
     {
       "name": "Lysandra",
-      "xp": 1850,
+      "xp": 2070,
       "gold": 77,
       "pathfinder_class": "Kineticist",
       "history": [
@@ -249,6 +249,24 @@
           "gold": 0,
           "label": "achievement",
           "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-22"
         }
       ]
     },
@@ -274,8 +292,8 @@
     },
     {
       "name": "Magnis Valdis",
-      "xp": 600,
-      "gold": 9,
+      "xp": 750,
+      "gold": 16,
       "pathfinder_class": "Summoner",
       "history": [
         {
@@ -289,13 +307,49 @@
           "gold": 7,
           "label": "writting",
           "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 100,
+          "gold": 7,
+          "label": "Skirmish Level 2",
+          "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-19"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-21"
         }
       ]
     },
     {
       "name": "Orethyia",
-      "xp": 1000,
-      "gold": 5,
+      "xp": 1240,
+      "gold": 25,
       "pathfinder_class": "Druid",
       "history": [
         {
@@ -303,6 +357,12 @@
           "gold": 5,
           "label": "start",
           "timestamp": "2026-08-14"
+        },
+        {
+          "xp": 240,
+          "gold": 20,
+          "label": "quest",
+          "timestamp": "2026-08-22"
         }
       ]
     }

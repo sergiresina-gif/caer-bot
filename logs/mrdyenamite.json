@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Imiola \"Moony\" Iasoga Gul",
-      "xp": 1380,
-      "gold": 0,
+      "xp": 1570,
+      "gold": 31,
       "pathfinder_class": "Summoner",
       "history": [
         {
@@ -67,6 +67,68 @@
           "gold": 0,
           "label": "Weekly RPxP (https://discord.com/channels/1510715535061684396/1510715535619395801/1535960023279206531)",
           "timestamp": "2026-08-15"
+        },
+        {
+          "xp": 50,
+          "gold": 0,
+          "label": "5 Qotds https://discord.com/channels/1510715535061684396/1533436573155328173/1538616454004473927",
+          "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1539023125273120788",
+          "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 0,
+          "gold": 11,
+          "label": "Starting gold",
+          "timestamp": "2026-08-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1539735397205278791",
+          "timestamp": "2026-08-19"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1539922358062551090",
+          "timestamp": "2026-08-21"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1540665552081784912",
+          "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 100,
+          "gold": 20,
+          "label": "Skirmish (+10gp more from previous writing prompt) https://discord.com/channels/1510715535061684396/1540684334389006346",
+          "timestamp": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "name": "R\u00fanan Auglyph",
+      "xp": 1100,
+      "gold": 44,
+      "pathfinder_class": "Runesmith",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 34,
+          "label": "Starting Money",
+          "timestamp": "2026-08-18"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Writing Prompt https://discord.com/channels/1510715535061684396/1510715536227696825/1539386106703777915",
+          "timestamp": "2026-08-22"
         }
       ]
     }
