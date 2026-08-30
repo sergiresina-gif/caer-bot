@@ -31,7 +31,7 @@
     "content": "How would your character attempt to cross the chasm to get to the Starstone Chapel? (Only methods never used before are allowed in)",
     "author": "bat.cow",
     "datestamp": "2026-07-26T21:24:53.523602+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 310249535433867265
   },
   {
@@ -94,7 +94,7 @@
     "content": "If your character had to be another class, what would they be?",
     "author": "akuakumatatata",
     "datestamp": "2026-07-26T21:26:59.752106+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 307300407061774337
   },
   {
@@ -157,7 +157,7 @@
     "content": "What do your characters look like when they've been well and truly pissed off?",
     "author": "thearchitectoffate",
     "datestamp": "2026-08-04T07:33:51.189895+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 193537246836686858
   },
   {
@@ -311,7 +311,7 @@
     "content": "If your character had a unique item drop, what would it be? Provide an in-game description for it.",
     "author": "thearchitectoffate",
     "datestamp": "2026-08-13T06:31:44.572049+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 193537246836686858
   },
   {
@@ -360,7 +360,7 @@
     "content": "Describe your character's personality in terms of textures: silk, linen, wax, canvas, slate, marble, granite, water, sand, moss, scales, marinated chicken, whatever fits.",
     "author": "_the_magician",
     "datestamp": "2026-08-13T23:54:25.139588+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 486279353899155468
   },
   {
@@ -374,7 +374,7 @@
     "content": "What's something you really really like about someone else's character?",
     "author": "akuakumatatata",
     "datestamp": "2026-08-16T15:04:38.512916+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 307300407061774337
   },
   {
@@ -403,6 +403,76 @@
     "author": "akuakumatatata",
     "datestamp": "2026-08-21T08:34:59.102389+00:00",
     "times-asked": 0,
+    "author-id": 307300407061774337
+  },
+  {
+    "content": "Any chance you'll settle down?",
+    "author": "akuakumatatata",
+    "datestamp": "2026-08-23T06:01:08.165476+00:00",
+    "times-asked": 0,
+    "author-id": 307300407061774337
+  },
+  {
+    "content": "Describe your class like the job experience section on a resume",
+    "author": "akuakumatatata",
+    "datestamp": "2026-08-23T06:01:37.013930+00:00",
+    "times-asked": 1,
+    "author-id": 307300407061774337
+  },
+  {
+    "content": "Give me one incredibly minor, uninteresting detail of your character",
+    "author": "diangelo317",
+    "datestamp": "2026-08-23T06:25:01.863966+00:00",
+    "times-asked": 0,
+    "author-id": 466545869089669130
+  },
+  {
+    "content": "If your character had a reverse counterpart, evil twin, or inverted clone, what would they be like?",
+    "author": "errantsparks",
+    "datestamp": "2026-08-23T12:58:46.964926+00:00",
+    "times-asked": 0,
+    "author-id": 129711897950945281
+  },
+  {
+    "content": "If your character could take one additional feat or spell of the appropriate level from a different class, tradition, or ancestry, what would it be?",
+    "author": "errantsparks",
+    "datestamp": "2026-08-23T12:59:00.143045+00:00",
+    "times-asked": 0,
+    "author-id": 129711897950945281
+  },
+  {
+    "content": "If you had to pick an immunity and two weaknesses for your character, which damage types or specific traits would make the most sense for them?",
+    "author": "errantsparks",
+    "datestamp": "2026-08-23T12:59:03.575985+00:00",
+    "times-asked": 0,
+    "author-id": 129711897950945281
+  },
+  {
+    "content": "What is your characters comfort dish/soul food?",
+    "author": "taucommander555",
+    "datestamp": "2026-08-23T22:26:45.729710+00:00",
+    "times-asked": 0,
+    "author-id": 285205490311364608
+  },
+  {
+    "content": "What color is the dress?",
+    "author": "szalhi",
+    "datestamp": "2026-08-25T14:21:30.381124+00:00",
+    "times-asked": 0,
+    "author-id": 180638457826246659
+  },
+  {
+    "content": "How would your character resolve the Trolley Problem?",
+    "author": "errantsparks",
+    "datestamp": "2026-08-25T14:21:39.161324+00:00",
+    "times-asked": 0,
+    "author-id": 129711897950945281
+  },
+  {
+    "content": "What ice cream flavor **are** you?",
+    "author": "akuakumatatata",
+    "datestamp": "2026-08-25T14:21:44.768174+00:00",
+    "times-asked": 1,
     "author-id": 307300407061774337
   }
 ]
