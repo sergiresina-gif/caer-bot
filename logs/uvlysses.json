@@ -54,7 +54,7 @@
     },
     {
       "name": "Jarakiel Javon",
-      "xp": 1875,
+      "xp": 2005,
       "gold": 67,
       "pathfinder_class": "Magus",
       "history": [
@@ -231,12 +231,36 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-18"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "weekly rp",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-23"
         }
       ]
     },
     {
       "name": "Vlysses of Liachora",
-      "xp": 3280,
+      "xp": 3390,
       "gold": 41,
       "pathfinder_class": "Cleric(Battle Harbringer)",
       "history": [
@@ -257,6 +281,18 @@
           "gold": 0,
           "label": "FINAL FIX??!!!!?!!?",
           "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "weekly rp",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-24"
         }
       ]
     }

@@ -42,7 +42,7 @@
     },
     {
       "name": "Lizzie",
-      "xp": 2320,
+      "xp": 2520,
       "gold": 95,
       "pathfinder_class": "Sorcerer",
       "history": [
@@ -129,6 +129,12 @@
           "gold": 17,
           "label": "Skirmish Level 4",
           "timestamp": "2026-08-11"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-08-23"
         }
       ]
     },
@@ -198,8 +204,8 @@
     },
     {
       "name": "Lucy Barber",
-      "xp": 1100,
-      "gold": 10,
+      "xp": 1200,
+      "gold": 20,
       "pathfinder_class": "Investigator",
       "history": [
         {
@@ -207,6 +213,12 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-23"
         }
       ]
     }

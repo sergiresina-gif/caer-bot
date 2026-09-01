@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Amelia Melvol",
-      "xp": 2130,
+      "xp": 2740,
       "gold": 111,
       "pathfinder_class": "Summoner",
       "history": [
@@ -85,6 +85,30 @@
           "gold": 0,
           "label": "recap",
           "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 50,
+          "gold": 0,
+          "label": "nuh uh, u did it wrongs",
+          "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "rp weekly!",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 50,
+          "gold": 0,
+          "label": "corrections cuz i forgot the second one",
+          "timestamp": "2026-08-25"
+        },
+        {
+          "xp": 310,
+          "gold": 0,
+          "label": "weekly rp, qotds, and bonus",
+          "timestamp": "2026-08-30"
         }
       ]
     },
@@ -169,6 +193,27 @@
           "timestamp": "2026-08-03"
         }
       ]
+    },
+    {
+      "name": "M\u00e6r\u00ef",
+      "xp": 1000,
+      "gold": 69,
+      "pathfinder_class": "Swashbuckler",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 69,
+          "label": "starting gold",
+          "timestamp": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "name": "Ionnia Runefang",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Barbarian",
+      "history": []
     }
   ]
 }

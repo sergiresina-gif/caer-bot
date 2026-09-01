@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Lady Aurelia de Carensale",
-      "xp": 1440,
+      "xp": 1900,
       "gold": 35,
       "pathfinder_class": "Commander",
       "history": [
@@ -79,12 +79,84 @@
           "gold": 0,
           "label": "RP",
           "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "RP weekly",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd yesterday",
+          "timestamp": "2026-08-26"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-26"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-28"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "weekly qotd",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "rp week",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 50,
+          "gold": 0,
+          "label": "Skirmish Suggestion",
+          "timestamp": "2026-08-31"
         }
       ]
     },
     {
       "name": "Nettle",
-      "xp": 240,
+      "xp": 370,
       "gold": 5,
       "pathfinder_class": "Bard",
       "history": [
@@ -177,6 +249,18 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "qotd week",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "rp",
+          "timestamp": "2026-08-30"
         }
       ]
     },
@@ -202,8 +286,8 @@
     },
     {
       "name": "Lacuna-3",
-      "xp": 1100,
-      "gold": 10,
+      "xp": 1200,
+      "gold": 20,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -211,6 +295,38 @@
           "gold": 10,
           "label": "Writing Prompt: What is my purpose",
           "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-29"
+        }
+      ]
+    },
+    {
+      "name": "Sylraviel",
+      "xp": 1020,
+      "gold": 4,
+      "pathfinder_class": "Investigator",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 4,
+          "label": "start",
+          "timestamp": "2026-08-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-29"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-01"
         }
       ]
     }

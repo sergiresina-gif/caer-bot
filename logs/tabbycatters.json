@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Keffa",
-      "xp": 3000,
-      "gold": 65,
+      "xp": 4000,
+      "gold": 250,
       "pathfinder_class": "Witchwarper",
       "history": [
         {
@@ -253,12 +253,84 @@
           "gold": 35,
           "label": "GM Reward: Corpse Contagion",
           "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-27"
+        },
+        {
+          "xp": 500,
+          "gold": 160,
+          "label": "Violent Circus",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "RP EXP 8/30",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "qotd whole week bonus",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "sidequest",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish Level 5",
+          "timestamp": "2026-09-01"
         }
       ]
     },
     {
       "name": "Kanha",
-      "xp": 1120,
+      "xp": 1360,
       "gold": 10,
       "pathfinder_class": "Kineticist",
       "history": [
@@ -279,13 +351,31 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "QOTD Bonus",
+          "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RP XP",
+          "timestamp": "2026-08-24"
         }
       ]
     },
     {
       "name": "Yvuri",
-      "xp": 1420,
-      "gold": 23,
+      "xp": 1520,
+      "gold": 33,
       "pathfinder_class": "Rogue",
       "history": [
         {
@@ -311,12 +401,18 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-21"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-24"
         }
       ]
     },
     {
       "name": "Zhato",
-      "xp": 1470,
+      "xp": 1570,
       "gold": 60,
       "pathfinder_class": "Solarian",
       "history": [
@@ -337,6 +433,12 @@
           "gold": 60,
           "label": "\"CRABGAME\" Excursion",
           "timestamp": "2026-08-14"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Writing Prompt",
+          "timestamp": "2026-08-31"
         }
       ]
     },
@@ -382,7 +484,7 @@
     },
     {
       "name": "Prissy",
-      "xp": 1025,
+      "xp": 1035,
       "gold": 0,
       "pathfinder_class": "Exemplar",
       "history": [
@@ -391,6 +493,12 @@
           "gold": 0,
           "label": "Achievement \"The Most Heroic Point\"",
           "timestamp": "2026-08-21"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-25"
         }
       ]
     }

@@ -11,7 +11,7 @@
     },
     {
       "name": "Arabella Nexia",
-      "xp": 2110,
+      "xp": 2600,
       "gold": 289,
       "pathfinder_class": "Magus",
       "history": [
@@ -104,6 +104,18 @@
           "gold": 225,
           "label": "crafting of healing staff major weekly",
           "timestamp": "2026-08-21"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "rp exp from last week",
+          "timestamp": "2026-08-25"
+        },
+        {
+          "xp": 290,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-09-01"
         }
       ]
     },
@@ -123,7 +135,7 @@
     },
     {
       "name": "Nadia",
-      "xp": 1925,
+      "xp": 2045,
       "gold": 40,
       "pathfinder_class": "Cleric",
       "history": [
@@ -156,6 +168,12 @@
           "gold": 20,
           "label": "quest lets get lit",
           "timestamp": "2026-08-18"
+        },
+        {
+          "xp": 120,
+          "gold": 0,
+          "label": "QOTD CATCHUP DO IT DAILY NOW  (since the sisteenth of august)",
+          "timestamp": "2026-08-25"
         }
       ]
     },

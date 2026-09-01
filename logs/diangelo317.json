@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Elle Mellei",
-      "xp": 1690,
+      "xp": 2090,
       "gold": 51,
       "pathfinder_class": "Alchemist",
       "history": [
@@ -79,13 +79,37 @@
           "gold": 12,
           "label": "Crafting Commission",
           "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "rpxp 23/08",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 180,
+          "gold": 0,
+          "label": "xp whole week fix",
+          "timestamp": "2026-08-23"
         }
       ]
     },
     {
       "name": "Adelaide Merr",
-      "xp": 1400,
-      "gold": 106,
+      "xp": 1520,
+      "gold": 54,
       "pathfinder_class": "Wizard",
       "history": [
         {
@@ -123,13 +147,25 @@
           "gold": 60,
           "label": "Maya gamepbp",
           "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 120,
+          "gold": 20,
+          "label": "Paingame",
+          "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 0,
+          "gold": -72,
+          "label": "purchases",
+          "timestamp": "2026-08-25"
         }
       ]
     },
     {
       "name": "Aina Meritxe-Thundermaw",
-      "xp": 500,
-      "gold": 23,
+      "xp": 1120,
+      "gold": 44,
       "pathfinder_class": "Fighter",
       "history": [
         {
@@ -137,6 +173,36 @@
           "gold": 23,
           "label": "Starting out",
           "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 320,
+          "gold": 40,
+          "label": "Xiniequest",
+          "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 100,
+          "gold": 7,
+          "label": "Skirmish Level 2",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Writing Prompt",
+          "timestamp": "2026-08-25"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-27"
+        },
+        {
+          "xp": 0,
+          "gold": -36,
+          "label": "cold iron blade",
+          "timestamp": "2026-08-27"
         }
       ]
     }

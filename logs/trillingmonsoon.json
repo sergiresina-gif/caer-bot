@@ -1,0 +1,32 @@
+{
+  "user_name": null,
+  "user_pfp": null,
+  "characters": [
+    {
+      "name": "Karla",
+      "xp": 1230,
+      "gold": 10,
+      "pathfinder_class": "Investigator",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-28"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Weekly",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "qotds",
+          "timestamp": "2026-08-30"
+        }
+      ]
+    }
+  ]
+}

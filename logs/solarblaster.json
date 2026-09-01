@@ -24,8 +24,8 @@
     },
     {
       "name": "Sidevere",
-      "xp": 2470,
-      "gold": 97,
+      "xp": 3170,
+      "gold": 297,
       "pathfinder_class": "Guardian",
       "history": [
         {
@@ -87,13 +87,25 @@
           "gold": 17,
           "label": "Skirmish Level 4",
           "timestamp": "2026-08-12"
+        },
+        {
+          "xp": 450,
+          "gold": 100,
+          "label": "Crabs for Crabbes GM Reward",
+          "timestamp": "2026-08-26"
+        },
+        {
+          "xp": 250,
+          "gold": 100,
+          "label": "Snowflame Expy Quest",
+          "timestamp": "2026-08-31"
         }
       ]
     },
     {
       "name": "Gug",
-      "xp": 200,
-      "gold": 0,
+      "xp": 720,
+      "gold": 40,
       "pathfinder_class": "Summoner",
       "history": [
         {
@@ -101,6 +113,12 @@
           "gold": 0,
           "label": "RPXP",
           "timestamp": "2026-08-21"
+        },
+        {
+          "xp": 520,
+          "gold": 40,
+          "label": "Maxine first quest +RPXP",
+          "timestamp": "2026-08-26"
         }
       ]
     }

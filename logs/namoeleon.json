@@ -18,8 +18,8 @@
     },
     {
       "name": "Ulrika",
-      "xp": 2040,
-      "gold": 60,
+      "xp": 2740,
+      "gold": 220,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -57,6 +57,18 @@
           "gold": 20,
           "label": "Paracidal Intent",
           "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Reset!",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 500,
+          "gold": 160,
+          "label": "Violent Circus!",
+          "timestamp": "2026-08-30"
         }
       ]
     },

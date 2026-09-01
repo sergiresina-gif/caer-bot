@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Imiola \"Moony\" Iasoga Gul",
-      "xp": 1580,
-      "gold": 31,
+      "xp": 2730,
+      "gold": 228,
       "pathfinder_class": "Summoner",
       "history": [
         {
@@ -115,13 +115,97 @@
           "gold": 0,
           "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1540721779012669580",
           "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "All QoTD that week https://discord.com/channels/1510715535061684396/1533436573155328173/1538556335619055727",
+          "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "All QoTD that week https://discord.com/channels/1510715535061684396/1533436573155328173/1535976300471132254",
+          "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Sidequest https://discord.com/channels/1510715535061684396/1520777223110398002/1540816997938499654",
+          "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RPxP https://discord.com/channels/1510715535061684396/1510715535619395801/1540970556390637568",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1533436573155328173/1540975244192522280",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "All QoTD that week https://discord.com/channels/1510715535061684396/1533436573155328173/1540975244192522280",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish https://discord.com/channels/1510715535061684396/1540980469426819112",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1541180975512428595",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1541589184379224225",
+          "timestamp": "2026-08-25"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1541920158887575684",
+          "timestamp": "2026-08-25"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1542818621707911188",
+          "timestamp": "2026-08-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1543569789090406511",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish https://discord.com/channels/1510715535061684396/1543604451841941634",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 500,
+          "gold": 160,
+          "label": "Quest: Collar of Shifting Spider https://discord.com/channels/1510715535061684396/1510715538219728897/1543674447263957044",
+          "timestamp": "2026-08-31"
         }
       ]
     },
     {
       "name": "R\u00fanan Auglyph",
-      "xp": 1100,
-      "gold": 44,
+      "xp": 1570,
+      "gold": 104,
       "pathfinder_class": "Runesmith",
       "history": [
         {
@@ -135,6 +219,48 @@
           "gold": 10,
           "label": "Writing Prompt https://discord.com/channels/1510715535061684396/1510715536227696825/1539386106703777915",
           "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1542174624362659880",
+          "timestamp": "2026-08-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1542824868628930620",
+          "timestamp": "2026-08-29"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1543865797170962513",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1544022887210422343",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "All QoTD that week https://discord.com/channels/1510715535061684396/1533436573155328173/1544097122050375680",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RPxP https://discord.com/channels/1510715535061684396/1510715535619395801/1543517675001614388",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 200,
+          "gold": 60,
+          "label": "Quest: Aeon Stone (Pearly White Spindle) https://discord.com/channels/1510715535061684396/1510715538219728897/1543813106923212870",
+          "timestamp": "2026-08-31"
         }
       ]
     }

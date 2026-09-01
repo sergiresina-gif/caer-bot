@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Esa",
-      "xp": 3040,
+      "xp": 3070,
       "gold": 86,
       "pathfinder_class": "Exemplar",
       "history": [
@@ -55,13 +55,31 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-25"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-30"
         }
       ]
     },
     {
       "name": "Gretia",
-      "xp": 2810,
-      "gold": 157,
+      "xp": 3430,
+      "gold": 199,
       "pathfinder_class": "Commander",
       "history": [
         {
@@ -213,15 +231,70 @@
           "gold": 0,
           "label": "Weekly RP",
           "timestamp": "2026-08-19"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly rp",
+          "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-28"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly rp",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish Level 5",
+          "timestamp": "2026-09-01"
         }
       ]
     },
     {
       "name": "Kio",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1300,
+      "gold": 103,
       "pathfinder_class": "Mystic",
-      "history": []
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 0,
+          "gold": 33,
+          "label": "start gold",
+          "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 200,
+          "gold": 60,
+          "label": "Excursion: The Power of Grit",
+          "timestamp": "2026-08-31"
+        }
+      ]
     }
   ]
 }

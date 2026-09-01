@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Kham Aekhvongsa",
-      "xp": 1830,
-      "gold": 45,
+      "xp": 2030,
+      "gold": 155,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -109,12 +109,30 @@
           "gold": 0,
           "label": "Achievements!",
           "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 0,
+          "gold": 100,
+          "label": "Bribe Money",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Weekly",
+          "timestamp": "2026-08-31"
         }
       ]
     },
     {
       "name": "Bellamy Drake Flamestorm",
-      "xp": 3260,
+      "xp": 3270,
       "gold": 71,
       "pathfinder_class": "Rogue",
       "history": [
@@ -165,13 +183,19 @@
           "gold": 0,
           "label": "Achievements",
           "timestamp": "2026-08-13"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-24"
         }
       ]
     },
     {
       "name": "First to Ten",
-      "xp": 1735,
-      "gold": 36,
+      "xp": 2665,
+      "gold": 196,
       "pathfinder_class": "Oracle",
       "history": [
         {
@@ -251,6 +275,72 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "Weekly xp",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-25"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-26"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-29"
+        },
+        {
+          "xp": 500,
+          "gold": 160,
+          "label": "Running Circus Quest",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 130,
+          "gold": 0,
+          "label": "Weekly",
+          "timestamp": "2026-08-31"
         }
       ]
     }

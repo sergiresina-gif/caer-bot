@@ -23,32 +23,6 @@
       ]
     },
     {
-      "name": "Ferra",
-      "xp": 1600,
-      "gold": 37,
-      "pathfinder_class": "Inventor",
-      "history": [
-        {
-          "xp": 300,
-          "gold": 27,
-          "label": "Rp+Skirmish",
-          "timestamp": "2026-08-02"
-        },
-        {
-          "xp": 200,
-          "gold": 0,
-          "label": "https://discord.com/channels/1510715535061684396/1510715535619395801/1538437196812525618 weekly xp",
-          "timestamp": "2026-08-16"
-        },
-        {
-          "xp": 100,
-          "gold": 10,
-          "label": "Skirmish Level 3",
-          "timestamp": "2026-08-16"
-        }
-      ]
-    },
-    {
       "name": "Viclaaf \"Vicky\" Stonewater",
       "xp": 3000,
       "gold": 214,
@@ -64,8 +38,8 @@
     },
     {
       "name": "Lonan Widowknife",
-      "xp": 1660,
-      "gold": 48,
+      "xp": 2350,
+      "gold": 58,
       "pathfinder_class": "Exemplar",
       "history": [
         {
@@ -121,6 +95,134 @@
           "gold": -36,
           "label": "Cold Iron Scythe",
           "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly xp",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 20,
+          "gold": 0,
+          "label": "3 qotd's from earlier this week, and bonus xp for full week",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-26"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-26"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-29"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly XP",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "Weekly qotd xp",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-01"
+        }
+      ]
+    },
+    {
+      "name": "Kala Murena",
+      "xp": 1000,
+      "gold": 6,
+      "pathfinder_class": "Oracle",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 6,
+          "label": "Starting Gold",
+          "timestamp": "2026-08-31"
         }
       ]
     }

@@ -4,10 +4,17 @@
   "characters": [
     {
       "name": "Rosalinde",
-      "xp": 0,
-      "gold": 0,
+      "xp": 7000,
+      "gold": 50,
       "pathfinder_class": "Fighter",
-      "history": []
+      "history": [
+        {
+          "xp": 7000,
+          "gold": 50,
+          "label": "Import",
+          "timestamp": "2026-08-25"
+        }
+      ]
     },
     {
       "name": "Benzo",
@@ -25,15 +32,22 @@
     },
     {
       "name": "Leyna",
-      "xp": 0,
-      "gold": 0,
+      "xp": 2000,
+      "gold": 124,
       "pathfinder_class": "Cleric",
-      "history": []
+      "history": [
+        {
+          "xp": 2000,
+          "gold": 124,
+          "label": "Import",
+          "timestamp": "2026-08-25"
+        }
+      ]
     },
     {
       "name": "Ta\u00efsia",
-      "xp": 400,
-      "gold": 0,
+      "xp": 1000,
+      "gold": 33,
       "pathfinder_class": "Sorcerer",
       "history": [
         {
@@ -47,8 +61,27 @@
           "gold": 0,
           "label": "Weekly RP",
           "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 500,
+          "gold": 33,
+          "label": "Import",
+          "timestamp": "2026-08-25"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-09-01"
         }
       ]
+    },
+    {
+      "name": "Daphne",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Psychic",
+      "history": []
     }
   ]
 }

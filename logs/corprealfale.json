@@ -3,53 +3,9 @@
   "user_pfp": "https://cdn.discordapp.com/avatars/354660175744991232/33c038b9cd34d9cb735d47428016f6ff.png?size=1024",
   "characters": [
     {
-      "name": "Thirsting Eagle",
-      "xp": 1110,
-      "gold": 7,
-      "pathfinder_class": "Wizard",
-      "history": [
-        {
-          "xp": 70,
-          "gold": 0,
-          "label": "0",
-          "timestamp": "2026-08-04"
-        },
-        {
-          "xp": 10,
-          "gold": 0,
-          "label": "QOTD",
-          "timestamp": "2026-08-05"
-        },
-        {
-          "xp": 20,
-          "gold": 0,
-          "label": "Two missed QotD (yesterday and today)",
-          "timestamp": "2026-08-07"
-        },
-        {
-          "xp": 0,
-          "gold": 5,
-          "label": "Character Creation",
-          "timestamp": "2026-08-09"
-        },
-        {
-          "xp": 10,
-          "gold": 0,
-          "label": "QOTD",
-          "timestamp": "2026-08-11"
-        },
-        {
-          "xp": 0,
-          "gold": 2,
-          "label": "Earned income",
-          "timestamp": "2026-08-13"
-        }
-      ]
-    },
-    {
       "name": "Carlouis de Carensale",
-      "xp": 1690,
-      "gold": 34,
+      "xp": 2270,
+      "gold": 116,
       "pathfinder_class": "Guardian",
       "history": [
         {
@@ -183,12 +139,48 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 50,
+          "gold": 12,
+          "label": "Employment",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "Whole Week QotD",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Scene",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 200,
+          "gold": 60,
+          "label": "Power of Grit",
+          "timestamp": "2026-08-31"
         }
       ]
     },
     {
       "name": "Isa the White Orchid",
-      "xp": 1450,
+      "xp": 1650,
       "gold": 20,
       "pathfinder_class": "Alchemist",
       "history": [
@@ -221,8 +213,27 @@
           "gold": 2,
           "label": "Earn Income",
           "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "RP Scene",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Second weekly RP bonus",
+          "timestamp": "2026-08-31"
         }
       ]
+    },
+    {
+      "name": "Jin",
+      "xp": 500,
+      "gold": 0,
+      "pathfinder_class": "Kinetisist",
+      "history": []
     }
   ]
 }

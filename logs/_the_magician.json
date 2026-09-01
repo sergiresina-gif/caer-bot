@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Aelmoryn Drav Thyrsang",
-      "xp": 2590,
-      "gold": 46,
+      "xp": 3460,
+      "gold": 45,
       "pathfinder_class": "Necromancer",
       "history": [
         {
@@ -259,6 +259,134 @@
           "gold": 0,
           "label": "[qotd 8/20](https://discord.com/channels/1510715535061684396/1510715536227696824/1539968888375083199)",
           "timestamp": "2026-08-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/21](https://discord.com/channels/1510715535061684396/1510715536227696824/1540377033996111917)",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/22](https://discord.com/channels/1510715535061684396/1510715536227696824/1540734324893032520)",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/23](https://discord.com/channels/1510715535061684396/1510715536227696824/1541191239704248453)",
+          "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly reset",
+          "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "qotd full week bonus",
+          "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/24](https://discord.com/channels/1510715535061684396/1510715536227696824/1541590823848775712)",
+          "timestamp": "2026-08-26"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/25](https://discord.com/channels/1510715535061684396/1510715536227696824/1541816008451301386)",
+          "timestamp": "2026-08-26"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/26](https://discord.com/channels/1510715535061684396/1510715536227696824/1542163054408638584)",
+          "timestamp": "2026-08-26"
+        },
+        {
+          "xp": 100,
+          "gold": 29,
+          "label": "[crafting weekly](https://discord.com/channels/1510715535061684396/1510715536777150743/1542276651289673808)",
+          "timestamp": "2026-08-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/27](https://discord.com/channels/1510715535061684396/1510715536227696824/1542708571001724980)",
+          "timestamp": "2026-08-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/28](https://discord.com/channels/1510715535061684396/1510715536227696824/1542889726506438766)",
+          "timestamp": "2026-08-28"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "[Sidequest](https://discord.com/channels/1510715535061684396/1530578116383215648/1541515517318402058)",
+          "timestamp": "2026-08-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/29](https://discord.com/channels/1510715535061684396/1510715536227696824/1543253325460545560)",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/30](https://discord.com/channels/1510715535061684396/1510715536227696824/1543671440220491817)",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "[weekly reset](https://discord.com/channels/1510715535061684396/1510715535619395801/1543517675001614388)",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "qotd full week bonus",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 8/31](https://discord.com/channels/1510715535061684396/1510715536227696824/1543976323511230544)",
+          "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 100,
+          "gold": -55,
+          "label": "weekly activity (crafting)",
+          "timestamp": "2026-09-01"
+        }
+      ]
+    },
+    {
+      "name": "Meeka Selendlara",
+      "xp": 1200,
+      "gold": 26,
+      "pathfinder_class": "Animist",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 6,
+          "label": "[Leftover starting gold](https://discord.com/channels/1510715535061684396/1510715536777150743/1540453627523502160)",
+          "timestamp": "2026-08-25"
+        },
+        {
+          "xp": 200,
+          "gold": 20,
+          "label": "[Corpse Contagion](https://discord.com/channels/1510715535061684396/1510715538219728897/1540530859583471664)",
+          "timestamp": "2026-08-25"
         }
       ]
     }

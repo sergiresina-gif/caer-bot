@@ -17,28 +17,8 @@
       ]
     },
     {
-      "name": "Yuki",
-      "xp": 1100,
-      "gold": 70,
-      "pathfinder_class": "Runesmith",
-      "history": [
-        {
-          "xp": 0,
-          "gold": 60,
-          "label": "Creation",
-          "timestamp": "2026-08-02"
-        },
-        {
-          "xp": 100,
-          "gold": 10,
-          "label": "Skirmish Level 3",
-          "timestamp": "2026-08-03"
-        }
-      ]
-    },
-    {
       "name": "Hitala",
-      "xp": 1910,
+      "xp": 2010,
       "gold": 103,
       "pathfinder_class": "Barbarian",
       "history": [
@@ -95,6 +75,46 @@
           "gold": 20,
           "label": "Paracidal Intent (Gained Elixir of Life (lesser))",
           "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "RPEXP 8/23/2026",
+          "timestamp": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "name": "Violet &  Rose",
+      "xp": 1000,
+      "gold": 29,
+      "pathfinder_class": "Guardian",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 29,
+          "label": "Creation",
+          "timestamp": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "name": "Chetra",
+      "xp": 1100,
+      "gold": 21,
+      "pathfinder_class": "Runesmith",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 11,
+          "label": "Starting",
+          "timestamp": "2026-08-28"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-30"
         }
       ]
     }

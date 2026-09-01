@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Cynthia Hall",
-      "xp": 2240,
-      "gold": 70,
+      "xp": 3160,
+      "gold": 265,
       "pathfinder_class": "Wizard",
       "history": [
         {
@@ -49,12 +49,36 @@
           "gold": 20,
           "label": "quest",
           "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 120,
+          "gold": 35,
+          "label": "gmxp",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Sidequest",
+          "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 500,
+          "gold": 160,
+          "label": "quest pbp",
+          "timestamp": "2026-08-30"
         }
       ]
     },
     {
       "name": "Violette Bettencourt",
-      "xp": 1100,
+      "xp": 1300,
       "gold": 10,
       "pathfinder_class": "Rogue",
       "history": [
@@ -63,6 +87,12 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-08-04"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-08-30"
         }
       ]
     },
@@ -82,8 +112,8 @@
     },
     {
       "name": "Fabrice",
-      "xp": 300,
-      "gold": 5,
+      "xp": 620,
+      "gold": 45,
       "pathfinder_class": "Summoner",
       "history": [
         {
@@ -97,6 +127,32 @@
           "gold": 0,
           "label": "weekly",
           "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 320,
+          "gold": 40,
+          "label": "quest",
+          "timestamp": "2026-08-23"
+        }
+      ]
+    },
+    {
+      "name": "Winter Alastair",
+      "xp": 4100,
+      "gold": 40,
+      "pathfinder_class": "Swashbuckler",
+      "history": [
+        {
+          "xp": 3000,
+          "gold": 0,
+          "label": "import",
+          "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Skirmish Level 6",
+          "timestamp": "2026-08-30"
         }
       ]
     }

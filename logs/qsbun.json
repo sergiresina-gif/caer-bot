@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Liu  | Atoth | Xia",
-      "xp": 1100,
-      "gold": 66,
+      "xp": 1200,
+      "gold": 76,
       "pathfinder_class": "Necromancer",
       "history": [
         {
@@ -43,6 +43,12 @@
           "gold": 0,
           "label": "RP exp (02.06.26 - 09.06.26)",
           "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-08-24"
         }
       ]
     },
@@ -128,8 +134,8 @@
     },
     {
       "name": "Driari",
-      "xp": 1100,
-      "gold": 10,
+      "xp": 1535,
+      "gold": 30,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -137,6 +143,24 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 325,
+          "gold": 20,
+          "label": "Quest Lets Get Lit, also got Fulu",
+          "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Sidequest",
+          "timestamp": "2026-08-24"
         }
       ]
     }
