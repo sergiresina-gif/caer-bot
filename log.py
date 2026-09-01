@@ -74,14 +74,6 @@ def setup(bot: discord.Client, guild_id: int):
         user = interaction.user
         logs = load_user_logs(user.name)
 
-        for character in logs:
-            if character.name == name:
-                character.add_xp_gold(10, 0)
-                await write_activity(character, name, 10, 0, "QOTD", datetime.now().date().isoformat())
-                save_user_logs(user.name, logs)
-                await interaction.response.send_message(f"QOTD logged for '{name}'!", ephemeral=True)
-                return
-
         if whole_week:
             for character in logs:
                 if character.name == name:
@@ -90,6 +82,16 @@ def setup(bot: discord.Client, guild_id: int):
                     save_user_logs(user.name, logs)
                     await interaction.response.send_message(f"QOTD for the whole week logged for '{name}'!", ephemeral=True)
                     return
+
+        for character in logs:
+            if character.name == name:
+                character.add_xp_gold(10, 0)
+                await write_activity(character, name, 10, 0, "QOTD", datetime.now().date().isoformat())
+                save_user_logs(user.name, logs)
+                await interaction.response.send_message(f"QOTD logged for '{name}'!", ephemeral=True)
+                return
+
+
 
     @log_group.command(name="undo", description="Undo the last activity logged for a character.")
     @discord.app_commands.autocomplete(name=name_autocomplete)

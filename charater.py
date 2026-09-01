@@ -75,11 +75,30 @@ def setup(bot: discord.Client, guild_id: int):
                         return
         
 
-        if level == "3":
-            logs.append(Character(name=name, pathfinder_class=pathfinder_class, xp=1000))
-        elif level == "2":
-            logs.append(Character(name=name, pathfinder_class=pathfinder_class, xp=500))
+        xp_by_level = {
+            "1": 0,
+            "2": 500,
+            "3": 1000,
+        }
 
+        if level not in xp_by_level:
+            await interaction.response.send_message(
+                "Invalid level. Choose level 1, 2, or 3."
+            )
+            return
+
+        logs.append(
+            Character(
+                name=name,
+                pathfinder_class=pathfinder_class,
+                xp=xp_by_level[level],
+            )
+        )
+        save_user_logs(user.name, logs)
+
+        await interaction.response.send_message(
+            f"Character '{name}' created successfully!"
+        )
 
     @character_group.command(name="show", description="View your characters!")
     @discord.app_commands.autocomplete(name=name_autocomplete, activity_log=true_false_autocomplete)
