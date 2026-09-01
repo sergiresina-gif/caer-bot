@@ -212,3 +212,8 @@ def setup(bot: discord.Client, guild_id: int):
         await interaction.response.send_message(f"You have no character named '{name}'.")
 
     bot.tree.add_command(character_group, guild=discord.Object(id=guild_id))
+
+    @bot.tree.command(name="cs", guild=discord.Object(id=guild_id), description="Shorthand for /character show")
+    async def cs(interaction: discord.Interaction, name: str = None, activity_log: str = "False"):
+        await show(interaction, name, activity_log)
+        
