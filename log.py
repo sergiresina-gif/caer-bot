@@ -163,3 +163,5 @@ def setup(bot: discord.Client, guild_id: int):
                 return
 
         await interaction.response.send_message(f"You have no character named '{name}'.", ephemeral=True)
+
+    
