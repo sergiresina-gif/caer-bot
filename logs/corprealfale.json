@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Carlouis de Carensale",
-      "xp": 2270,
-      "gold": 116,
+      "xp": 2470,
+      "gold": 133,
       "pathfinder_class": "Guardian",
       "history": [
         {
@@ -175,6 +175,18 @@
           "gold": 60,
           "label": "Power of Grit",
           "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-09-07"
         }
       ]
     },

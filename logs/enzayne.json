@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Lady Aurelia de Carensale",
-      "xp": 1900,
-      "gold": 35,
+      "xp": 2600,
+      "gold": 70,
       "pathfinder_class": "Commander",
       "history": [
         {
@@ -151,12 +151,60 @@
           "gold": 0,
           "label": "Skirmish Suggestion",
           "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-02"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-03"
+        },
+        {
+          "xp": 530,
+          "gold": 120,
+          "label": "pbp exc (A Devil and A Demon)",
+          "timestamp": "2026-09-03"
+        },
+        {
+          "xp": 0,
+          "gold": -70,
+          "label": "purchases",
+          "timestamp": "2026-09-03"
+        },
+        {
+          "xp": 0,
+          "gold": -15,
+          "label": "Item Purchase",
+          "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 40,
+          "gold": 0,
+          "label": "qotd + week",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "weekly rp",
+          "timestamp": "2026-09-07"
         }
       ]
     },
     {
       "name": "Nettle",
-      "xp": 370,
+      "xp": 470,
       "gold": 5,
       "pathfinder_class": "Bard",
       "history": [
@@ -261,6 +309,12 @@
           "gold": 0,
           "label": "rp",
           "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "weekly rp",
+          "timestamp": "2026-09-07"
         }
       ]
     },
@@ -286,8 +340,8 @@
     },
     {
       "name": "Lacuna-3",
-      "xp": 1200,
-      "gold": 20,
+      "xp": 1300,
+      "gold": 30,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -301,12 +355,18 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-08-29"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-07"
         }
       ]
     },
     {
       "name": "Sylraviel",
-      "xp": 1020,
+      "xp": 1030,
       "gold": 4,
       "pathfinder_class": "Investigator",
       "history": [
@@ -327,6 +387,12 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-09-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-04"
         }
       ]
     }

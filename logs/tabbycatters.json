@@ -330,8 +330,8 @@
     },
     {
       "name": "Kanha",
-      "xp": 1360,
-      "gold": 10,
+      "xp": 1590,
+      "gold": 70,
       "pathfinder_class": "Kineticist",
       "history": [
         {
@@ -369,6 +369,30 @@
           "gold": 0,
           "label": "Weekly RP XP",
           "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 200,
+          "gold": 60,
+          "label": "The Power of Grit",
+          "timestamp": "2026-09-02"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-02"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-02"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-03"
         }
       ]
     },

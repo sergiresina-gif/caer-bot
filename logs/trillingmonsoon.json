@@ -27,6 +27,20 @@
           "timestamp": "2026-08-30"
         }
       ]
+    },
+    {
+      "name": "Halia",
+      "xp": 1240,
+      "gold": 20,
+      "pathfinder_class": "Wizard",
+      "history": [
+        {
+          "xp": 240,
+          "gold": 20,
+          "label": "QoTD x4, Skirmish x2",
+          "timestamp": "2026-09-04"
+        }
+      ]
     }
   ]
 }

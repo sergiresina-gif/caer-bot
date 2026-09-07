@@ -38,8 +38,8 @@
     },
     {
       "name": "Lonan Widowknife",
-      "xp": 2350,
-      "gold": 58,
+      "xp": 3000,
+      "gold": 195,
       "pathfinder_class": "Exemplar",
       "history": [
         {
@@ -209,6 +209,30 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-09-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-02"
+        },
+        {
+          "xp": 530,
+          "gold": 120,
+          "label": "A Devil & a Demon",
+          "timestamp": "2026-09-03"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-03"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-09-04"
         }
       ]
     },

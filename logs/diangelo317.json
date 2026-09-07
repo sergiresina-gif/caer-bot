@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Elle Mellei",
-      "xp": 2090,
+      "xp": 2290,
       "gold": 51,
       "pathfinder_class": "Alchemist",
       "history": [
@@ -103,6 +103,12 @@
           "gold": 0,
           "label": "xp whole week fix",
           "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "RPXP 31/08",
+          "timestamp": "2026-09-03"
         }
       ]
     },
@@ -164,8 +170,8 @@
     },
     {
       "name": "Aina Meritxe-Thundermaw",
-      "xp": 1120,
-      "gold": 44,
+      "xp": 1750,
+      "gold": 174,
       "pathfinder_class": "Fighter",
       "history": [
         {
@@ -203,6 +209,18 @@
           "gold": -36,
           "label": "cold iron blade",
           "timestamp": "2026-08-27"
+        },
+        {
+          "xp": 530,
+          "gold": 120,
+          "label": "TnTQuestPBP",
+          "timestamp": "2026-09-03"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-04"
         }
       ]
     }

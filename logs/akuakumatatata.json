@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Kham Aekhvongsa",
-      "xp": 2030,
-      "gold": 155,
+      "xp": 2130,
+      "gold": 165,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -127,6 +127,12 @@
           "gold": 0,
           "label": "Weekly",
           "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "WP",
+          "timestamp": "2026-09-04"
         }
       ]
     },
@@ -194,8 +200,8 @@
     },
     {
       "name": "First to Ten",
-      "xp": 2665,
-      "gold": 196,
+      "xp": 3315,
+      "gold": 228,
       "pathfinder_class": "Oracle",
       "history": [
         {
@@ -341,6 +347,36 @@
           "gold": 0,
           "label": "Weekly",
           "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-02"
+        },
+        {
+          "xp": 530,
+          "gold": 120,
+          "label": "Tnttntnt pbp",
+          "timestamp": "2026-09-03"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 0,
+          "gold": -105,
+          "label": "Buying Rune",
+          "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-05"
         }
       ]
     }

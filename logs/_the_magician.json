@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Aelmoryn Drav Thyrsang",
-      "xp": 3460,
+      "xp": 3470,
       "gold": 45,
       "pathfinder_class": "Necromancer",
       "history": [
@@ -366,6 +366,12 @@
           "xp": 100,
           "gold": -55,
           "label": "weekly activity (crafting)",
+          "timestamp": "2026-09-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 9/01](https://discord.com/channels/1510715535061684396/1510715536227696824/1544339023336702063)",
           "timestamp": "2026-09-01"
         }
       ]

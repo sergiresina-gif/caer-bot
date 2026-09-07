@@ -78,8 +78,8 @@
     },
     {
       "name": "Gretia",
-      "xp": 3430,
-      "gold": 199,
+      "xp": 3650,
+      "gold": 249,
       "pathfinder_class": "Commander",
       "history": [
         {
@@ -267,6 +267,30 @@
           "gold": 25,
           "label": "Skirmish Level 5",
           "timestamp": "2026-09-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-03"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-03"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Writing Prompt",
+          "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Side Quest",
+          "timestamp": "2026-09-04"
         }
       ]
     },

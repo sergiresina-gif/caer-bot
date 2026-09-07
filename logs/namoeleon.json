@@ -18,8 +18,8 @@
     },
     {
       "name": "Ulrika",
-      "xp": 2740,
-      "gold": 220,
+      "xp": 3000,
+      "gold": 237,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -69,6 +69,30 @@
           "gold": 160,
           "label": "Violent Circus!",
           "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD!",
+          "timestamp": "2026-09-01"
+        },
+        {
+          "xp": 50,
+          "gold": 0,
+          "label": "QOTD Recaps",
+          "timestamp": "2026-09-01"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Writing Prompt",
+          "timestamp": "2026-09-01"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Turboclutch Raid",
+          "timestamp": "2026-09-03"
         }
       ]
     },

@@ -11,8 +11,8 @@
     },
     {
       "name": "Esta",
-      "xp": 1110,
-      "gold": 10,
+      "xp": 1510,
+      "gold": 70,
       "pathfinder_class": "commander",
       "history": [
         {
@@ -26,6 +26,12 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-07"
+        },
+        {
+          "xp": 400,
+          "gold": 60,
+          "label": "late quest reward",
+          "timestamp": "2026-09-02"
         }
       ]
     }

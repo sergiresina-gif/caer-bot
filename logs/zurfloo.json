@@ -96,8 +96,8 @@
     },
     {
       "name": "Jarla",
-      "xp": 3530,
-      "gold": 264,
+      "xp": 3630,
+      "gold": 289,
       "pathfinder_class": "Gunslinger",
       "history": [
         {
@@ -147,6 +147,12 @@
           "gold": 0,
           "label": "weekly",
           "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish Level 5",
+          "timestamp": "2026-09-04"
         }
       ]
     }

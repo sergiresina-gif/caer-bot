@@ -11,8 +11,8 @@
     },
     {
       "name": "Arabella Nexia",
-      "xp": 2600,
-      "gold": 289,
+      "xp": 2900,
+      "gold": 323,
       "pathfinder_class": "Magus",
       "history": [
         {
@@ -116,6 +116,24 @@
           "gold": 0,
           "label": "weekly",
           "timestamp": "2026-09-01"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "raid week september first",
+          "timestamp": "2026-09-03"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Sidequest",
+          "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "writing prompt",
+          "timestamp": "2026-09-04"
         }
       ]
     },

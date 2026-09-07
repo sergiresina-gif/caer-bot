@@ -260,8 +260,8 @@
     },
     {
       "name": "Vlysses of Liachora",
-      "xp": 3390,
-      "gold": 41,
+      "xp": 3790,
+      "gold": 121,
       "pathfinder_class": "Cleric(Battle Harbringer)",
       "history": [
         {
@@ -293,6 +293,24 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Skirmish Level 6",
+          "timestamp": "2026-09-01"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Skirmish Level 6",
+          "timestamp": "2026-09-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly rpxp",
+          "timestamp": "2026-09-01"
         }
       ]
     }

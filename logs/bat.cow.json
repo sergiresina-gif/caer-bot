@@ -138,8 +138,8 @@
     },
     {
       "name": "Lysandra",
-      "xp": 2650,
-      "gold": 94,
+      "xp": 2790,
+      "gold": 91,
       "pathfinder_class": "Kineticist",
       "history": [
         {
@@ -339,6 +339,42 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-09-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-02"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-03"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "i made a suggestion",
+          "timestamp": "2026-09-03"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 0,
+          "gold": -20,
+          "label": "coat",
+          "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-04"
         }
       ]
     },
@@ -461,6 +497,13 @@
           "timestamp": "2026-08-22"
         }
       ]
+    },
+    {
+      "name": "Yukime",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Monk",
+      "history": []
     }
   ]
 }

@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Imiola \"Moony\" Iasoga Gul",
-      "xp": 2730,
+      "xp": 2740,
       "gold": 228,
       "pathfinder_class": "Summoner",
       "history": [
@@ -199,13 +199,19 @@
           "gold": 160,
           "label": "Quest: Collar of Shifting Spider https://discord.com/channels/1510715535061684396/1510715538219728897/1543674447263957044",
           "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1544964667884179457",
+          "timestamp": "2026-09-04"
         }
       ]
     },
     {
       "name": "R\u00fanan Auglyph",
-      "xp": 1570,
-      "gold": 104,
+      "xp": 1680,
+      "gold": 114,
       "pathfinder_class": "Runesmith",
       "history": [
         {
@@ -261,6 +267,18 @@
           "gold": 60,
           "label": "Quest: Aeon Stone (Pearly White Spindle) https://discord.com/channels/1510715535061684396/1510715538219728897/1543813106923212870",
           "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1545111734719873135",
+          "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Writing Prompt https://discord.com/channels/1510715535061684396/1545194890223165550",
+          "timestamp": "2026-09-04"
         }
       ]
     }
