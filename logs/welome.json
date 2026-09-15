@@ -46,7 +46,7 @@
     },
     {
       "name": "Ta\u00efsia",
-      "xp": 1000,
+      "xp": 1200,
       "gold": 33,
       "pathfinder_class": "Sorcerer",
       "history": [
@@ -73,6 +73,18 @@
           "gold": 0,
           "label": "Weekly RP",
           "timestamp": "2026-09-01"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Weekly XP",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Weekly XP",
+          "timestamp": "2026-09-13"
         }
       ]
     },

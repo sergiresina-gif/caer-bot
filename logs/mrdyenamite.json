@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Imiola \"Moony\" Iasoga Gul",
-      "xp": 2740,
-      "gold": 228,
+      "xp": 2970,
+      "gold": 216,
       "pathfinder_class": "Summoner",
       "history": [
         {
@@ -205,12 +205,42 @@
           "gold": 0,
           "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1544964667884179457",
           "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RPxP https://discord.com/channels/1510715535061684396/1510715535619395801/1546070915270316064",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1547110347029352449",
+          "timestamp": "2026-09-10"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1547643328311459942",
+          "timestamp": "2026-09-10"
+        },
+        {
+          "xp": 0,
+          "gold": -12,
+          "label": "Purchase https://discord.com/channels/1510715535061684396/1537328403655688223/1548373480628686982",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1533436573155328173/1549191521566199953",
+          "timestamp": "2026-09-15"
         }
       ]
     },
     {
       "name": "R\u00fanan Auglyph",
-      "xp": 1680,
+      "xp": 1760,
       "gold": 114,
       "pathfinder_class": "Runesmith",
       "history": [
@@ -279,6 +309,86 @@
           "gold": 10,
           "label": "Writing Prompt https://discord.com/channels/1510715535061684396/1545194890223165550",
           "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1545692441472933899",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1546072187897778207",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1546184436863995985",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1546631175525765132",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "All QoTD that week https://discord.com/channels/1510715535061684396/1533436573155328173/1547646500362915990",
+          "timestamp": "2026-09-10"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1549190925807521953",
+          "timestamp": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "name": "Boniface Xylobone",
+      "xp": 630,
+      "gold": 6,
+      "pathfinder_class": "Bard",
+      "history": [
+        {
+          "xp": 500,
+          "gold": 19,
+          "label": "Starting Gold and level 2",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1548100945382998117",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1548347508160204852",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 100,
+          "gold": 7,
+          "label": "Skirmish https://discord.com/channels/1510715535061684396/1548435301221793984",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 0,
+          "gold": -20,
+          "label": "Purchase https://discord.com/channels/1510715535061684396/1537328403655688223/1548444182522101884",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1548967909387141163",
+          "timestamp": "2026-09-15"
         }
       ]
     }

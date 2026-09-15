@@ -38,8 +38,8 @@
     },
     {
       "name": "Lonan Widowknife",
-      "xp": 3000,
-      "gold": 195,
+      "xp": 3875,
+      "gold": 245,
       "pathfinder_class": "Exemplar",
       "history": [
         {
@@ -233,6 +233,84 @@
           "gold": 17,
           "label": "Skirmish Level 4",
           "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "Whole week Qotd bonus",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "RP XP",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-09"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish Level 5",
+          "timestamp": "2026-09-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-11"
+        },
+        {
+          "xp": 60,
+          "gold": 0,
+          "label": "qotd completion",
+          "timestamp": "2026-09-14"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RP XP",
+          "timestamp": "2026-09-14"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Sidequest",
+          "timestamp": "2026-09-14"
+        },
+        {
+          "xp": 0,
+          "gold": 25,
+          "label": "missing gold",
+          "timestamp": "2026-09-14"
+        },
+        {
+          "xp": 135,
+          "gold": 0,
+          "label": "Achievement XP",
+          "timestamp": "2026-09-14"
         }
       ]
     },
@@ -247,6 +325,20 @@
           "gold": 6,
           "label": "Starting Gold",
           "timestamp": "2026-08-31"
+        }
+      ]
+    },
+    {
+      "name": "Rosedawn Morritiz",
+      "xp": 1200,
+      "gold": 63,
+      "pathfinder_class": "Rogue",
+      "history": [
+        {
+          "xp": 200,
+          "gold": 63,
+          "label": "5 Finger Salvation",
+          "timestamp": "2026-09-12"
         }
       ]
     }

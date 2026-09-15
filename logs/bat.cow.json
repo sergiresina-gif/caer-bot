@@ -138,7 +138,7 @@
     },
     {
       "name": "Lysandra",
-      "xp": 2790,
+      "xp": 3000,
       "gold": 91,
       "pathfinder_class": "Kineticist",
       "history": [
@@ -375,6 +375,12 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 210,
+          "gold": 0,
+          "label": "qotd+weekly",
+          "timestamp": "2026-09-07"
         }
       ]
     },
@@ -400,8 +406,8 @@
     },
     {
       "name": "Magnis Valdis",
-      "xp": 1070,
-      "gold": 23,
+      "xp": 1690,
+      "gold": 53,
       "pathfinder_class": "Summoner",
       "history": [
         {
@@ -475,13 +481,49 @@
           "gold": 7,
           "label": "sidy",
           "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "side",
+          "timestamp": "2026-09-08"
+        },
+        {
+          "xp": 200,
+          "gold": 20,
+          "label": "quest",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "xp weekly",
+          "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-14"
         }
       ]
     },
     {
       "name": "Orethyia",
-      "xp": 1240,
-      "gold": 25,
+      "xp": 1530,
+      "gold": 45,
       "pathfinder_class": "Druid",
       "history": [
         {
@@ -495,15 +537,70 @@
           "gold": 20,
           "label": "quest",
           "timestamp": "2026-08-22"
+        },
+        {
+          "xp": 290,
+          "gold": 20,
+          "label": "quesy",
+          "timestamp": "2026-09-09"
         }
       ]
     },
     {
       "name": "Yukime",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1280,
+      "gold": 25,
       "pathfinder_class": "Monk",
-      "history": []
+      "history": [
+        {
+          "xp": 40,
+          "gold": 0,
+          "label": "0",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-08"
+        },
+        {
+          "xp": 0,
+          "gold": 5,
+          "label": "forgot",
+          "timestamp": "2026-09-08"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "writting prompt",
+          "timestamp": "2026-09-08"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-08"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-09"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-10"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-11"
+        }
+      ]
     }
   ]
 }

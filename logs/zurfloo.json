@@ -96,7 +96,7 @@
     },
     {
       "name": "Jarla",
-      "xp": 3630,
+      "xp": 4030,
       "gold": 289,
       "pathfinder_class": "Gunslinger",
       "history": [
@@ -153,6 +153,38 @@
           "gold": 25,
           "label": "Skirmish Level 5",
           "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-09-13"
+        }
+      ]
+    },
+    {
+      "name": "Zaida",
+      "xp": 1200,
+      "gold": 10,
+      "pathfinder_class": "cleric",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-08"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-09-13"
         }
       ]
     }

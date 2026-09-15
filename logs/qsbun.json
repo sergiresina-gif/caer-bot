@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Liu  | Atoth | Xia",
-      "xp": 1200,
-      "gold": 76,
+      "xp": 1356,
+      "gold": 96,
       "pathfinder_class": "Necromancer",
       "history": [
         {
@@ -49,6 +49,12 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 156,
+          "gold": 20,
+          "label": "Quest: Helga Clean Up",
+          "timestamp": "2026-09-10"
         }
       ]
     },
@@ -134,8 +140,8 @@
     },
     {
       "name": "Driari",
-      "xp": 1535,
-      "gold": 30,
+      "xp": 1805,
+      "gold": 40,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -161,6 +167,24 @@
           "gold": 10,
           "label": "Sidequest",
           "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 160,
+          "gold": 0,
+          "label": "Lots of qotd recap: 10 questions + 2times weekly re\u00b4ward = 160xp",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd 05.09.26",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-07"
         }
       ]
     }

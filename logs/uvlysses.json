@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Silas Gasluz",
-      "xp": 1000,
+      "xp": 1050,
       "gold": 6,
       "pathfinder_class": "Gunslinger",
       "history": [
@@ -49,6 +49,36 @@
           "gold": -13,
           "label": "fixing SIlas+expenditures for pbp",
           "timestamp": "2026-08-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-12"
         }
       ]
     },
@@ -260,9 +290,9 @@
     },
     {
       "name": "Vlysses of Liachora",
-      "xp": 3790,
-      "gold": 121,
-      "pathfinder_class": "Cleric(Battle Harbringer)",
+      "xp": 4100,
+      "gold": 181,
+      "pathfinder_class": "Cleric",
       "history": [
         {
           "xp": 280,
@@ -311,6 +341,50 @@
           "gold": 0,
           "label": "weekly rpxp",
           "timestamp": "2026-09-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "last week's xp",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 100,
+          "gold": 60,
+          "label": "Skirmish Level 7",
+          "timestamp": "2026-09-12"
+        }
+      ]
+    },
+    {
+      "name": "K'zer Mork To'ia",
+      "xp": 1400,
+      "gold": 0,
+      "pathfinder_class": "Swashbuckler",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Sidequest",
+          "timestamp": "2026-09-14"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Writing Prompt",
+          "timestamp": "2026-09-14"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly xp",
+          "timestamp": "2026-09-14"
         }
       ]
     }

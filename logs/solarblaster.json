@@ -24,8 +24,8 @@
     },
     {
       "name": "Sidevere",
-      "xp": 3170,
-      "gold": 297,
+      "xp": 3370,
+      "gold": 267,
       "pathfinder_class": "Guardian",
       "history": [
         {
@@ -99,6 +99,30 @@
           "gold": 100,
           "label": "Snowflame Expy Quest",
           "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish Level 5",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "RPXP",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 0,
+          "gold": -25,
+          "label": "Gold Spending",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 0,
+          "gold": -30,
+          "label": "Pre-PBP Purchases",
+          "timestamp": "2026-09-12"
         }
       ]
     },

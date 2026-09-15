@@ -11,9 +11,9 @@
     },
     {
       "name": "Esta",
-      "xp": 1510,
-      "gold": 70,
-      "pathfinder_class": "commander",
+      "xp": 1730,
+      "gold": 80,
+      "pathfinder_class": "Commander",
       "history": [
         {
           "xp": 100,
@@ -32,6 +32,50 @@
           "gold": 60,
           "label": "late quest reward",
           "timestamp": "2026-09-02"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-08"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-09-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-15"
+        }
+      ]
+    },
+    {
+      "name": "Deska",
+      "xp": 1110,
+      "gold": 10,
+      "pathfinder_class": "Swashbuckler",
+      "history": [
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-15"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-15"
         }
       ]
     }

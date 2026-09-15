@@ -1,0 +1,13 @@
+{
+  "user_name": null,
+  "user_pfp": null,
+  "characters": [
+    {
+      "name": "Vaelmora",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Fighter",
+      "history": []
+    }
+  ]
+}

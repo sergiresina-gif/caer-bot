@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Kham Aekhvongsa",
-      "xp": 2130,
+      "xp": 2230,
       "gold": 165,
       "pathfinder_class": "Barbarian",
       "history": [
@@ -133,13 +133,19 @@
           "gold": 10,
           "label": "WP",
           "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-09-07"
         }
       ]
     },
     {
       "name": "Bellamy Drake Flamestorm",
-      "xp": 3270,
-      "gold": 71,
+      "xp": 3290,
+      "gold": 11,
       "pathfinder_class": "Rogue",
       "history": [
         {
@@ -195,12 +201,30 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-10"
+        },
+        {
+          "xp": 0,
+          "gold": -60,
+          "label": "Jolt Coil",
+          "timestamp": "2026-09-12"
         }
       ]
     },
     {
       "name": "First to Ten",
-      "xp": 3315,
+      "xp": 3495,
       "gold": 228,
       "pathfinder_class": "Oracle",
       "history": [
@@ -377,6 +401,56 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-09-05"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "QotD catchup",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-09"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "Weekly qotd",
+          "timestamp": "2026-09-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-14"
+        }
+      ]
+    },
+    {
+      "name": "Zujangbe",
+      "xp": 1110,
+      "gold": 10,
+      "pathfinder_class": "Necromancer",
+      "history": [
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-14"
         }
       ]
     }

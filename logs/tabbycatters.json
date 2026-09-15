@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Keffa",
-      "xp": 4000,
+      "xp": 4120,
       "gold": 250,
       "pathfinder_class": "Witchwarper",
       "history": [
@@ -325,13 +325,31 @@
           "gold": 25,
           "label": "Skirmish Level 5",
           "timestamp": "2026-09-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-10"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-10"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Writing Prompt",
+          "timestamp": "2026-09-13"
         }
       ]
     },
     {
       "name": "Kanha",
-      "xp": 1590,
-      "gold": 70,
+      "xp": 2000,
+      "gold": 80,
       "pathfinder_class": "Kineticist",
       "history": [
         {
@@ -393,13 +411,67 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-09-03"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "Qotd Week Bonus",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly rp",
+          "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "qotd week bonus",
+          "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-14"
         }
       ]
     },
     {
       "name": "Yvuri",
-      "xp": 1520,
-      "gold": 33,
+      "xp": 2106,
+      "gold": 26,
       "pathfinder_class": "Rogue",
       "history": [
         {
@@ -431,6 +503,60 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 156,
+          "gold": 20,
+          "label": "https://discord.com/channels/1510715535061684396/1510715538219728897/1546203979036500138",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Sidequest",
+          "timestamp": "2026-09-10"
+        },
+        {
+          "xp": 0,
+          "gold": -33,
+          "label": "https://discord.com/channels/1510715535061684396/1537328403655688223/1548010069608898662",
+          "timestamp": "2026-09-11"
+        },
+        {
+          "xp": 0,
+          "gold": -24,
+          "label": "https://discord.com/channels/1510715535061684396/1537328403655688223/1548063473366204527 purchase",
+          "timestamp": "2026-09-11"
+        },
+        {
+          "xp": 200,
+          "gold": 20,
+          "label": "https://discord.com/channels/1510715535061684396/1510715538219728897/1548137238561423454",
+          "timestamp": "2026-09-12"
         }
       ]
     },

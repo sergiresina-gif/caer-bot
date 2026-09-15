@@ -30,8 +30,8 @@
     },
     {
       "name": "Halia",
-      "xp": 1240,
-      "gold": 20,
+      "xp": 1866,
+      "gold": 135,
       "pathfinder_class": "Wizard",
       "history": [
         {
@@ -39,6 +39,24 @@
           "gold": 20,
           "label": "QoTD x4, Skirmish x2",
           "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 470,
+          "gold": 20,
+          "label": "QoTD\u00d77, Weekly\u00d71, Side Quest\u00d71, Skirmish\u00d72",
+          "timestamp": "2026-09-10"
+        },
+        {
+          "xp": 156,
+          "gold": 20,
+          "label": "Helga's Basement Cleanup",
+          "timestamp": "2026-09-10"
+        },
+        {
+          "xp": 0,
+          "gold": 75,
+          "label": "Starting Gold",
+          "timestamp": "2026-09-10"
         }
       ]
     }

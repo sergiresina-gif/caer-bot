@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Carlouis de Carensale",
-      "xp": 2470,
+      "xp": 2570,
       "gold": 133,
       "pathfinder_class": "Guardian",
       "history": [
@@ -187,6 +187,12 @@
           "gold": 0,
           "label": "QOTD (Whole Week)",
           "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-09-13"
         }
       ]
     },

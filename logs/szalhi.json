@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Esa",
-      "xp": 3070,
+      "xp": 3080,
       "gold": 86,
       "pathfinder_class": "Exemplar",
       "history": [
@@ -73,13 +73,19 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-08"
         }
       ]
     },
     {
       "name": "Gretia",
-      "xp": 3650,
-      "gold": 249,
+      "xp": 4070,
+      "gold": 74,
       "pathfinder_class": "Commander",
       "history": [
         {
@@ -291,13 +297,49 @@
           "gold": 25,
           "label": "Side Quest",
           "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly Rp",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-10"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-11"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Side Quest",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 0,
+          "gold": -200,
+          "label": "Ant-Dragon Barding",
+          "timestamp": "2026-09-12"
         }
       ]
     },
     {
       "name": "Kio",
-      "xp": 1300,
-      "gold": 103,
+      "xp": 1456,
+      "gold": 123,
       "pathfinder_class": "Mystic",
       "history": [
         {
@@ -317,6 +359,32 @@
           "gold": 60,
           "label": "Excursion: The Power of Grit",
           "timestamp": "2026-08-31"
+        },
+        {
+          "xp": 156,
+          "gold": 20,
+          "label": "Helga's Basement Cleanup",
+          "timestamp": "2026-09-07"
+        }
+      ]
+    },
+    {
+      "name": "Momoka",
+      "xp": 1110,
+      "gold": 10,
+      "pathfinder_class": "Necromancer",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-09"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-13"
         }
       ]
     }

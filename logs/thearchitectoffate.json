@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Amelia Melvol",
-      "xp": 2740,
+      "xp": 3000,
       "gold": 111,
       "pathfinder_class": "Summoner",
       "history": [
@@ -109,6 +109,12 @@
           "gold": 0,
           "label": "weekly rp, qotds, and bonus",
           "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 260,
+          "gold": 0,
+          "label": "rounding out level with qotd and weekly rp",
+          "timestamp": "2026-09-15"
         }
       ]
     },
@@ -210,10 +216,17 @@
     },
     {
       "name": "Ionnia Runefang",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1290,
+      "gold": 20,
       "pathfinder_class": "Barbarian",
-      "history": []
+      "history": [
+        {
+          "xp": 290,
+          "gold": 20,
+          "label": "Helga: Gangster Problems Loot + 1 Retrieval Prism!",
+          "timestamp": "2026-09-15"
+        }
+      ]
     }
   ]
 }

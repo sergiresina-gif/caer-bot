@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Aelmoryn Drav Thyrsang",
-      "xp": 3470,
-      "gold": 45,
+      "xp": 3960,
+      "gold": 32,
       "pathfinder_class": "Necromancer",
       "history": [
         {
@@ -373,6 +373,66 @@
           "gold": 0,
           "label": "[qotd 9/01](https://discord.com/channels/1510715535061684396/1510715536227696824/1544339023336702063)",
           "timestamp": "2026-09-01"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "[writing prompt](https://discord.com/channels/1510715535061684396/1544435095136641234)",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 9/2](https://discord.com/channels/1510715535061684396/1510715536227696824/1544697862225395752)",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 9/3](https://discord.com/channels/1510715535061684396/1510715536227696824/1545063177870508123)",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 9/4](https://discord.com/channels/1510715535061684396/1510715536227696824/1545461117944332398)",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 9/5](https://discord.com/channels/1510715535061684396/1510715536227696824/1545814839861973043)",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "[weekly reset](https://discord.com/channels/1510715535061684396/1510715535619395801/1546070915270316064)",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 9/6](https://discord.com/channels/1510715535061684396/1510715536227696824/1546174647673028748)",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "qotd full week bonus",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd 9/7](https://discord.com/channels/1510715535061684396/1510715536227696824/1546571101600227400)",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 100,
+          "gold": -38,
+          "label": "[crafting weekly moonweave](https://discord.com/channels/1510715535061684396/1521171327610785924/1546605102981185606)",
+          "timestamp": "2026-09-10"
         }
       ]
     },

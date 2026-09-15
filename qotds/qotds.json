@@ -185,7 +185,7 @@
     "content": "What other places outside of Absalom have you visited in your life? (if any)",
     "author": "qsbun",
     "datestamp": "2026-08-04T07:58:40.221048+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 153237544241332224
   },
   {
@@ -220,7 +220,7 @@
     "content": "What's your favourite Golarion region? (OOC)",
     "author": "diangelo317",
     "datestamp": "2026-08-08T23:22:27.957647+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 466545869089669130
   },
   {
@@ -346,7 +346,7 @@
     "content": "What are your favorite flowers?",
     "author": "akuakumatatata",
     "datestamp": "2026-08-13T07:58:40.427856+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 307300407061774337
   },
   {
@@ -395,7 +395,7 @@
     "content": "What does your character hate, but is secretly very good or a savant at?",
     "author": "taucommander555",
     "datestamp": "2026-08-17T13:37:49.831510+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 285205490311364608
   },
   {
@@ -430,7 +430,7 @@
     "content": "If your character had a reverse counterpart, evil twin, or inverted clone, what would they be like?",
     "author": "errantsparks",
     "datestamp": "2026-08-23T12:58:46.964926+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 129711897950945281
   },
   {
@@ -465,7 +465,7 @@
     "content": "How would your character resolve the Trolley Problem?",
     "author": "errantsparks",
     "datestamp": "2026-08-25T14:21:39.161324+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 129711897950945281
   },
   {
@@ -486,6 +486,160 @@
     "content": "What is an odd special interest for your character?",
     "author": "akuakumatatata",
     "datestamp": "2026-09-03T21:26:26.600905+00:00",
+    "times-asked": 0,
+    "author-id": 307300407061774337
+  },
+  {
+    "content": "When your character dies, what would be the last thing they think of?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-08T14:11:58.405965+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "What are your character's 'good', 'neutral', and 'bad' endings?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-08T14:12:01.241575+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "What gives your character hope?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-08T14:12:03.538188+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "TA-DA! One of your items explode into glitter! Which item is it?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-08T14:12:06.019051+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "What is the worst foe your character could face?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-08T14:12:33.430805+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "How many digits of pi can your character count?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-08T14:12:35.374335+00:00",
+    "times-asked": 1,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "What is the worst mistake your character ever made?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-08T14:12:37.282900+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "If you could attach a rune to your character's body (not item), which one would it be?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-08T14:12:39.066575+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "What kind of books does your character read?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-08T14:12:41.310403+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "Name at least one thing your character is ***bad*** at.",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-08T14:12:43.372831+00:00",
+    "times-asked": 1,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "GASP! Your character is now a small animal! How cute! Which creature that fits the [Pet] feat would they be?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-08T14:12:44.999856+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "Puppies or Kittens?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-08T14:12:46.479204+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "Eat a Worm /OR/ Explode?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-08T14:12:48.314417+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "What is one mundane skill your character wishes they could do?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-08T14:12:50.224440+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "You've been hired as a personal investigator to determine the source of The Smell\u2122 in my apartment. What is your theory? Where is it coming from? How do we get rid of it?",
+    "author": "_the_magician",
+    "datestamp": "2026-09-08T14:12:52.169242+00:00",
+    "times-asked": 0,
+    "author-id": 486279353899155468
+  },
+  {
+    "content": "What invention from our world would impress your character the most?",
+    "author": "akuakumatatata",
+    "datestamp": "2026-09-08T14:12:54.731316+00:00",
+    "times-asked": 0,
+    "author-id": 307300407061774337
+  },
+  {
+    "content": "Name one roll model of your character",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-09T06:49:34.837969+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "Which sanrio character resonates with your character?",
+    "author": "akuakumatatata",
+    "datestamp": "2026-09-09T16:21:41.957778+00:00",
+    "times-asked": 0,
+    "author-id": 307300407061774337
+  },
+  {
+    "content": "What anime moment would live in your character mind rent free",
+    "author": "bat.cow",
+    "datestamp": "2026-09-11T16:41:34.130521+00:00",
+    "times-asked": 0,
+    "author-id": 310249535433867265
+  },
+  {
+    "content": "Your character can now break the fourth wall! With this newfound awareness, what do your characters say?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-11T16:41:36.157622+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "You now have the power to speak directly to your characters. What do you say to them?",
+    "author": "thearchitectoffate",
+    "datestamp": "2026-09-11T16:41:38.417689+00:00",
+    "times-asked": 0,
+    "author-id": 193537246836686858
+  },
+  {
+    "content": "What is your least rational fear?",
+    "author": "akuakumatatata",
+    "datestamp": "2026-09-11T16:41:40.158368+00:00",
     "times-asked": 0,
     "author-id": 307300407061774337
   }

@@ -97,20 +97,6 @@
       ]
     },
     {
-      "name": "Leilani",
-      "xp": 1450,
-      "gold": 60,
-      "pathfinder_class": "Ranger",
-      "history": [
-        {
-          "xp": 450,
-          "gold": 60,
-          "label": "quest",
-          "timestamp": "2026-08-14"
-        }
-      ]
-    },
-    {
       "name": "Fabrice",
       "xp": 620,
       "gold": 45,
@@ -155,6 +141,34 @@
           "timestamp": "2026-08-30"
         }
       ]
+    },
+    {
+      "name": "Katherina",
+      "xp": 1290,
+      "gold": 20,
+      "pathfinder_class": "Magus",
+      "history": [
+        {
+          "xp": 290,
+          "gold": 20,
+          "label": "quest",
+          "timestamp": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "name": "Adriana Speride",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Cleric",
+      "history": []
+    },
+    {
+      "name": "Memilse Vem",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Investigator",
+      "history": []
     }
   ]
 }

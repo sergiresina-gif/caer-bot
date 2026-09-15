@@ -114,7 +114,7 @@
     },
     {
       "name": "Adelaide Merr",
-      "xp": 1520,
+      "xp": 1620,
       "gold": 54,
       "pathfinder_class": "Wizard",
       "history": [
@@ -165,13 +165,19 @@
           "gold": -72,
           "label": "purchases",
           "timestamp": "2026-08-25"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Sidequest",
+          "timestamp": "2026-09-07"
         }
       ]
     },
     {
       "name": "Aina Meritxe-Thundermaw",
-      "xp": 1750,
-      "gold": 174,
+      "xp": 2450,
+      "gold": 191,
       "pathfinder_class": "Fighter",
       "history": [
         {
@@ -221,8 +227,39 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "rpxp",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "two weeks of qotds",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-09-09"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "rpxp",
+          "timestamp": "2026-09-14"
         }
       ]
+    },
+    {
+      "name": "Echebaria",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Oracle",
+      "history": []
     }
   ]
 }

@@ -4,10 +4,17 @@
   "characters": [
     {
       "name": "Adrian of Ramsgate",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1156,
+      "gold": 20,
       "pathfinder_class": "Soldier",
-      "history": []
+      "history": [
+        {
+          "xp": 156,
+          "gold": 20,
+          "label": "Helga's Basement",
+          "timestamp": "2026-09-07"
+        }
+      ]
     },
     {
       "name": "Honest Eland Crosses The Horizon",
@@ -18,8 +25,8 @@
     },
     {
       "name": "Ulrika",
-      "xp": 3000,
-      "gold": 237,
+      "xp": 3750,
+      "gold": 312,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -93,6 +100,42 @@
           "gold": 17,
           "label": "Turboclutch Raid",
           "timestamp": "2026-09-03"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly Reset",
+          "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-09"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish!",
+          "timestamp": "2026-09-11"
+        },
+        {
+          "xp": 200,
+          "gold": 50,
+          "label": "Five-Finger Salvation (GM Reward)",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 40,
+          "gold": 0,
+          "label": "QOTD (x4)",
+          "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "RPXP",
+          "timestamp": "2026-09-13"
         }
       ]
     },
