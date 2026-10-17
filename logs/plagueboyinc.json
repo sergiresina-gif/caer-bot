@@ -1,0 +1,32 @@
+{
+  "user_name": null,
+  "user_pfp": null,
+  "characters": [
+    {
+      "name": "Grachius Thorne",
+      "xp": 1210,
+      "gold": 10,
+      "pathfinder_class": "Guardian",
+      "history": [
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Weekly XP",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish",
+          "timestamp": "2026-10-11"
+        }
+      ]
+    }
+  ]
+}

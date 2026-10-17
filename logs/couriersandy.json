@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Dove",
-      "xp": 1000,
-      "gold": 16,
+      "xp": 3490,
+      "gold": 283,
       "pathfinder_class": "Sorcerer",
       "history": [
         {
@@ -19,6 +19,60 @@
           "gold": -18,
           "label": "https://discord.com/channels/1510715535061684396/1530573463830532156/1535141852674785362 6 gold spent to create a permanent lock on her Mask.",
           "timestamp": "2026-08-07"
+        },
+        {
+          "xp": 1600,
+          "gold": 150,
+          "label": "Crimson Lies Voyage PBP",
+          "timestamp": "2026-09-16"
+        },
+        {
+          "xp": 1600,
+          "gold": 150,
+          "label": "Crimson Lies Voyage PBP",
+          "timestamp": "2026-09-16"
+        },
+        {
+          "xp": -1600,
+          "gold": 150,
+          "label": "fixing duplicate log",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly xp",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Sidequest",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 0,
+          "gold": -300,
+          "label": "Fixing gold",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 49,
+          "gold": 100,
+          "label": "Sabotage Demonic Force",
+          "timestamp": "2026-10-09"
+        },
+        {
+          "xp": 441,
+          "gold": 0,
+          "label": "entered xp wrong",
+          "timestamp": "2026-10-09"
         }
       ]
     },
@@ -38,8 +92,8 @@
     },
     {
       "name": "Lonan Widowknife",
-      "xp": 3875,
-      "gold": 245,
+      "xp": 4075,
+      "gold": 270,
       "pathfinder_class": "Exemplar",
       "history": [
         {
@@ -311,27 +365,25 @@
           "gold": 0,
           "label": "Achievement XP",
           "timestamp": "2026-09-14"
-        }
-      ]
-    },
-    {
-      "name": "Kala Murena",
-      "xp": 1000,
-      "gold": 6,
-      "pathfinder_class": "Oracle",
-      "history": [
+        },
         {
-          "xp": 0,
-          "gold": 6,
-          "label": "Starting Gold",
-          "timestamp": "2026-08-31"
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish Level 5",
+          "timestamp": "2026-09-16"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Writing Prompt",
+          "timestamp": "2026-09-16"
         }
       ]
     },
     {
       "name": "Rosedawn Morritiz",
-      "xp": 1200,
-      "gold": 63,
+      "xp": 2720,
+      "gold": 192,
       "pathfinder_class": "Rogue",
       "history": [
         {
@@ -339,6 +391,81 @@
           "gold": 63,
           "label": "5 Finger Salvation",
           "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 440,
+          "gold": 60,
+          "label": "Fish out of Water",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "RP XP",
+          "timestamp": "2026-09-28"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-09-28"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 280,
+          "gold": 35,
+          "label": "Keep Raid",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Rp Xp",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-10-15"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Sidequest",
+          "timestamp": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "name": "Briar Sweetes",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Magus",
+      "history": []
+    },
+    {
+      "name": "Lady Tamsyn Ennes",
+      "xp": 1300,
+      "gold": 10,
+      "pathfinder_class": "Champion",
+      "history": [
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly Xp",
+          "timestamp": "2026-10-07"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-10-08"
         }
       ]
     }

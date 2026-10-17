@@ -1,12 +1,33 @@
 {
-  "index": 41,
+  "index": 66,
   "last_seven": [
     {
-      "content": "What's your favourite Golarion region? (OOC)",
-      "author": "diangelo317",
-      "datestamp": "2026-08-08T23:22:27.957647+00:00",
+      "content": "Your character is a protagonist in a book you\u2019re authoring. Name that book.",
+      "author": "mrdyenamite",
+      "datestamp": "2026-08-06T12:12:08.020434+00:00",
       "times-asked": 1,
-      "author-id": 466545869089669130
+      "author-id": 363431378597052427
+    },
+    {
+      "content": "There is a cat stuck in a relatively tall tree. You're tasked with rescuing it. What's your approach?",
+      "author": "songfireice",
+      "datestamp": "2026-08-11T22:28:33.989713+00:00",
+      "times-asked": 1,
+      "author-id": 209293179499839488
+    },
+    {
+      "content": "What do you consider a backstory is?",
+      "author": "mrdyenamite",
+      "datestamp": "2026-09-30T16:05:12.198800+00:00",
+      "times-asked": 1,
+      "author-id": 363431378597052427
+    },
+    {
+      "content": "Pick someone else\u2019s character to be your character\u2019s archenemy!",
+      "author": "tabbycatters",
+      "datestamp": "2026-10-14T18:43:54.291330+00:00",
+      "times-asked": 1,
+      "author-id": 129711897950945281
     }
   ]
 }

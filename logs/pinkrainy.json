@@ -100,8 +100,8 @@
     },
     {
       "name": "Chetra",
-      "xp": 1100,
-      "gold": 21,
+      "xp": 1200,
+      "gold": 31,
       "pathfinder_class": "Runesmith",
       "history": [
         {
@@ -115,6 +115,38 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "name": "nix",
+      "xp": 4100,
+      "gold": 728,
+      "pathfinder_class": "Magus",
+      "history": [
+        {
+          "xp": 3000,
+          "gold": 0,
+          "label": "Import",
+          "timestamp": "2026-10-06"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Skirmish Level 6",
+          "timestamp": "2026-10-06"
+        },
+        {
+          "xp": 0,
+          "gold": 688,
+          "label": "Import",
+          "timestamp": "2026-10-06"
         }
       ]
     }

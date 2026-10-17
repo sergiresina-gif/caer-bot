@@ -18,15 +18,22 @@
     },
     {
       "name": "Honest Eland Crosses The Horizon",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1260,
+      "gold": 35,
       "pathfinder_class": "Champion",
-      "history": []
+      "history": [
+        {
+          "xp": 260,
+          "gold": 35,
+          "label": "Wrong Grandpa",
+          "timestamp": "2026-09-23"
+        }
+      ]
     },
     {
       "name": "Ulrika",
-      "xp": 3750,
-      "gold": 312,
+      "xp": 4190,
+      "gold": 472,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -136,6 +143,12 @@
           "gold": 0,
           "label": "RPXP",
           "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 440,
+          "gold": 160,
+          "label": "Fish Out Of Water GMXP",
+          "timestamp": "2026-09-25"
         }
       ]
     },
@@ -156,6 +169,68 @@
           "gold": 10,
           "label": "Skirmish",
           "timestamp": "2026-08-22"
+        }
+      ]
+    },
+    {
+      "name": "Kaspar Narikopolus",
+      "xp": 2580,
+      "gold": 132,
+      "pathfinder_class": "Operative",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 35,
+          "label": "Raid+Starting Gold",
+          "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 550,
+          "gold": 100,
+          "label": "Goblin Outpost",
+          "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly Reset",
+          "timestamp": "2026-09-21"
+        },
+        {
+          "xp": 0,
+          "gold": -55,
+          "label": "Bought High Fashion Clothing",
+          "timestamp": "2026-09-23"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Skirmish",
+          "timestamp": "2026-10-07"
+        },
+        {
+          "xp": 50,
+          "gold": 0,
+          "label": "5 Backlogged QOTDs",
+          "timestamp": "2026-10-09"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Side Quest",
+          "timestamp": "2026-10-09"
+        },
+        {
+          "xp": 280,
+          "gold": 35,
+          "label": "Keep Raid",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly Reset",
+          "timestamp": "2026-10-11"
         }
       ]
     }

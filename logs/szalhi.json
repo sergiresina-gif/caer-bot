@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Esa",
-      "xp": 3080,
-      "gold": 86,
+      "xp": 3460,
+      "gold": 246,
       "pathfinder_class": "Exemplar",
       "history": [
         {
@@ -79,13 +79,37 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-09-08"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-18"
+        },
+        {
+          "xp": 350,
+          "gold": 160,
+          "label": "Quarry Quarrel",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-30"
         }
       ]
     },
     {
       "name": "Gretia",
-      "xp": 4070,
-      "gold": 74,
+      "xp": 5340,
+      "gold": 384,
       "pathfinder_class": "Commander",
       "history": [
         {
@@ -333,6 +357,72 @@
           "gold": -200,
           "label": "Ant-Dragon Barding",
           "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-09-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-18"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly rp",
+          "timestamp": "2026-09-21"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 420,
+          "gold": 250,
+          "label": "It's just a lil guy! (part 1)",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-02"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-09"
+        },
+        {
+          "xp": 100,
+          "gold": 60,
+          "label": "Sidequest",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-14"
         }
       ]
     },
@@ -370,8 +460,8 @@
     },
     {
       "name": "Momoka",
-      "xp": 1110,
-      "gold": 10,
+      "xp": 2000,
+      "gold": 70,
       "pathfinder_class": "Necromancer",
       "history": [
         {
@@ -385,6 +475,72 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 150,
+          "gold": 20,
+          "label": "Crustacean Infestation",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-23"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-28"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-10-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-12"
         }
       ]
     }

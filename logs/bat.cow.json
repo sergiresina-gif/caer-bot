@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Talon",
-      "xp": 1750,
-      "gold": 50,
+      "xp": 4000,
+      "gold": 97,
       "pathfinder_class": "Ranger",
       "history": [
         {
@@ -133,6 +133,138 @@
           "gold": 10,
           "label": "huh",
           "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 1600,
+          "gold": 150,
+          "label": "heheheh quest",
+          "timestamp": "2026-09-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 0,
+          "gold": -133,
+          "label": "67",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 0,
+          "gold": -20,
+          "label": "yummy",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-03"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "missing",
+          "timestamp": "2026-10-03"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-10-04"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "sidequest",
+          "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-07"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-08"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish Level 5",
+          "timestamp": "2026-10-08"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-09"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-13"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-14"
         }
       ]
     },
@@ -406,8 +538,8 @@
     },
     {
       "name": "Magnis Valdis",
-      "xp": 1690,
-      "gold": 53,
+      "xp": 2030,
+      "gold": 63,
       "pathfinder_class": "Summoner",
       "history": [
         {
@@ -517,6 +649,48 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-09-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-15"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-15"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-19"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-09-20"
         }
       ]
     },
@@ -548,8 +722,8 @@
     },
     {
       "name": "Yukime",
-      "xp": 1280,
-      "gold": 25,
+      "xp": 2040,
+      "gold": 55,
       "pathfinder_class": "Monk",
       "history": [
         {
@@ -599,6 +773,122 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-09-11"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-21"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "sidequest",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-24"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "writting prompt",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "name": "Sarenith",
+      "xp": 1520,
+      "gold": 20,
+      "pathfinder_class": "Champion",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-10-04"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-06"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-10-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-16"
         }
       ]
     }

@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Imiola \"Moony\" Iasoga Gul",
-      "xp": 2970,
-      "gold": 216,
+      "xp": 4250,
+      "gold": 430,
       "pathfinder_class": "Summoner",
       "history": [
         {
@@ -235,13 +235,127 @@
           "gold": 0,
           "label": "Qotd https://discord.com/channels/1510715535061684396/1533436573155328173/1549191521566199953",
           "timestamp": "2026-09-15"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1549730363574583429",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1550770356170784849",
+          "timestamp": "2026-09-19"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1552238301715636305",
+          "timestamp": "2026-09-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd\nhttps://discord.com/channels/1510715535061684396/1510715536227696824/1553012646071238750",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 350,
+          "gold": 160,
+          "label": "Quest: staff of healing https://discord.com/channels/1510715535061684396/1510715538219728897/1553147007114289244",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd\nhttps://discord.com/channels/1510715535061684396/1510715536227696824/1553438303741681665",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Sidequest https://discord.com/channels/1510715535061684396/1510715535846019156/1553417309152874630",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 0,
+          "gold": -1,
+          "label": "Purchase https://discord.com/channels/1510715535061684396/1537328403655688223/1553806338314997918",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 0,
+          "gold": -30,
+          "label": "Purchase https://discord.com/channels/1510715535061684396/1537328403655688223/1553813717236580535",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1553769434630590515",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 0,
+          "gold": -40,
+          "label": "Purchase https://discord.com/channels/1510715535061684396/1537328403655688223/1553839023817105559",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1533436573155328173/1556308160850165928",
+          "timestamp": "2026-10-04"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "All QoTD that week https://discord.com/channels/1510715535061684396/1533436573155328173/1556308160850165928",
+          "timestamp": "2026-10-04"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1556744345913139271",
+          "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RPxP https://discord.com/channels/1510715535061684396/1510715535619395801/1553687681509363726",
+          "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1557129163981328424",
+          "timestamp": "2026-10-06"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1557750394266853408",
+          "timestamp": "2026-10-09"
+        },
+        {
+          "xp": 490,
+          "gold": 100,
+          "label": "Quest: Moonweave Rune https://discord.com/channels/1510715535061684396/1510715538219728897/1558121240101789697",
+          "timestamp": "2026-10-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1560605512674844793",
+          "timestamp": "2026-10-16"
         }
       ]
     },
     {
       "name": "R\u00fanan Auglyph",
-      "xp": 1760,
-      "gold": 114,
+      "xp": 2690,
+      "gold": 166,
       "pathfinder_class": "Runesmith",
       "history": [
         {
@@ -345,13 +459,127 @@
           "gold": 0,
           "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1549190925807521953",
           "timestamp": "2026-09-15"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1550151197334315019",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1551533818383568958",
+          "timestamp": "2026-09-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1552071151168131083",
+          "timestamp": "2026-09-23"
+        },
+        {
+          "xp": 260,
+          "gold": 35,
+          "label": "Quest: Analysis Eye https://discord.com/channels/1510715535061684396/1510715538219728897/1552141078176731198",
+          "timestamp": "2026-09-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1533436573155328173/1552392162828882121",
+          "timestamp": "2026-09-23"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "All QoTD that week https://discord.com/channels/1510715535061684396/1533436573155328173/1552392162828882121",
+          "timestamp": "2026-09-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1552632396250091572",
+          "timestamp": "2026-09-24"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1554378204758806569",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1554756130406670398",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1555114494882095115",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1555852935207067740",
+          "timestamp": "2026-10-03"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Writing Prompt https://discord.com/channels/1510715535061684396/1556586252399022100",
+          "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1556580986609991732",
+          "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RPxP https://discord.com/channels/1510715535061684396/1510715535619395801/1556154763127816195",
+          "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1558534056713388185",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotdhttps://discord.com/channels/1510715535061684396/1510715536227696824/1559134824365555815",
+          "timestamp": "2026-10-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1559275745887395922",
+          "timestamp": "2026-10-12"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RPxP https://discord.com/channels/1510715535061684396/1510715535619395801/1558863110448619682",
+          "timestamp": "2026-10-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "https://discord.com/channels/1510715535061684396/1510715536227696824/1559605011196022789",
+          "timestamp": "2026-10-15"
         }
       ]
     },
     {
       "name": "Boniface Xylobone",
-      "xp": 630,
-      "gold": 6,
+      "xp": 990,
+      "gold": 13,
       "pathfinder_class": "Bard",
       "history": [
         {
@@ -389,6 +617,54 @@
           "gold": 0,
           "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1548967909387141163",
           "timestamp": "2026-09-15"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RPxP https://discord.com/channels/1510715535061684396/1510715535619395801/1548684683565334619",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1550096363251834881",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 100,
+          "gold": 7,
+          "label": "Writing Prompt https://discord.com/channels/1510715535061684396/1510715536227696825/1550871921565110432",
+          "timestamp": "2026-09-19"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1551286599071834184",
+          "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1555195458744225855",
+          "timestamp": "2026-10-02"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1558077649836974251",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1559941368476868621",
+          "timestamp": "2026-10-15"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1560401370312474677",
+          "timestamp": "2026-10-15"
         }
       ]
     }

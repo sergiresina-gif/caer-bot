@@ -11,8 +11,8 @@
     },
     {
       "name": "Arabella Nexia",
-      "xp": 2900,
-      "gold": 323,
+      "xp": 3180,
+      "gold": 373,
       "pathfinder_class": "Magus",
       "history": [
         {
@@ -134,13 +134,25 @@
           "gold": 17,
           "label": "writing prompt",
           "timestamp": "2026-09-04"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "repairing my forgetfulness",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 180,
+          "gold": 50,
+          "label": "solo quest",
+          "timestamp": "2026-09-24"
         }
       ]
     },
     {
       "name": "Tethra",
-      "xp": 1100,
-      "gold": 17,
+      "xp": 4000,
+      "gold": 167,
       "pathfinder_class": "Investigator",
       "history": [
         {
@@ -148,13 +160,67 @@
           "gold": 17,
           "label": "raid",
           "timestamp": "2026-08-03"
+        },
+        {
+          "xp": 1600,
+          "gold": 150,
+          "label": "victoria pbp",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 150,
+          "gold": 0,
+          "label": "QOTD exp all til today",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-18"
+        },
+        {
+          "xp": 0,
+          "gold": 30,
+          "label": "sell",
+          "timestamp": "2026-09-21"
+        },
+        {
+          "xp": 200,
+          "gold": -200,
+          "label": "upgrade plus weekly",
+          "timestamp": "2026-09-21"
+        },
+        {
+          "xp": 350,
+          "gold": 160,
+          "label": "quest tabby",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-09-28"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "qotd week",
+          "timestamp": "2026-09-28"
         }
       ]
     },
     {
       "name": "Nadia",
-      "xp": 2045,
-      "gold": 40,
+      "xp": 2345,
+      "gold": 57,
       "pathfinder_class": "Cleric",
       "history": [
         {
@@ -192,12 +258,24 @@
           "gold": 0,
           "label": "QOTD CATCHUP DO IT DAILY NOW  (since the sisteenth of august)",
           "timestamp": "2026-08-25"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-10-09"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-10-12"
         }
       ]
     },
     {
       "name": "Eriu",
-      "xp": 1100,
+      "xp": 1610,
       "gold": 10,
       "pathfinder_class": "Wizard",
       "history": [
@@ -206,6 +284,45 @@
           "gold": 10,
           "label": "Skrimish",
           "timestamp": "2026-08-21"
+        },
+        {
+          "xp": 110,
+          "gold": 0,
+          "label": "Catchup qotd",
+          "timestamp": "2026-10-06"
+        },
+        {
+          "xp": 400,
+          "gold": 0,
+          "label": "week, sq, wp",
+          "timestamp": "2026-10-06"
+        }
+      ]
+    },
+    {
+      "name": "Asprin/Mina",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Swashbuckler",
+      "history": []
+    },
+    {
+      "name": "Loki",
+      "xp": 2100,
+      "gold": 17,
+      "pathfinder_class": "Rogue",
+      "history": [
+        {
+          "xp": 1000,
+          "gold": 0,
+          "label": "0",
+          "timestamp": "2026-10-06"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-10-12"
         }
       ]
     }

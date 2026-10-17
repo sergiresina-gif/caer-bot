@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Cynthia Hall",
-      "xp": 3160,
-      "gold": 265,
+      "xp": 5015,
+      "gold": 790,
       "pathfinder_class": "Wizard",
       "history": [
         {
@@ -73,13 +73,79 @@
           "gold": 160,
           "label": "quest pbp",
           "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 210,
+          "gold": 50,
+          "label": "gm quest xp",
+          "timestamp": "2026-09-24"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish Level 5",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 175,
+          "gold": 55,
+          "label": "quest",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish Level 5",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 60,
+          "gold": 0,
+          "label": "6 qotds",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 320,
+          "gold": 250,
+          "label": "gm quest xp",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-10-04"
+        },
+        {
+          "xp": 290,
+          "gold": 80,
+          "label": "gm quest xp",
+          "timestamp": "2026-10-04"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "employment",
+          "timestamp": "2026-10-04"
+        },
+        {
+          "xp": 100,
+          "gold": 60,
+          "label": "Writing Prompt",
+          "timestamp": "2026-10-05"
         }
       ]
     },
     {
       "name": "Violette Bettencourt",
-      "xp": 1300,
-      "gold": 10,
+      "xp": 2040,
+      "gold": 80,
       "pathfinder_class": "Rogue",
       "history": [
         {
@@ -93,6 +159,24 @@
           "gold": 0,
           "label": "weekly",
           "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-15"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-09-15"
+        },
+        {
+          "xp": 440,
+          "gold": 60,
+          "label": "quest",
+          "timestamp": "2026-09-25"
         }
       ]
     },
@@ -124,8 +208,8 @@
     },
     {
       "name": "Winter Alastair",
-      "xp": 4100,
-      "gold": 40,
+      "xp": 4520,
+      "gold": 290,
       "pathfinder_class": "Swashbuckler",
       "history": [
         {
@@ -139,13 +223,19 @@
           "gold": 40,
           "label": "Skirmish Level 6",
           "timestamp": "2026-08-30"
+        },
+        {
+          "xp": 420,
+          "gold": 250,
+          "label": "quest",
+          "timestamp": "2026-09-27"
         }
       ]
     },
     {
       "name": "Katherina",
-      "xp": 1290,
-      "gold": 20,
+      "xp": 2040,
+      "gold": 120,
       "pathfinder_class": "Magus",
       "history": [
         {
@@ -153,6 +243,18 @@
           "gold": 20,
           "label": "quest",
           "timestamp": "2026-09-09"
+        },
+        {
+          "xp": 550,
+          "gold": 100,
+          "label": "quest",
+          "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-09-20"
         }
       ]
     },

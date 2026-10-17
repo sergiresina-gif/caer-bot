@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Amelia Melvol",
-      "xp": 3000,
-      "gold": 111,
+      "xp": 4600,
+      "gold": 261,
       "pathfinder_class": "Summoner",
       "history": [
         {
@@ -115,6 +115,12 @@
           "gold": 0,
           "label": "rounding out level with qotd and weekly rp",
           "timestamp": "2026-09-15"
+        },
+        {
+          "xp": 1600,
+          "gold": 150,
+          "label": "Swashing Nightingale",
+          "timestamp": "2026-09-18"
         }
       ]
     },
@@ -202,8 +208,8 @@
     },
     {
       "name": "M\u00e6r\u00ef",
-      "xp": 1000,
-      "gold": 69,
+      "xp": 2200,
+      "gold": 79,
       "pathfinder_class": "Swashbuckler",
       "history": [
         {
@@ -211,12 +217,36 @@
           "gold": 69,
           "label": "starting gold",
           "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "skirmish!",
+          "timestamp": "2026-09-18"
+        },
+        {
+          "xp": 280,
+          "gold": 0,
+          "label": "backlog from trip (rp/qotds)",
+          "timestamp": "2026-09-18"
+        },
+        {
+          "xp": 620,
+          "gold": 0,
+          "label": "qotd recap x2 + weekly xp x2",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "rp",
+          "timestamp": "2026-10-05"
         }
       ]
     },
     {
       "name": "Ionnia Runefang",
-      "xp": 1290,
+      "xp": 1570,
       "gold": 20,
       "pathfinder_class": "Barbarian",
       "history": [
@@ -225,6 +255,12 @@
           "gold": 20,
           "label": "Helga: Gangster Problems Loot + 1 Retrieval Prism!",
           "timestamp": "2026-09-15"
+        },
+        {
+          "xp": 280,
+          "gold": 0,
+          "label": "backlog from trip (rp/qotds)",
+          "timestamp": "2026-09-18"
         }
       ]
     }

@@ -30,8 +30,8 @@
     },
     {
       "name": "Halia",
-      "xp": 1866,
-      "gold": 135,
+      "xp": 3006,
+      "gold": 225,
       "pathfinder_class": "Wizard",
       "history": [
         {
@@ -57,6 +57,100 @@
           "gold": 75,
           "label": "Starting Gold",
           "timestamp": "2026-09-10"
+        },
+        {
+          "xp": 400,
+          "gold": 30,
+          "label": "Weekly, Skirmish, Side Quest",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 50,
+          "gold": 0,
+          "label": "QoTD",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 440,
+          "gold": 60,
+          "label": "Fish Out Of Water",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 250,
+          "gold": 0,
+          "label": "QoTD+Weekly",
+          "timestamp": "2026-09-27"
+        }
+      ]
+    },
+    {
+      "name": "Allegra",
+      "xp": 1800,
+      "gold": 135,
+      "pathfinder_class": "Commander",
+      "history": [
+        {
+          "xp": 550,
+          "gold": 100,
+          "label": "Goblin Outpost",
+          "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 250,
+          "gold": 35,
+          "label": "Door Stuck",
+          "timestamp": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "name": "AMOD",
+      "xp": 1630,
+      "gold": 45,
+      "pathfinder_class": "Necromancer",
+      "history": [
+        {
+          "xp": 20,
+          "gold": 0,
+          "label": "QotD x2",
+          "timestamp": "2026-10-08"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-09"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 280,
+          "gold": 35,
+          "label": "Keep Raid!",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-14"
         }
       ]
     }

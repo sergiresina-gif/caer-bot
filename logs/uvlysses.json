@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Silas Gasluz",
-      "xp": 1050,
-      "gold": 6,
+      "xp": 4020,
+      "gold": 94,
       "pathfinder_class": "Gunslinger",
       "history": [
         {
@@ -79,13 +79,97 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 1600,
+          "gold": 150,
+          "label": "Swashing Nightingale",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly xp",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish Level 5",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 0,
+          "gold": -17,
+          "label": "buncha recipees",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 490,
+          "gold": 100,
+          "label": "Sabotage Demonic Farce",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Sidequest",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Last weeks xp logging",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": -30,
+          "gold": 0,
+          "label": "removing xtra xp",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 0,
+          "gold": -250,
+          "label": "bought da edge",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 0,
+          "gold": 80,
+          "label": "sold fearsome rune",
+          "timestamp": "2026-10-11"
         }
       ]
     },
     {
       "name": "Jarakiel Javon",
-      "xp": 2005,
-      "gold": 67,
+      "xp": 2275,
+      "gold": 102,
       "pathfinder_class": "Magus",
       "history": [
         {
@@ -285,13 +369,25 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 260,
+          "gold": 35,
+          "label": "Something's Wrong With Grandpa",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-11"
         }
       ]
     },
     {
       "name": "Vlysses of Liachora",
-      "xp": 4100,
-      "gold": 181,
+      "xp": 4930,
+      "gold": 293,
       "pathfinder_class": "Cleric",
       "history": [
         {
@@ -359,13 +455,85 @@
           "gold": 60,
           "label": "Skirmish Level 7",
           "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 0,
+          "gold": 2,
+          "label": "2 weeks of preaching giving half of gold to the temple cuz good boy",
+          "timestamp": "2026-09-21"
+        },
+        {
+          "xp": 0,
+          "gold": -130,
+          "label": "lmao finally using me gold",
+          "timestamp": "2026-09-21"
+        },
+        {
+          "xp": 100,
+          "gold": 60,
+          "label": "Skirmish Level 7",
+          "timestamp": "2026-10-02"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Sidequest",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 60,
+          "label": "Skirmish Level 7",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 60,
+          "label": "Skirmish Level 7",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly reward",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 60,
+          "label": "Skirmish Level 7",
+          "timestamp": "2026-10-12"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Sidequest",
+          "timestamp": "2026-10-12"
         }
       ]
     },
     {
       "name": "K'zer Mork To'ia",
-      "xp": 1400,
-      "gold": 0,
+      "xp": 2000,
+      "gold": 1,
       "pathfinder_class": "Swashbuckler",
       "history": [
         {
@@ -385,6 +553,48 @@
           "gold": 0,
           "label": "Weekly xp",
           "timestamp": "2026-09-14"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-09-18"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Sidequest",
+          "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly xp",
+          "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 0,
+          "gold": 32,
+          "label": "starting gold+dt",
+          "timestamp": "2026-09-21"
+        },
+        {
+          "xp": 0,
+          "gold": -48,
+          "label": "selling numbing tonic and buying crushing rune",
+          "timestamp": "2026-09-21"
         }
       ]
     }

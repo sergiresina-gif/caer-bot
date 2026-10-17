@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Carlouis de Carensale",
-      "xp": 2570,
+      "xp": 2670,
       "gold": 133,
       "pathfinder_class": "Guardian",
       "history": [
@@ -193,6 +193,12 @@
           "gold": 0,
           "label": "QOTD (Whole Week)",
           "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Scene",
+          "timestamp": "2026-09-27"
         }
       ]
     },
@@ -252,6 +258,20 @@
       "gold": 0,
       "pathfinder_class": "Kinetisist",
       "history": []
+    },
+    {
+      "name": "Estean",
+      "xp": 1100,
+      "gold": 10,
+      "pathfinder_class": "Exemplar",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-17"
+        }
+      ]
     }
   ]
 }

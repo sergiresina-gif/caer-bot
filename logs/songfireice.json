@@ -41,107 +41,9 @@
       ]
     },
     {
-      "name": "Lizzie",
-      "xp": 2520,
-      "gold": 95,
-      "pathfinder_class": "Sorcerer",
-      "history": [
-        {
-          "xp": 100,
-          "gold": 10,
-          "label": "Skirmish Level 3",
-          "timestamp": "2026-08-01"
-        },
-        {
-          "xp": 200,
-          "gold": 10,
-          "label": "Hiring Thugs Quest",
-          "timestamp": "2026-08-01"
-        },
-        {
-          "xp": 0,
-          "gold": 18,
-          "label": "Character creation gold",
-          "timestamp": "2026-08-01"
-        },
-        {
-          "xp": 10,
-          "gold": 0,
-          "label": "QOTD",
-          "timestamp": "2026-08-01"
-        },
-        {
-          "xp": 10,
-          "gold": 0,
-          "label": "QOTD",
-          "timestamp": "2026-08-01"
-        },
-        {
-          "xp": 10,
-          "gold": 0,
-          "label": "QOTD",
-          "timestamp": "2026-08-01"
-        },
-        {
-          "xp": 200,
-          "gold": 20,
-          "label": "Concerning Noises",
-          "timestamp": "2026-08-01"
-        },
-        {
-          "xp": 200,
-          "gold": 0,
-          "label": "Weekly RP",
-          "timestamp": "2026-08-04"
-        },
-        {
-          "xp": 10,
-          "gold": 0,
-          "label": "QOTD",
-          "timestamp": "2026-08-04"
-        },
-        {
-          "xp": 10,
-          "gold": 0,
-          "label": "QOTD",
-          "timestamp": "2026-08-06"
-        },
-        {
-          "xp": 100,
-          "gold": 0,
-          "label": "Writing Prompt",
-          "timestamp": "2026-08-06"
-        },
-        {
-          "xp": 170,
-          "gold": 20,
-          "label": "Not Recognise the Bodies in the Water",
-          "timestamp": "2026-08-08"
-        },
-        {
-          "xp": 200,
-          "gold": 0,
-          "label": "Weekly RP",
-          "timestamp": "2026-08-09"
-        },
-        {
-          "xp": 100,
-          "gold": 17,
-          "label": "Skirmish Level 4",
-          "timestamp": "2026-08-11"
-        },
-        {
-          "xp": 200,
-          "gold": 0,
-          "label": "Weekly RP",
-          "timestamp": "2026-08-23"
-        }
-      ]
-    },
-    {
       "name": "Eris Lockwood",
-      "xp": 1010,
-      "gold": 58,
+      "xp": 2610,
+      "gold": 118,
       "pathfinder_class": "Witch",
       "history": [
         {
@@ -167,13 +69,25 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 1600,
+          "gold": 150,
+          "label": "Starry Swallow | Crimson Lies Voyage",
+          "timestamp": "2026-09-18"
+        },
+        {
+          "xp": 0,
+          "gold": -90,
+          "label": "Advance Payment was 10 gold, not 100",
+          "timestamp": "2026-09-18"
         }
       ]
     },
     {
       "name": "Paulie",
-      "xp": 3200,
-      "gold": 602,
+      "xp": 3550,
+      "gold": 762,
       "pathfinder_class": "Champion",
       "history": [
         {
@@ -199,13 +113,19 @@
           "gold": 0,
           "label": "WeeklyRP",
           "timestamp": "2026-08-16"
+        },
+        {
+          "xp": 350,
+          "gold": 160,
+          "label": "Quarry Quarrel",
+          "timestamp": "2026-09-27"
         }
       ]
     },
     {
       "name": "Lucy Barber",
-      "xp": 1200,
-      "gold": 20,
+      "xp": 1605,
+      "gold": 40,
       "pathfinder_class": "Investigator",
       "history": [
         {
@@ -219,6 +139,62 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-08-23"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Writing Prompt",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 105,
+          "gold": 0,
+          "label": "Achievement Claims",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-28"
+        }
+      ]
+    },
+    {
+      "name": "\"Lenore\" Hazel",
+      "xp": 1580,
+      "gold": 46,
+      "pathfinder_class": "Oracle",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 1,
+          "label": "Starting Gold, plus 2 Silver",
+          "timestamp": "2026-09-21"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-21"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RP",
+          "timestamp": "2026-10-04"
+        },
+        {
+          "xp": 280,
+          "gold": 35,
+          "label": "Keep Raid!",
+          "timestamp": "2026-10-11"
         }
       ]
     }

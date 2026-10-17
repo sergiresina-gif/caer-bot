@@ -114,8 +114,8 @@
     },
     {
       "name": "Adelaide Merr",
-      "xp": 1620,
-      "gold": 54,
+      "xp": 2020,
+      "gold": 64,
       "pathfinder_class": "Wizard",
       "history": [
         {
@@ -171,13 +171,31 @@
           "gold": 10,
           "label": "Sidequest",
           "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-09-21"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "RPXP 30/09",
+          "timestamp": "2026-09-30"
         }
       ]
     },
     {
       "name": "Aina Meritxe-Thundermaw",
-      "xp": 2450,
-      "gold": 191,
+      "xp": 3100,
+      "gold": 243,
       "pathfinder_class": "Fighter",
       "history": [
         {
@@ -251,6 +269,42 @@
           "gold": 0,
           "label": "rpxp",
           "timestamp": "2026-09-14"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-09-16"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Sidequest",
+          "timestamp": "2026-09-19"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "RPXP",
+          "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 150,
+          "gold": 20,
+          "label": "AkuCrabGame",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 0,
+          "gold": -10,
+          "label": "Re-pull",
+          "timestamp": "2026-09-24"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish Level 5",
+          "timestamp": "2026-10-12"
         }
       ]
     },
@@ -259,6 +313,13 @@
       "xp": 1000,
       "gold": 0,
       "pathfinder_class": "Oracle",
+      "history": []
+    },
+    {
+      "name": "Kristina Mellhikov",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Bard",
       "history": []
     }
   ]

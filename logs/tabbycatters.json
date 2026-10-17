@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Keffa",
-      "xp": 4120,
-      "gold": 250,
+      "xp": 6200,
+      "gold": 83,
       "pathfinder_class": "Witchwarper",
       "history": [
         {
@@ -343,6 +343,162 @@
           "gold": 40,
           "label": "Writing Prompt",
           "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Roleplay EXP",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Writing Prompt",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Sidequest",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Skirmish Level 6",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 250,
+          "gold": 80,
+          "label": "GM Reward https://discord.com/channels/1510715535061684396/1535735670218166353/1552974012706197535",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 350,
+          "gold": 250,
+          "label": "GM Reward: https://discord.com/channels/1510715535061684396/1535735670218166353/1553152895430697093",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 420,
+          "gold": 250,
+          "label": "https://discord.com/channels/1510715535061684396/1510715538219728897/1553752821596164251 PBP Excursion: It's just a lil guy!",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 0,
+          "gold": -632,
+          "label": "https://discord.com/channels/1510715535061684396/1537328403655688223/1553780989774401578 Item Purchases",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 0,
+          "gold": -4,
+          "label": "Purchase - Leaf Weave",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 0,
+          "gold": -85,
+          "label": "Item Purchase",
+          "timestamp": "2026-09-30"
+        },
+        {
+          "xp": 0,
+          "gold": 100,
+          "label": "Upfront Bumblebee Destruction Fee",
+          "timestamp": "2026-10-02"
+        },
+        {
+          "xp": 100,
+          "gold": 60,
+          "label": "Skirmish Level 7",
+          "timestamp": "2026-10-02"
+        },
+        {
+          "xp": 0,
+          "gold": -272,
+          "label": "https://discord.com/channels/1510715535061684396/1537328403655688223/1555500879329763471 Item Purchase",
+          "timestamp": "2026-10-02"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "RP Exp",
+          "timestamp": "2026-10-04"
+        },
+        {
+          "xp": 0,
+          "gold": -6,
+          "label": "Item Purchase",
+          "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 100,
+          "gold": 60,
+          "label": "Sidequest",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 0,
+          "gold": 60,
+          "label": "https://discord.com/channels/1510715535061684396/1551772493289885716/1558635349306245173 Correction (Bot Bugged)",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 0,
+          "gold": 60,
+          "label": "see above (bot bug)",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 0,
+          "gold": -8,
+          "label": "https://discord.com/channels/1510715535061684396/1551772493289885716/1558636545882325004 belated item purchase logged",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Roleplay EXP",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-11"
         }
       ]
     },
@@ -470,8 +626,8 @@
     },
     {
       "name": "Yvuri",
-      "xp": 2106,
-      "gold": 26,
+      "xp": 3001,
+      "gold": 161,
       "pathfinder_class": "Rogue",
       "history": [
         {
@@ -557,13 +713,55 @@
           "gold": 20,
           "label": "https://discord.com/channels/1510715535061684396/1510715538219728897/1548137238561423454",
           "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 175,
+          "gold": 35,
+          "label": "GM Reward: Pleased to Eat You!",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Suggestions Used https://discord.com/channels/1510715535061684396/1553649387291410562/1555334948901232651",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 490,
+          "gold": 100,
+          "label": "https://discord.com/channels/1510715535061684396/1510715538219728897/1558121240101789697 Quest Reward",
+          "timestamp": "2026-10-09"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Writing Prompt",
+          "timestamp": "2026-10-09"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-09"
         }
       ]
     },
     {
       "name": "Zhato",
-      "xp": 1570,
-      "gold": 60,
+      "xp": 1750,
+      "gold": 70,
       "pathfinder_class": "Solarian",
       "history": [
         {
@@ -589,53 +787,31 @@
           "gold": 10,
           "label": "Writing Prompt",
           "timestamp": "2026-08-31"
-        }
-      ]
-    },
-    {
-      "name": "Tetrapteriel",
-      "xp": 1010,
-      "gold": 12,
-      "pathfinder_class": "Oracle",
-      "history": [
-        {
-          "xp": 0,
-          "gold": 12,
-          "label": "Leftover Starting Gold",
-          "timestamp": "2026-08-11"
         },
         {
           "xp": 10,
           "gold": 0,
-          "label": "Achievement: \"Curse of Cassandra\"",
-          "timestamp": "2026-08-13"
-        }
-      ]
-    },
-    {
-      "name": "Melve",
-      "xp": 1020,
-      "gold": 0,
-      "pathfinder_class": "Witch",
-      "history": [
-        {
-          "xp": 10,
-          "gold": 0,
-          "label": "Achievement: \"Toil and Trouble\"",
-          "timestamp": "2026-08-14"
+          "label": "QOTD",
+          "timestamp": "2026-09-20"
         },
         {
-          "xp": 10,
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 70,
           "gold": 0,
-          "label": "Achievement: \"Book Nerd\"",
-          "timestamp": "2026-08-14"
+          "label": "https://discord.com/channels/1510715535061684396/1551186861295411340/1559279467220967508 QotD Recaps + Weekly Bonus",
+          "timestamp": "2026-10-12"
         }
       ]
     },
     {
       "name": "Prissy",
-      "xp": 1035,
-      "gold": 0,
+      "xp": 2235,
+      "gold": 6,
       "pathfinder_class": "Exemplar",
       "history": [
         {
@@ -649,8 +825,141 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-08-25"
+        },
+        {
+          "xp": 550,
+          "gold": 100,
+          "label": "Reward: Goblin Outpost",
+          "timestamp": "2026-09-21"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "QotD Completion Bonus",
+          "timestamp": "2026-09-21"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RP Experience",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 0,
+          "gold": -24,
+          "label": "Item Purchase",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 320,
+          "gold": 60,
+          "label": "https://discord.com/channels/1510715535061684396/1510715538219728897/1555325410445623369 Excursion Reward",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 0,
+          "gold": -130,
+          "label": "https://discord.com/channels/1510715535061684396/1537328403655688223/1555328219098513574 Item Purchase",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "RP Exp",
+          "timestamp": "2026-10-04"
         }
       ]
+    },
+    {
+      "name": "Babbles",
+      "xp": 1065,
+      "gold": 0,
+      "pathfinder_class": "Witchwarper",
+      "history": [
+        {
+          "xp": 25,
+          "gold": 0,
+          "label": "Achievement: Death by a Thousand Cuts",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-20"
+        }
+      ]
+    },
+    {
+      "name": "Muyuu",
+      "xp": 1390,
+      "gold": 26,
+      "pathfinder_class": "Monk",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 6,
+          "label": "Leftover Starting Gold",
+          "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 290,
+          "gold": 20,
+          "label": "https://discord.com/channels/1510715535061684396/1510715538219728897/1556399988387352609",
+          "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "Tetrapteriel",
+      "xp": 1010,
+      "gold": 12,
+      "pathfinder_class": "Oracle",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 12,
+          "label": "Leftover Starting Gold",
+          "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Achievement: Curse of Cassandra",
+          "timestamp": "2026-10-05"
+        }
+      ]
+    },
+    {
+      "name": "Carlyle",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Necromancer",
+      "history": []
     }
   ]
 }

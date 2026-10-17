@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Dalea",
-      "xp": 1460,
-      "gold": 30,
+      "xp": 4185,
+      "gold": 95,
       "pathfinder_class": "Magus",
       "history": [
         {
@@ -91,6 +91,60 @@
           "gold": 0,
           "label": "fixing double-counted qotd",
           "timestamp": "2026-08-24"
+        },
+        {
+          "xp": 1600,
+          "gold": 150,
+          "label": "crimson lies",
+          "timestamp": "2026-09-18"
+        },
+        {
+          "xp": 150,
+          "gold": 50,
+          "label": "love is in the air",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish Level 5",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 0,
+          "gold": -210,
+          "label": "belt, gloves, mantle",
+          "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 175,
+          "gold": 50,
+          "label": "pleased to eat you",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-10-05"
         }
       ]
     },
@@ -170,8 +224,8 @@
     },
     {
       "name": "Zaida",
-      "xp": 1200,
-      "gold": 10,
+      "xp": 1300,
+      "gold": 36,
       "pathfinder_class": "cleric",
       "history": [
         {
@@ -185,6 +239,44 @@
           "gold": 0,
           "label": "QOTD (Whole Week)",
           "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-16"
+        },
+        {
+          "xp": 0,
+          "gold": 16,
+          "label": "starting gold",
+          "timestamp": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "name": "Liadren",
+      "xp": 4200,
+      "gold": 135,
+      "pathfinder_class": "Ranger",
+      "history": [
+        {
+          "xp": 3000,
+          "gold": 0,
+          "label": "getting her to level 6",
+          "timestamp": "2026-10-13"
+        },
+        {
+          "xp": 0,
+          "gold": 135,
+          "label": "135.9 gold from old server (rounding down idc)",
+          "timestamp": "2026-10-13"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-10-13"
         }
       ]
     }

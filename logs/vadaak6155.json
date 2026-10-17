@@ -4,10 +4,47 @@
   "characters": [
     {
       "name": "Vaelmora",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1570,
+      "gold": 110,
       "pathfinder_class": "Fighter",
-      "history": []
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-15"
+        },
+        {
+          "xp": 0,
+          "gold": 22,
+          "label": "leftover starting gold",
+          "timestamp": "2026-09-15"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Achievement",
+          "timestamp": "2026-09-15"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "QOTD Reward x3",
+          "timestamp": "2026-09-15"
+        },
+        {
+          "xp": 330,
+          "gold": 68,
+          "label": "Catching up on last week's earnings",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-23"
+        }
+      ]
     }
   ]
 }

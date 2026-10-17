@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Aelmoryn Drav Thyrsang",
-      "xp": 3960,
-      "gold": 32,
+      "xp": 5510,
+      "gold": 561,
       "pathfinder_class": "Necromancer",
       "history": [
         {
@@ -433,13 +433,115 @@
           "gold": -38,
           "label": "[crafting weekly moonweave](https://discord.com/channels/1510715535061684396/1521171327610785924/1546605102981185606)",
           "timestamp": "2026-09-10"
+        },
+        {
+          "xp": 1600,
+          "gold": 150,
+          "label": "[Swashing Nightingale](https://discord.com/channels/1510715535061684396/1510715538219728897/1549538629662281892)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 100,
+          "gold": 70,
+          "label": "[writing prompt](https://discord.com/channels/1510715535061684396/1549987300467806280)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 100,
+          "gold": 35,
+          "label": "[crafting weekly 9/13-9/19 staff upgrade crit](https://discord.com/channels/1510715535061684396/1521171327610785924/1551324960964739164)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 100,
+          "gold": 60,
+          "label": "[side quest](https://discord.com/channels/1510715535061684396/1510715536227696826/1546627119285796966)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 0,
+          "gold": -20,
+          "label": "gold correction",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 150,
+          "gold": 165,
+          "label": "[love Shepherd](https://discord.com/channels/1510715535061684396/1510715538219728897/1551306971846545480)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": -1000,
+          "gold": 0,
+          "label": "rework",
+          "timestamp": "2026-10-02"
+        },
+        {
+          "xp": 0,
+          "gold": -33,
+          "label": "osseous cage, rouse skeletons, infectious ennui, vomit swarm",
+          "timestamp": "2026-10-02"
+        },
+        {
+          "xp": 100,
+          "gold": 60,
+          "label": "[side quest](https://discord.com/channels/1510715535061684396/1520777223110398002/1552092916984324189)",
+          "timestamp": "2026-10-02"
+        },
+        {
+          "xp": 100,
+          "gold": 83,
+          "label": "[crafting profit weekly](https://discord.com/channels/1510715535061684396/1521171327610785924/1553214514604933213)",
+          "timestamp": "2026-10-02"
+        },
+        {
+          "xp": 100,
+          "gold": -105,
+          "label": "crafting weekly activity",
+          "timestamp": "2026-10-02"
+        },
+        {
+          "xp": 0,
+          "gold": -36,
+          "label": "vision of death",
+          "timestamp": "2026-10-02"
+        },
+        {
+          "xp": 100,
+          "gold": 60,
+          "label": "[side quest](https://discord.com/channels/1510715535061684396/1510715535846019156/1556764573158084800)",
+          "timestamp": "2026-10-08"
+        },
+        {
+          "xp": 100,
+          "gold": 60,
+          "label": "[writing prompt](https://discord.com/channels/1510715535061684396/1556499735945158707)",
+          "timestamp": "2026-10-08"
+        },
+        {
+          "xp": 0,
+          "gold": -21,
+          "label": "catalyst formulae purchases",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 0,
+          "gold": -12,
+          "label": "minor fearcracker batch 10/4-10/10",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 0,
+          "gold": 13,
+          "label": "commission adjustment correction minus formulae purchase cost",
+          "timestamp": "2026-10-11"
         }
       ]
     },
     {
       "name": "Meeka Selendlara",
-      "xp": 1200,
-      "gold": 26,
+      "xp": 2750,
+      "gold": 106,
       "pathfinder_class": "Animist",
       "history": [
         {
@@ -453,6 +555,114 @@
           "gold": 20,
           "label": "[Corpse Contagion](https://discord.com/channels/1510715535061684396/1510715538219728897/1540530859583471664)",
           "timestamp": "2026-08-25"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd](https://discord.com/channels/1510715535061684396/1510715536227696824/1549080458598416457)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd](https://discord.com/channels/1510715535061684396/1510715536227696824/1549442735214305441)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd](https://discord.com/channels/1510715535061684396/1510715536227696824/1549902284312547451)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd](https://discord.com/channels/1510715535061684396/1510715536227696824/1550142774798590048)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd](https://discord.com/channels/1510715535061684396/1510715536227696824/1550578416120762369)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd](https://discord.com/channels/1510715535061684396/1510715536227696824/1551014120013177014)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "[weekly](https://discord.com/channels/1510715535061684396/1510715535619395801/1548684683565334619)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "[weekly](https://discord.com/channels/1510715535061684396/1510715535619395801/1551233869876035585)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "[weekly](https://discord.com/channels/1510715535061684396/1510715535619395801/1553687681509363726)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd](https://discord.com/channels/1510715535061684396/1510715536227696824/1552344672884498474)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd](https://discord.com/channels/1510715535061684396/1510715536227696824/1552682291304734832)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd](https://discord.com/channels/1510715535061684396/1510715536227696824/1553436710929563701)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd](https://discord.com/channels/1510715535061684396/1510715536227696824/1553821258028941354)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "[qotd](https://discord.com/channels/1510715535061684396/1510715536227696824/1554182858590003353)",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "qotd full week bonus",
+          "timestamp": "2026-10-01"
+        },
+        {
+          "xp": 320,
+          "gold": 60,
+          "label": "[quest](https://discord.com/channels/1510715535061684396/1510715538219728897/1555325410445623369)",
+          "timestamp": "2026-10-04"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "[weekly](https://discord.com/channels/1510715535061684396/1510715535619395801/1556154763127816195)",
+          "timestamp": "2026-10-04"
+        },
+        {
+          "xp": 290,
+          "gold": 20,
+          "label": "[quest](https://discord.com/channels/1510715535061684396/1510715538219728897/1556399988387352609)",
+          "timestamp": "2026-10-05"
         }
       ]
     }

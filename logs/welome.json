@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Rosalinde",
-      "xp": 7000,
+      "xp": 7100,
       "gold": 50,
       "pathfinder_class": "Fighter",
       "history": [
@@ -13,12 +13,18 @@
           "gold": 50,
           "label": "Import",
           "timestamp": "2026-08-25"
+        },
+        {
+          "xp": 100,
+          "gold": 115,
+          "label": "Writing Prompt",
+          "timestamp": "2026-10-05"
         }
       ]
     },
     {
       "name": "Benzo",
-      "xp": 1325,
+      "xp": 1345,
       "gold": 20,
       "pathfinder_class": "Barbarian",
       "history": [
@@ -27,6 +33,18 @@
           "gold": 20,
           "label": "Quest - Let's Get Lit!",
           "timestamp": "2026-08-19"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-17"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-20"
         }
       ]
     },
@@ -46,8 +64,8 @@
     },
     {
       "name": "Ta\u00efsia",
-      "xp": 1200,
-      "gold": 33,
+      "xp": 3490,
+      "gold": 283,
       "pathfinder_class": "Sorcerer",
       "history": [
         {
@@ -85,6 +103,24 @@
           "gold": 0,
           "label": "Weekly XP",
           "timestamp": "2026-09-13"
+        },
+        {
+          "xp": 1600,
+          "gold": 150,
+          "label": "Crimson Lies Voyage",
+          "timestamp": "2026-09-16"
+        },
+        {
+          "xp": 490,
+          "gold": 100,
+          "label": "Sabotage Demonic Farce",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RP Rewards",
+          "timestamp": "2026-10-11"
         }
       ]
     },
@@ -94,6 +130,38 @@
       "gold": 0,
       "pathfinder_class": "Psychic",
       "history": []
+    },
+    {
+      "name": "Pang-Tali",
+      "xp": 1120,
+      "gold": 78,
+      "pathfinder_class": "Necromancer",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-09-18"
+        },
+        {
+          "xp": 0,
+          "gold": 68,
+          "label": "Leftover Gold Char Creation",
+          "timestamp": "2026-09-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-19"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-24"
+        }
+      ]
     }
   ]
 }

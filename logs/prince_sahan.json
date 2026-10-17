@@ -1,0 +1,13 @@
+{
+  "user_name": null,
+  "user_pfp": null,
+  "characters": [
+    {
+      "name": "Gaijing (\u6539\u7d93)",
+      "xp": 1000,
+      "gold": 0,
+      "pathfinder_class": "Monk",
+      "history": []
+    }
+  ]
+}

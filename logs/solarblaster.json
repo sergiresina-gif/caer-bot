@@ -24,8 +24,8 @@
     },
     {
       "name": "Sidevere",
-      "xp": 3370,
-      "gold": 267,
+      "xp": 4100,
+      "gold": 442,
       "pathfinder_class": "Guardian",
       "history": [
         {
@@ -123,6 +123,30 @@
           "gold": -30,
           "label": "Pre-PBP Purchases",
           "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 420,
+          "gold": 250,
+          "label": "It\u2019s just a Lil\u2019 Guy (Part 1)",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 210,
+          "gold": 0,
+          "label": "RPXP found in the couch",
+          "timestamp": "2026-10-02"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Skirmish Level 6",
+          "timestamp": "2026-10-02"
+        },
+        {
+          "xp": 0,
+          "gold": -115,
+          "label": "PbP Parachute expenses",
+          "timestamp": "2026-10-03"
         }
       ]
     },

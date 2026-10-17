@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Kham Aekhvongsa",
-      "xp": 2230,
-      "gold": 165,
+      "xp": 4610,
+      "gold": 150,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -139,13 +139,73 @@
           "gold": 0,
           "label": "Weekly RP",
           "timestamp": "2026-09-07"
+        },
+        {
+          "xp": 1600,
+          "gold": 50,
+          "label": "Big PBP by vicky",
+          "timestamp": "2026-09-16"
+        },
+        {
+          "xp": 0,
+          "gold": -100,
+          "label": "Gold Correction",
+          "timestamp": "2026-09-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-19"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly",
+          "timestamp": "2026-09-21"
+        },
+        {
+          "xp": 260,
+          "gold": 35,
+          "label": "the G in GM stands for Grandpa",
+          "timestamp": "2026-09-23"
+        },
+        {
+          "xp": 0,
+          "gold": -80,
+          "label": "New Sword",
+          "timestamp": "2026-09-24"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Side",
+          "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Week",
+          "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Skirmish Level 6",
+          "timestamp": "2026-10-12"
         }
       ]
     },
     {
       "name": "Bellamy Drake Flamestorm",
-      "xp": 3290,
-      "gold": 11,
+      "xp": 3730,
+      "gold": 261,
       "pathfinder_class": "Rogue",
       "history": [
         {
@@ -219,13 +279,31 @@
           "gold": -60,
           "label": "Jolt Coil",
           "timestamp": "2026-09-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-21"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-22"
+        },
+        {
+          "xp": 420,
+          "gold": 250,
+          "label": "Little Guy",
+          "timestamp": "2026-09-27"
         }
       ]
     },
     {
       "name": "First to Ten",
-      "xp": 3495,
-      "gold": 228,
+      "xp": 3810,
+      "gold": 303,
       "pathfinder_class": "Oracle",
       "history": [
         {
@@ -431,12 +509,54 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-09-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-24"
+        },
+        {
+          "xp": 175,
+          "gold": 50,
+          "label": "Pleased to Eat You!",
+          "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Sidequest",
+          "timestamp": "2026-09-28"
+        },
+        {
+          "xp": 0,
+          "gold": 25,
+          "label": "SQ",
+          "timestamp": "2026-09-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-05"
         }
       ]
     },
     {
       "name": "Zujangbe",
-      "xp": 1110,
+      "xp": 1120,
       "gold": 10,
       "pathfinder_class": "Necromancer",
       "history": [
@@ -451,6 +571,12 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-09-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-09-27"
         }
       ]
     }
