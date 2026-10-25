@@ -69,6 +69,19 @@ def load_user_logs(user_id: int) -> list:
 
 def save_user_logs(user_name: str, logs: list) -> None:
     data = load_user_data(user_name)
+    for character_1 in logs:
+        for character_2 in data.characters:
+            if character_1.name == character_2.name:
+                if character_2.xp < 1000:
+                    level_2 = character_2.xp // 500 + 1
+                else:
+                    level_2 = character_2.xp // 1000 + 2
+                if character_1.xp < 1000:
+                    level_1 = character_1.xp // 500 + 1
+                else:
+                    level_1 = character_1.xp // 1000 + 2
+                if level_1 > level_2:
+                    print(f"Character {character_1.name} leveled up from level {level_2} to level {level_1}!")
     data.characters = logs
     save_user_data(user_name, data)
 
