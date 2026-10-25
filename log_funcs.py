@@ -118,4 +118,4 @@ async def level_up_message(interaction: discord.Interaction, user_name: str, log
                 else:
                     level_1 = character_1.xp // 1000 + 2
                 if level_1 > level_2:
-                    await interaction.send_message(f"Woooo!")
+                    await interaction.response.send_message(f"Woooo!")
