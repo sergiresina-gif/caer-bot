@@ -68,6 +68,7 @@ def setup(bot: discord.Client, guild_id: int):
                 gold_gain = skirmishes[level - 1]["gold"]
                 character.add_xp_gold(xp_gain, gold_gain)
                 await write_activity(character, name, xp_gain, gold_gain, f"Skirmish Level {level}", datetime.now().date().isoformat())
+                await level_up_message(interaction, user.name, logs)
                 save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"Skirmish logged for '{name}'!", ephemeral=True)
                 return
@@ -85,6 +86,7 @@ def setup(bot: discord.Client, guild_id: int):
                 if character.name == name:
                     character.add_xp_gold(100, 0)
                     await write_activity(character, name, 100, 0, "QOTD (Whole Week)", datetime.now().date().isoformat())
+                    await level_up_message(interaction, user.name, logs)
                     save_user_logs(user.name, logs)
                     await interaction.response.send_message(f"QOTD for the whole week logged for '{name}'!", ephemeral=True)
                     return
@@ -93,6 +95,7 @@ def setup(bot: discord.Client, guild_id: int):
             if character.name == name:
                 character.add_xp_gold(10, 0)
                 await write_activity(character, name, 10, 0, "QOTD", datetime.now().date().isoformat())
+                await level_up_message(interaction, user.name, logs)
                 save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"QOTD logged for '{name}'!", ephemeral=True)
                 return
@@ -141,6 +144,7 @@ def setup(bot: discord.Client, guild_id: int):
 
                 
                 await write_activity(character, name, 100, skirmishes[level-1]["gold"], "Sidequest", datetime.now().date().isoformat())
+                await level_up_message(interaction, user.name, logs)
                 save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"Activity logged for '{name}'!", ephemeral=True)
                 return
@@ -171,6 +175,7 @@ def setup(bot: discord.Client, guild_id: int):
 
                 print(level)
                 await write_activity(character, name, 100, skirmishes[level-1]["gold"], "Writing Prompt", datetime.now().date().isoformat())
+                await level_up_message(interaction, user.name, logs)
                 save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"Activity logged for '{name}'!", ephemeral=True)
                 return
