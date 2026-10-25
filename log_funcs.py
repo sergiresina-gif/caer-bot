@@ -103,3 +103,19 @@ async def award_xp_and_gold(character_name: str, xp: int, gold: float, reason: s
             save_user_logs(owner, logs)
     user = await bot.fetch_user(owner)
     await user.send(f"Your character {character_name} has been awarded {xp} XP and {gold} Gold from [{reason}]")
+
+async def level_up_message(interaction: discord.Interaction, user_name: str, logs: list):
+    data = load_user_data(user_name)
+    for character_1 in logs:
+        for character_2 in data.characters:
+            if character_1.name == character_2.name:
+                if character_2.xp < 1000:
+                    level_2 = character_2.xp // 500 + 1
+                else:
+                    level_2 = character_2.xp // 1000 + 2
+                if character_1.xp < 1000:
+                    level_1 = character_1.xp // 500 + 1
+                else:
+                    level_1 = character_1.xp // 1000 + 2
+                if level_1 > level_2:
+                    await interaction.send_message(f"Woooo!")

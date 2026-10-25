@@ -42,6 +42,7 @@ def setup(bot: discord.Client, guild_id: int):
             if character.name == name:
                 character.add_xp_gold(xp, gold)
                 await write_activity(character, name, xp, gold, label, datetime.now().date().isoformat())
+                await level_up_message(interaction, user.name, logs)
                 save_user_logs(user.name, logs)
                 await interaction.response.send_message(f"Activity logged for '{name}'!", ephemeral=True)
                 return
