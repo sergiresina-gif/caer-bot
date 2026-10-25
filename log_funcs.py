@@ -118,4 +118,4 @@ async def level_up_message(interaction: discord.Interaction, user_name: str, log
                 else:
                     level_1 = character_1.xp // 1000 + 2
                 if level_1 > level_2:
-                    await interaction.channel.send_message(f"Congrats! {character_1.name} leveled up to level {level_1}!", files=[discord.File("quests/rgb-bunny.gif")])
+                    await interaction.channel.send(content=f"Congrats! {character_1.name} leveled up to level {level_1}!", files=[discord.File("quests/rgb-bunny.gif")])
