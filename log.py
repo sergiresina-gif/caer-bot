@@ -154,7 +154,12 @@ def setup(bot: discord.Client, guild_id: int):
 
         for character in logs:
             if character.name == name:
-                character.award_xp_and_gold(100, 0)
+                if character.xp < 1000:
+                    level = character.xp // 500 + 1
+                else:
+                    level = character.xp // 1000 + 2
+                gold_gain = skirmishes[level - 1]["gold"]
+                character.add_xp_gold(100, gold_gain)
 
                 #find the char level
 
