@@ -3,10 +3,10 @@ from bot_instance import bot
 import discord
 import json
 import os
-from models import User, Character
+from models import *
 
 async def send_it_to_victoria(content: str) -> None:
-    victoria_id = int(os.getenv("VICTORIA_ID"))  # Replace with Victoria's actual Discord user ID
+    victoria_id = int(os.getenv("VICTORIA_ID"))
     victoria = await bot.fetch_user(victoria_id)
     if victoria:
         dm_channel = await victoria.create_dm()

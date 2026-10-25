@@ -3,7 +3,7 @@ import discord
 from log_funcs import *
 from pageview import CharacterPaginationView
 from autocompletes import name_autocomplete, true_false_autocomplete, levels_autocomplete
-from models import Character
+from models import *
 
 ENTRIES_PER_PAGE = 10
 
@@ -148,6 +148,7 @@ def setup(bot: discord.Client, guild_id: int):
     bot.tree.add_command(character_group, guild=discord.Object(id=guild_id))
 
     @bot.tree.command(name="cs", guild=discord.Object(id=guild_id), description="Shorthand for /character show")
+    @discord.app_commands.autocomplete(name=name_autocomplete, activity_log=true_false_autocomplete)
     async def cs(interaction: discord.Interaction, name: str = None, activity_log: str = "False"):
         await helper_show(interaction, name, activity_log)
         
