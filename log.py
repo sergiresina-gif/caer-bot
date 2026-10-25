@@ -3,6 +3,8 @@ import discord
 from datetime import datetime
 from log_funcs import *
 from autocompletes import name_autocomplete
+from models import *
+
 
 skirmishes = [
     {"xp": 100, "gold": 5}, # Level 1
@@ -149,7 +151,7 @@ def setup(bot: discord.Client, guild_id: int):
 
         for character in logs:
             if character.name == name:
-                character.add_xp_gold(100, 0)
+                character.award_xp_and_gold(100, 0)
 
                 #find the char level
 
