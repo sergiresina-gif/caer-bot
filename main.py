@@ -28,6 +28,7 @@ import log
 import qotd
 import quests.quests as quests
 import onMessage
+import other
 
 charater.setup(bot, GUILD_ID)
 log.setup(bot, GUILD_ID)
@@ -35,6 +36,7 @@ qotd.setup(bot, GUILD_ID, CHANNEL_ID_SUG, CHANNEL_ID_QOTD, TARGET_EMOTE, TARGET_
 quests.setup(bot, GUILD_ID)
 onMessage.setup(bot, GUILD_ID)
 stats.setup(bot, GUILD_ID)
+other.setup(bot, GUILD_ID)
 
 bot.run(TOKEN)
 
