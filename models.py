@@ -6,7 +6,7 @@ from datetime import datetime
 @dataclass
 class Activity:
     xp: int
-    gold: int
+    gold: float
     label: str
     timestamp: str
 
@@ -22,7 +22,7 @@ class Activity:
 class Character:
     name: str
     xp: int = 0
-    gold: int = 0
+    gold: float = 0.0
     pathfinder_class: Optional[str] = None
     history: List[Activity] = field(default_factory=list)
 
@@ -45,11 +45,11 @@ class Character:
             history=[Activity.from_dict(a) for a in d.get("history", [])],
         )
 
-    def add_xp_gold(self, xp: int, gold: int) -> None:
+    def add_xp_gold(self, xp: int, gold: float) -> None:
         self.xp += xp
         self.gold += gold
 
-    def add_activity(self, xp: int, gold: int, label: str, timestamp: str) -> None:
+    def add_activity(self, xp: int, gold: float, label: str, timestamp: str) -> None:
         self.history.append(Activity(xp, gold, label, timestamp))
 
 

@@ -35,7 +35,7 @@ async def loot_builder(loot_data, message: discord.Message) -> str:
             idx = i - 1
             char_name = loot_data.characters[idx]
             if char_name:
-                await award_xp_and_gold(char_name, int(loot_data.xp), int(loot_data.gold), f"Quest: {loot_data.title}")
+                await award_xp_and_gold(char_name, int(loot_data.xp), float(loot_data.gold), f"Quest: {loot_data.title}")
         del loot_log[message.author.id]
     else:
         next_question = loot_questions[loot_data.step]
@@ -56,6 +56,5 @@ def setup(bot: discord.Client, guild_id: int):
                 
                 
                 
-
 
 

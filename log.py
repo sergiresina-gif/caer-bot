@@ -34,7 +34,7 @@ def setup(bot: discord.Client, guild_id: int):
 
     @log_group.command(name="manual", description="Log an xp and gold manually.")
     @discord.app_commands.autocomplete(name=name_autocomplete)
-    async def manual(interaction: discord.Interaction, name: str, xp: int, gold: int, label: str):
+    async def manual(interaction: discord.Interaction, name: str, xp: int, gold: float, label: str):
         user = interaction.user
         logs = load_user_logs(user.name)
 

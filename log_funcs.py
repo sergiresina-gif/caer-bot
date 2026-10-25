@@ -73,14 +73,14 @@ def save_user_logs(user_name: str, logs: list) -> None:
     save_user_data(user_name, data)
 
 
-async def write_activity(character: Character, name: str, xp: int, gold: int, label: str, timestamp: str) -> bool:
+async def write_activity(character: Character, name: str, xp: int, gold: float, label: str, timestamp: str) -> bool:
     character.add_activity(xp, gold, label, timestamp)
     print(f"Logged activity for character '{name}': +{xp} XP, +{gold} Gold, Label: {label}, Timestamp: {timestamp}")
     await send_it_to_victoria(f"Logged activity for character '{name}': +{xp} XP, +{gold} Gold, Label: {label}, Timestamp: {timestamp}")
     return True
 
 
-async def award_xp_and_gold(character_name: str, xp: int, gold: int, reason: str) -> None:
+async def award_xp_and_gold(character_name: str, xp: int, gold: float, reason: str) -> None:
     owner = await find_author_by_character(character_name)
     logs = load_user_logs(owner)
     for character in logs:
