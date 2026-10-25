@@ -114,8 +114,8 @@
     },
     {
       "name": "Adelaide Merr",
-      "xp": 2020,
-      "gold": 64,
+      "xp": 3070,
+      "gold": 224,
       "pathfinder_class": "Wizard",
       "history": [
         {
@@ -189,13 +189,31 @@
           "gold": 0,
           "label": "RPXP 30/09",
           "timestamp": "2026-09-30"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Sidequest",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 400,
+          "gold": 0,
+          "label": "last two rpxp",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 550,
+          "gold": 160,
+          "label": "GMXP",
+          "timestamp": "2026-10-20"
         }
       ]
     },
     {
       "name": "Aina Meritxe-Thundermaw",
-      "xp": 3100,
-      "gold": 243,
+      "xp": 3200,
+      "gold": 268,
       "pathfinder_class": "Fighter",
       "history": [
         {
@@ -305,21 +323,20 @@
           "gold": 25,
           "label": "Skirmish Level 5",
           "timestamp": "2026-10-12"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish Level 5",
+          "timestamp": "2026-10-23"
         }
       ]
     },
     {
-      "name": "Echebaria",
+      "name": "Sirce",
       "xp": 1000,
       "gold": 0,
-      "pathfinder_class": "Oracle",
-      "history": []
-    },
-    {
-      "name": "Kristina Mellhikov",
-      "xp": 1000,
-      "gold": 0,
-      "pathfinder_class": "Bard",
+      "pathfinder_class": "Champion",
       "history": []
     }
   ]

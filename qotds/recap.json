@@ -1,33 +1,54 @@
 {
-  "index": 66,
+  "index": 73,
   "last_seven": [
     {
-      "content": "Your character is a protagonist in a book you\u2019re authoring. Name that book.",
-      "author": "mrdyenamite",
-      "datestamp": "2026-08-06T12:12:08.020434+00:00",
+      "content": "GASP! Your character is now a small animal! How cute! Which creature that fits the [Pet] feat would they be?",
+      "author": "thearchitectoffate",
+      "datestamp": "2026-09-08T14:12:44.999856+00:00",
       "times-asked": 1,
-      "author-id": 363431378597052427
+      "author-id": 193537246836686858
     },
     {
-      "content": "There is a cat stuck in a relatively tall tree. You're tasked with rescuing it. What's your approach?",
+      "content": "You must now add one of the following anime protagonist accessories to your character's design. Which do you pick, and how do you style it into your current look?\n- Goggles\n- Red Scarf\n- Ten Belts",
+      "author": "akuakumatatata",
+      "datestamp": "2026-10-12T21:59:30.255861+00:00",
+      "times-asked": 1,
+      "author-id": 307300407061774337
+    },
+    {
+      "content": "What's your character's favorite food?",
+      "author": "errantsparks",
+      "datestamp": "2026-08-11T22:28:31.530325+00:00",
+      "times-asked": 1,
+      "author-id": 129711897950945281
+    },
+    {
+      "content": "<@&1510715535116206298> Tell me a useless fact about yourself. It must be unimportant. IC or OOC",
+      "author": "Divine Wordkeeper#0000",
+      "datestamp": "2026-10-22T22:51:46.744760+00:00",
+      "times-asked": 0,
+      "author-id": 1518879132589752392
+    },
+    {
+      "content": "How crazy is your character on a scale from 1 to 10?",
       "author": "songfireice",
-      "datestamp": "2026-08-11T22:28:33.989713+00:00",
+      "datestamp": "2026-08-11T22:28:24.259375+00:00",
       "times-asked": 1,
       "author-id": 209293179499839488
     },
     {
-      "content": "What do you consider a backstory is?",
-      "author": "mrdyenamite",
-      "datestamp": "2026-09-30T16:05:12.198800+00:00",
+      "content": "What is your character most afraid of?",
+      "author": "enzayne",
+      "datestamp": "2026-08-12T12:54:08.941103+00:00",
       "times-asked": 1,
-      "author-id": 363431378597052427
+      "author-id": 230624349160210432
     },
     {
-      "content": "Pick someone else\u2019s character to be your character\u2019s archenemy!",
-      "author": "tabbycatters",
-      "datestamp": "2026-10-14T18:43:54.291330+00:00",
+      "content": "What color is the dress?",
+      "author": "szalhi",
+      "datestamp": "2026-08-25T14:21:30.381124+00:00",
       "times-asked": 1,
-      "author-id": 129711897950945281
+      "author-id": 180638457826246659
     }
   ]
 }

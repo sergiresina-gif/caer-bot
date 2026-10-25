@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Lady Aurelia de Carensale",
-      "xp": 3500,
+      "xp": 3600,
       "gold": 70,
       "pathfinder_class": "Commander",
       "history": [
@@ -355,6 +355,12 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-10-12"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "weekly rp",
+          "timestamp": "2026-10-18"
         }
       ]
     },

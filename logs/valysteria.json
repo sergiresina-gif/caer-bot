@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Etch",
-      "xp": 2350,
-      "gold": 11,
+      "xp": 2800,
+      "gold": 58,
       "pathfinder_class": "Magus",
       "history": [
         {
@@ -121,6 +121,54 @@
           "gold": 0,
           "label": "RP (x2)",
           "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "Whole Week Bonus",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "RP (x1)",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 180,
+          "gold": 30,
+          "label": "Live Excursion",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-21"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-22"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-23"
         }
       ]
     },

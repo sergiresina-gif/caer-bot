@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Talon",
-      "xp": 4000,
+      "xp": 4010,
       "gold": 97,
       "pathfinder_class": "Ranger",
       "history": [
@@ -265,6 +265,12 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-10-14"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-21"
         }
       ]
     },
@@ -538,8 +544,8 @@
     },
     {
       "name": "Magnis Valdis",
-      "xp": 2030,
-      "gold": 63,
+      "xp": 2210,
+      "gold": 93,
       "pathfinder_class": "Summoner",
       "history": [
         {
@@ -691,13 +697,19 @@
           "gold": 0,
           "label": "weekly",
           "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 180,
+          "gold": 30,
+          "label": "actual quest",
+          "timestamp": "2026-10-20"
         }
       ]
     },
     {
       "name": "Orethyia",
-      "xp": 1530,
-      "gold": 45,
+      "xp": 1915,
+      "gold": 145,
       "pathfinder_class": "Druid",
       "history": [
         {
@@ -717,6 +729,24 @@
           "gold": 20,
           "label": "quesy",
           "timestamp": "2026-09-09"
+        },
+        {
+          "xp": 180,
+          "gold": 30,
+          "label": "quet",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": -180,
+          "gold": -30,
+          "label": "i fucked up",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 385,
+          "gold": 100,
+          "label": "namo quest",
+          "timestamp": "2026-10-22"
         }
       ]
     },
@@ -850,8 +880,8 @@
     },
     {
       "name": "Sarenith",
-      "xp": 1520,
-      "gold": 20,
+      "xp": 2020,
+      "gold": 32,
       "pathfinder_class": "Champion",
       "history": [
         {
@@ -889,6 +919,110 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-10-16"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "qotds",
+          "timestamp": "2026-10-17"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 230,
+          "gold": 0,
+          "label": "I forgot weekly and all week",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": -200,
+          "gold": 0,
+          "label": "wait no matter i did I think idk",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "sidequest",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 0,
+          "gold": 2,
+          "label": "starting gold",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-23"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-24"
+        }
+      ]
+    },
+    {
+      "name": "Navalha",
+      "xp": 1110,
+      "gold": 12,
+      "pathfinder_class": "Soldier",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "writting",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 0,
+          "gold": 22,
+          "label": "starting gold",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 0,
+          "gold": -18,
+          "label": "messed up",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 0,
+          "gold": -2,
+          "label": "0",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-22"
         }
       ]
     }

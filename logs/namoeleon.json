@@ -32,8 +32,8 @@
     },
     {
       "name": "Ulrika",
-      "xp": 4190,
-      "gold": 472,
+      "xp": 5115,
+      "gold": 692,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -149,6 +149,42 @@
           "gold": 160,
           "label": "Fish Out Of Water GMXP",
           "timestamp": "2026-09-25"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly Reset",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 0,
+          "gold": -150,
+          "label": "Buying Potions",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 385,
+          "gold": 250,
+          "label": "The Revenge Of Lady Vandrean",
+          "timestamp": "2026-10-22"
+        },
+        {
+          "xp": 40,
+          "gold": 0,
+          "label": "QOTD Backlog",
+          "timestamp": "2026-10-22"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Side Quest",
+          "timestamp": "2026-10-22"
+        },
+        {
+          "xp": 200,
+          "gold": 80,
+          "label": "Challenge From The Badlands",
+          "timestamp": "2026-10-23"
         }
       ]
     },
@@ -174,8 +210,8 @@
     },
     {
       "name": "Kaspar Narikopolus",
-      "xp": 2580,
-      "gold": 132,
+      "xp": 2760,
+      "gold": 162,
       "pathfinder_class": "Operative",
       "history": [
         {
@@ -231,6 +267,12 @@
           "gold": 0,
           "label": "Weekly Reset",
           "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 180,
+          "gold": 30,
+          "label": "Coordinated Attack",
+          "timestamp": "2026-10-20"
         }
       ]
     }

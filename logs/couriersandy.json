@@ -382,8 +382,8 @@
     },
     {
       "name": "Rosedawn Morritiz",
-      "xp": 2720,
-      "gold": 192,
+      "xp": 3220,
+      "gold": 227,
       "pathfinder_class": "Rogue",
       "history": [
         {
@@ -439,20 +439,51 @@
           "gold": 17,
           "label": "Sidequest",
           "timestamp": "2026-10-15"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "RP XP",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 200,
+          "gold": 35,
+          "label": "Challenge From The Badlands",
+          "timestamp": "2026-10-23"
         }
       ]
     },
     {
       "name": "Briar Sweetes",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1770,
+      "gold": 200,
       "pathfinder_class": "Magus",
-      "history": []
+      "history": [
+        {
+          "xp": 385,
+          "gold": 100,
+          "label": "The Revenge Of Lady Vandrean",
+          "timestamp": "2026-10-22"
+        },
+        {
+          "xp": 385,
+          "gold": 100,
+          "label": "The Revenge Of Lady Vandrean",
+          "timestamp": "2026-10-22"
+        }
+      ]
     },
     {
       "name": "Lady Tamsyn Ennes",
-      "xp": 1300,
-      "gold": 10,
+      "xp": 1870,
+      "gold": 65,
       "pathfinder_class": "Champion",
       "history": [
         {
@@ -466,6 +497,30 @@
           "gold": 10,
           "label": "Skirmish Level 3",
           "timestamp": "2026-10-08"
+        },
+        {
+          "xp": 370,
+          "gold": 35,
+          "label": "The Unbeelievable Opening Act!",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Sidequest",
+          "timestamp": "2026-10-21"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Writing Prompt",
+          "timestamp": "2026-10-21"
+        },
+        {
+          "xp": 0,
+          "gold": 20,
+          "label": "Manual fix",
+          "timestamp": "2026-10-21"
         }
       ]
     }

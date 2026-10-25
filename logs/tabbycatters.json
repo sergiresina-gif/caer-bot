@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Keffa",
-      "xp": 6200,
-      "gold": 83,
+      "xp": 6560,
+      "gold": 148,
       "pathfinder_class": "Witchwarper",
       "history": [
         {
@@ -499,6 +499,78 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 100,
+          "gold": 82,
+          "label": "Sidequest",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 100,
+          "gold": 82,
+          "label": "Writing Prompt",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 0,
+          "gold": 82,
+          "label": "Bot failed to log writing prompt gold",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 0,
+          "gold": -14,
+          "label": "https://discord.com/channels/1510715535061684396/1537328403655688223/1562038834504540245",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 0,
+          "gold": -85,
+          "label": "https://discord.com/channels/1510715535061684396/1537328403655688223/1562043077001216032",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 100,
+          "gold": 82,
+          "label": "Skirmish Level 8",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-21"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd Suggestion https://discord.com/channels/1510715535061684396/1510715536227696824/1562459727718514699",
+          "timestamp": "2026-10-21"
         }
       ]
     },
@@ -760,8 +832,8 @@
     },
     {
       "name": "Zhato",
-      "xp": 1750,
-      "gold": 70,
+      "xp": 2200,
+      "gold": 55,
       "pathfinder_class": "Solarian",
       "history": [
         {
@@ -805,12 +877,48 @@
           "gold": 0,
           "label": "https://discord.com/channels/1510715535061684396/1551186861295411340/1559279467220967508 QotD Recaps + Weekly Bonus",
           "timestamp": "2026-10-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "QotD Weekly Bonus",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Roleplay EXP",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 0,
+          "gold": -50,
+          "label": "https://discord.com/channels/1510715535061684396/1537328403655688223/1562949893763629191",
+          "timestamp": "2026-10-23"
+        },
+        {
+          "xp": 200,
+          "gold": 35,
+          "label": "https://discord.com/channels/1510715535061684396/1510715538219728897/1563048028682854421",
+          "timestamp": "2026-10-25"
         }
       ]
     },
     {
       "name": "Prissy",
-      "xp": 2235,
+      "xp": 2245,
       "gold": 6,
       "pathfinder_class": "Exemplar",
       "history": [
@@ -867,6 +975,12 @@
           "gold": 0,
           "label": "RP Exp",
           "timestamp": "2026-10-04"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-18"
         }
       ]
     },
@@ -910,7 +1024,7 @@
     },
     {
       "name": "Muyuu",
-      "xp": 1390,
+      "xp": 1400,
       "gold": 26,
       "pathfinder_class": "Monk",
       "history": [
@@ -931,6 +1045,12 @@
           "gold": 0,
           "label": "QOTD (Whole Week)",
           "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-18"
         }
       ]
     },

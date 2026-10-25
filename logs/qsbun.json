@@ -140,8 +140,8 @@
     },
     {
       "name": "Driari",
-      "xp": 2375,
-      "gold": 109,
+      "xp": 2755,
+      "gold": 161,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -215,6 +215,18 @@
           "gold": 0,
           "label": "Qotd 55-61",
           "timestamp": "2026-10-15"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-10-24"
+        },
+        {
+          "xp": 280,
+          "gold": 35,
+          "label": "Job Keep Raid!",
+          "timestamp": "2026-10-24"
         }
       ]
     }

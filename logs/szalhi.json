@@ -460,8 +460,8 @@
     },
     {
       "name": "Momoka",
-      "xp": 2000,
-      "gold": 70,
+      "xp": 2100,
+      "gold": 87,
       "pathfinder_class": "Necromancer",
       "history": [
         {
@@ -541,6 +541,12 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-10-12"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-10-18"
         }
       ]
     }

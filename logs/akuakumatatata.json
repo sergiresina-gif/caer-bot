@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Kham Aekhvongsa",
-      "xp": 4610,
+      "xp": 4620,
       "gold": 150,
       "pathfinder_class": "Barbarian",
       "history": [
@@ -199,6 +199,12 @@
           "gold": 40,
           "label": "Skirmish Level 6",
           "timestamp": "2026-10-12"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-18"
         }
       ]
     },
@@ -302,8 +308,8 @@
     },
     {
       "name": "First to Ten",
-      "xp": 3810,
-      "gold": 303,
+      "xp": 4020,
+      "gold": 338,
       "pathfinder_class": "Oracle",
       "history": [
         {
@@ -551,6 +557,18 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-22"
+        },
+        {
+          "xp": 200,
+          "gold": 35,
+          "label": "Badlands",
+          "timestamp": "2026-10-23"
         }
       ]
     },

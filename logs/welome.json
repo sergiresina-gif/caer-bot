@@ -24,7 +24,7 @@
     },
     {
       "name": "Benzo",
-      "xp": 1345,
+      "xp": 1355,
       "gold": 20,
       "pathfinder_class": "Barbarian",
       "history": [
@@ -45,6 +45,12 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-09-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-23"
         }
       ]
     },
@@ -64,7 +70,7 @@
     },
     {
       "name": "Ta\u00efsia",
-      "xp": 3490,
+      "xp": 3500,
       "gold": 283,
       "pathfinder_class": "Sorcerer",
       "history": [
@@ -121,6 +127,12 @@
           "gold": 0,
           "label": "Weekly RP Rewards",
           "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-22"
         }
       ]
     },
@@ -160,6 +172,20 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-09-24"
+        }
+      ]
+    },
+    {
+      "name": "Leetha Tap Pr\u00e8v",
+      "xp": 1000,
+      "gold": 38,
+      "pathfinder_class": "Investigator",
+      "history": [
+        {
+          "xp": 0,
+          "gold": 38,
+          "label": "Leftover Gold on creation",
+          "timestamp": "2026-10-20"
         }
       ]
     }

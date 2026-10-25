@@ -128,10 +128,47 @@
     },
     {
       "name": "Herea Sangre",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 2876,
+      "gold": 109,
       "pathfinder_class": "Exemplar",
-      "history": []
+      "history": [
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 558,
+          "gold": 35,
+          "label": "Adventure and Weekly",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 1188,
+          "gold": 74,
+          "label": "Corrections",
+          "timestamp": "2026-10-22"
+        }
+      ]
     }
   ]
 }

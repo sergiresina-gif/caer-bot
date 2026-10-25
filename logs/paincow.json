@@ -267,10 +267,23 @@
     },
     {
       "name": "Memilse Vem",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1590,
+      "gold": 70,
       "pathfinder_class": "Investigator",
-      "history": []
+      "history": [
+        {
+          "xp": 370,
+          "gold": 35,
+          "label": "quest",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 220,
+          "gold": 35,
+          "label": "quest",
+          "timestamp": "2026-10-19"
+        }
+      ]
     }
   ]
 }

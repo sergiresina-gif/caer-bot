@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Silas Gasluz",
-      "xp": 4020,
-      "gold": 94,
+      "xp": 4120,
+      "gold": 154,
       "pathfinder_class": "Gunslinger",
       "history": [
         {
@@ -163,6 +163,12 @@
           "gold": 80,
           "label": "sold fearsome rune",
           "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 60,
+          "label": "Skirmish Level 7",
+          "timestamp": "2026-10-25"
         }
       ]
     },
@@ -386,7 +392,7 @@
     },
     {
       "name": "Vlysses of Liachora",
-      "xp": 4930,
+      "xp": 5330,
       "gold": 293,
       "pathfinder_class": "Cleric",
       "history": [
@@ -527,6 +533,18 @@
           "gold": 40,
           "label": "Sidequest",
           "timestamp": "2026-10-12"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly exbee",
+          "timestamp": "2026-10-23"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "weekly xbee",
+          "timestamp": "2026-10-25"
         }
       ]
     },

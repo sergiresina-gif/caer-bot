@@ -262,7 +262,7 @@
     "content": "How crazy is your character on a scale from 1 to 10?",
     "author": "songfireice",
     "datestamp": "2026-08-11T22:28:24.259375+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 209293179499839488
   },
   {
@@ -276,7 +276,7 @@
     "content": "What's your character's favorite food?",
     "author": "errantsparks",
     "datestamp": "2026-08-11T22:28:31.530325+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 129711897950945281
   },
   {
@@ -304,7 +304,7 @@
     "content": "What is your character most afraid of?",
     "author": "enzayne",
     "datestamp": "2026-08-12T12:54:08.941103+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 230624349160210432
   },
   {
@@ -458,7 +458,7 @@
     "content": "What color is the dress?",
     "author": "szalhi",
     "datestamp": "2026-08-25T14:21:30.381124+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 180638457826246659
   },
   {
@@ -563,7 +563,7 @@
     "content": "GASP! Your character is now a small animal! How cute! Which creature that fits the [Pet] feat would they be?",
     "author": "thearchitectoffate",
     "datestamp": "2026-09-08T14:12:44.999856+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 193537246836686858
   },
   {
@@ -703,7 +703,7 @@
     "content": "You must now add one of the following anime protagonist accessories to your character's design. Which do you pick, and how do you style it into your current look?\n- Goggles\n- Red Scarf\n- Ten Belts",
     "author": "akuakumatatata",
     "datestamp": "2026-10-12T21:59:30.255861+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 307300407061774337
   },
   {
@@ -717,7 +717,7 @@
     "content": "Show us your tupper library!!",
     "author": "mrdyenamite",
     "datestamp": "2026-10-13T09:23:03.235101+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 363431378597052427
   },
   {
@@ -740,5 +740,40 @@
     "datestamp": "2026-10-14T18:43:58.042448+00:00",
     "times-asked": 0,
     "author-id": 310249535433867265
+  },
+  {
+    "content": "Give your character(s) their very own race horse name!",
+    "author": "tabbycatters",
+    "datestamp": "2026-10-18T10:03:31.107494+00:00",
+    "times-asked": 0,
+    "author-id": 129711897950945281
+  },
+  {
+    "content": "What's the longest name you ever named a character? Does it have a meaning?",
+    "author": "mrdyenamite",
+    "datestamp": "2026-10-18T22:38:00.700649+00:00",
+    "times-asked": 0,
+    "author-id": 363431378597052427
+  },
+  {
+    "content": "What's the weirdest name you ever named a character that you remember? Does it have a meaning?",
+    "author": "mrdyenamite",
+    "datestamp": "2026-10-18T22:38:03.467022+00:00",
+    "times-asked": 0,
+    "author-id": 363431378597052427
+  },
+  {
+    "content": "https://tiermaker.com/create/pathfinder-aps-19468083-2?presentationMode=true (OOC) Make a tier list for the official paizo APs in order of how much you want to play them!",
+    "author": "namoeleon",
+    "datestamp": "2026-10-19T15:28:03.746257+00:00",
+    "times-asked": 0,
+    "author-id": 566802037195538442
+  },
+  {
+    "content": "What was the process behind making your character? What inspired them, what changed during their creation?",
+    "author": "trillingmonsoon",
+    "datestamp": "2026-10-19T15:35:05.214352+00:00",
+    "times-asked": 0,
+    "author-id": 1130840443970662450
   }
 ]

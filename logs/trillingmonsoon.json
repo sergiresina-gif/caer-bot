@@ -106,8 +106,8 @@
     },
     {
       "name": "AMOD",
-      "xp": 1630,
-      "gold": 45,
+      "xp": 2548,
+      "gold": 125,
       "pathfinder_class": "Necromancer",
       "history": [
         {
@@ -151,6 +151,66 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-10-14"
+        },
+        {
+          "xp": 100,
+          "gold": -24,
+          "label": "Crafting",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 358,
+          "gold": 70,
+          "label": "Rock and Stone",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 300,
+          "gold": 17,
+          "label": "Week's Work",
+          "timestamp": "2026-10-19"
+        },
+        {
+          "xp": 100,
+          "gold": 17,
+          "label": "Skirmish Level 4",
+          "timestamp": "2026-10-21"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-22"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-24"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-24"
         }
       ]
     }

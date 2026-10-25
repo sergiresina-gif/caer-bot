@@ -24,8 +24,8 @@
     },
     {
       "name": "Espes",
-      "xp": 2010,
-      "gold": 53,
+      "xp": 2580,
+      "gold": 118,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -135,6 +135,30 @@
           "gold": 0,
           "label": "Fixing bug. QOTD xp got sent twice.",
           "timestamp": "2026-08-10"
+        },
+        {
+          "xp": 220,
+          "gold": 35,
+          "label": "Habitat Protection (Quest)",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "Weekly Roleplay",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 180,
+          "gold": 30,
+          "label": "GMing game",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 70,
+          "gold": 0,
+          "label": "QOTD recap (10/20/2026)",
+          "timestamp": "2026-10-20"
         }
       ]
     }

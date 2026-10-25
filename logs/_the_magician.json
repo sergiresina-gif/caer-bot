@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Aelmoryn Drav Thyrsang",
-      "xp": 5510,
-      "gold": 561,
+      "xp": 5810,
+      "gold": 692,
       "pathfinder_class": "Necromancer",
       "history": [
         {
@@ -535,14 +535,38 @@
           "gold": 13,
           "label": "commission adjustment correction minus formulae purchase cost",
           "timestamp": "2026-10-11"
+        },
+        {
+          "xp": 100,
+          "gold": 100,
+          "label": "[10/4-10/10 weekly maj+craftcom w/ form](https://discord.com/channels/1510715535061684396/1521171327610785924/1558895923709616179)",
+          "timestamp": "2026-10-21"
+        },
+        {
+          "xp": 0,
+          "gold": -8,
+          "label": "o10/11-17 minor craft](https://discord.com/channels/1510715535061684396/1521171327610785924/1562525691113775178)",
+          "timestamp": "2026-10-22"
+        },
+        {
+          "xp": 100,
+          "gold": 24,
+          "label": "[10/11-10/17 major craft weekly](https://discord.com/channels/1510715535061684396/1521171327610785924/1562568100476620922)",
+          "timestamp": "2026-10-22"
+        },
+        {
+          "xp": 100,
+          "gold": 15,
+          "label": "[major craft weekly](https://discord.com/channels/1510715535061684396/1521171327610785924/1562620780024569957)",
+          "timestamp": "2026-10-22"
         }
       ]
     },
     {
-      "name": "Meeka Selendlara",
-      "xp": 2750,
-      "gold": 106,
-      "pathfinder_class": "Animist",
+      "name": "Ts\u00f6l\u00f6gds\u00f6n Khurgaich",
+      "xp": 2950,
+      "gold": 60,
+      "pathfinder_class": "Ranger",
       "history": [
         {
           "xp": 0,
@@ -663,6 +687,36 @@
           "gold": 20,
           "label": "[quest](https://discord.com/channels/1510715535061684396/1510715538219728897/1556399988387352609)",
           "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 0,
+          "gold": 66,
+          "label": "selling shit and adjusting",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 0,
+          "gold": -20,
+          "label": "[arrrrows](https://discord.com/channels/1510715535061684396/1537328403655688223/1562198103828860949)",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 0,
+          "gold": -75,
+          "label": "Banner Commission",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 0,
+          "gold": -17,
+          "label": "Rhino shot commission",
+          "timestamp": "2026-10-22"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "[reset](https://discord.com/channels/1510715535061684396/1510715535619395801/1561292835930640404)",
+          "timestamp": "2026-10-22"
         }
       ]
     }

@@ -24,7 +24,7 @@
     },
     {
       "name": "Sidevere",
-      "xp": 4100,
+      "xp": 4500,
       "gold": 442,
       "pathfinder_class": "Guardian",
       "history": [
@@ -147,6 +147,12 @@
           "gold": -115,
           "label": "PbP Parachute expenses",
           "timestamp": "2026-10-03"
+        },
+        {
+          "xp": 400,
+          "gold": 0,
+          "label": "RPXP lost in the couch",
+          "timestamp": "2026-10-18"
         }
       ]
     },

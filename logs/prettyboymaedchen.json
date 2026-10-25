@@ -275,8 +275,8 @@
     },
     {
       "name": "Eriu",
-      "xp": 1610,
-      "gold": 10,
+      "xp": 2010,
+      "gold": 20,
       "pathfinder_class": "Wizard",
       "history": [
         {
@@ -296,6 +296,18 @@
           "gold": 0,
           "label": "week, sq, wp",
           "timestamp": "2026-10-06"
+        },
+        {
+          "xp": 300,
+          "gold": 0,
+          "label": "Weeklies",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-10-23"
         }
       ]
     },

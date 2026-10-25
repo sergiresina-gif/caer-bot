@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Imiola \"Moony\" Iasoga Gul",
-      "xp": 4250,
+      "xp": 4270,
       "gold": 430,
       "pathfinder_class": "Summoner",
       "history": [
@@ -349,13 +349,25 @@
           "gold": 0,
           "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1560605512674844793",
           "timestamp": "2026-10-16"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1561036480883859667",
+          "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1561319360767860747",
+          "timestamp": "2026-10-18"
         }
       ]
     },
     {
       "name": "R\u00fanan Auglyph",
-      "xp": 2690,
-      "gold": 166,
+      "xp": 3230,
+      "gold": 241,
       "pathfinder_class": "Runesmith",
       "history": [
         {
@@ -573,12 +585,60 @@
           "gold": 0,
           "label": "https://discord.com/channels/1510715535061684396/1510715536227696824/1559605011196022789",
           "timestamp": "2026-10-15"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1562027480217419851",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1562161604328558712",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 0,
+          "gold": -5,
+          "label": "Purchase https://discord.com/channels/1510715535061684396/1537328403655688223/1562197217245405248",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 200,
+          "gold": 0,
+          "label": "Weekly RPxP https://discord.com/channels/1510715535061684396/1510715535619395801/1561292835930640404",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 180,
+          "gold": 30,
+          "label": "Quest: Silvertongue Mutagen (lvl 3) https://discord.com/channels/1510715535061684396/1510715538219728897/1562089260700409958",
+          "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 100,
+          "gold": 50,
+          "label": "Commission https://discord.com/channels/1510715535061684396/1510715536777150743/1562196853393465465 https://discord.com/channels/1510715535061684396/1530571219739480085/1562601381020438559",
+          "timestamp": "2026-10-22"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1562775792180666441",
+          "timestamp": "2026-10-23"
+        },
+        {
+          "xp": 30,
+          "gold": 0,
+          "label": "All QoTD that week https://discord.com/channels/1510715535061684396/1533436573155328173/1563466870403760169",
+          "timestamp": "2026-10-24"
         }
       ]
     },
     {
       "name": "Boniface Xylobone",
-      "xp": 990,
+      "xp": 1000,
       "gold": 13,
       "pathfinder_class": "Bard",
       "history": [
@@ -665,6 +725,12 @@
           "gold": 0,
           "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1560401370312474677",
           "timestamp": "2026-10-15"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd in https://discord.com/channels/1510715535061684396/1510715536227696824/1563466200120561665",
+          "timestamp": "2026-10-24"
         }
       ]
     }
