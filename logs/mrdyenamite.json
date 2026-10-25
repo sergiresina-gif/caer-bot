@@ -638,7 +638,7 @@
     },
     {
       "name": "Boniface Xylobone",
-      "xp": 1000,
+      "xp": 1010,
       "gold": 13,
       "pathfinder_class": "Bard",
       "history": [
@@ -731,6 +731,12 @@
           "gold": 0,
           "label": "Qotd in https://discord.com/channels/1510715535061684396/1510715536227696824/1563466200120561665",
           "timestamp": "2026-10-24"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1563506305031872616",
+          "timestamp": "2026-10-25"
         }
       ]
     }
