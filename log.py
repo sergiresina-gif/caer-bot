@@ -50,16 +50,19 @@ def setup(bot: discord.Client, guild_id: int):
 
     @log_group.command(name="skirmish", description="Log a skirmish completion.")
     @discord.app_commands.autocomplete(name=name_autocomplete)
-    async def skirmish(interaction: discord.Interaction, name: str, level: int):
+    async def skirmish(interaction: discord.Interaction, name: str):
         user = interaction.user
         logs = load_user_logs(user.name)
 
-        if level < 1 or level > len(skirmishes):
-            await interaction.response.send_message(f"Skirmish level must be between 1 and {len(skirmishes)}.", ephemeral=True)
-            return
 
         for character in logs:
             if character.name == name:
+                if character.xp < 1000:
+                    level = character.xp // 500 + 1
+                else:
+                    level = character.xp // 1000 + 2
+
+                    
                 xp_gain = skirmishes[level - 1]["xp"]
                 gold_gain = skirmishes[level - 1]["gold"]
                 character.add_xp_gold(xp_gain, gold_gain)
