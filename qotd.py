@@ -192,3 +192,25 @@ def setup(bot: discord.Client, guild_id: int, channel_id_sug: int, channel_id_qo
         embed.description = embed_description
         save_recap(None, idx)
         await interaction.response.send_message(embed=embed, content=message_to_send)
+
+    @bot.tree.command(name="stats", guild=discord.Object(id=guild_id), description="GM-side qotd repository")
+    async def stats(interaction: discord.Interaction):
+        allowed_roles = [1510715535136915523, 1510715535136915521, 1510715535128658073, 1516407439996489758]
+        if not any(role.id in allowed_roles for role in interaction.user.roles):
+            await interaction.response.send_message("You do not have access to this command.")
+            return
+        
+        qotds = load_qotds()
+        if not qotds:
+            await interaction.response.send_message("No QOTDs are available yet.")
+            return
+
+        message_to_send = "\n"
+        embed = discord.Embed(title="Current QOTDs:")
+        embed_description = ""
+        number_of_qotds = len(qotds)
+        number_of_unasked_qotds = len([item for item in qotds if item["times-asked"] == 0])
+        number_of_asked_qotds = number_of_qotds - number_of_unasked_qotds
+        message_to_send += f"Total QOTDs: {number_of_qotds}\nUnasked QOTDs: {number_of_unasked_qotds}\nAsked QOTDs: {number_of_asked_qotds}\n\n"
+        embed.description = message_to_send
+        await interaction.response.send_message(embed=embed, content="Look at this I worked hard")
