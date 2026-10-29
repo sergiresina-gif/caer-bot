@@ -193,7 +193,7 @@ def setup(bot: discord.Client, guild_id: int, channel_id_sug: int, channel_id_qo
         save_recap(None, idx)
         await interaction.response.send_message(embed=embed, content=message_to_send)
 
-    @bot.tree.command(name="stats", guild=discord.Object(id=guild_id), description="GM-side qotd repository")
+    @bot.tree.command(name="qotd_stats", guild=discord.Object(id=guild_id), description="GM-side qotd repository")
     async def stats(interaction: discord.Interaction):
         allowed_roles = [1510715535136915523, 1510715535136915521, 1510715535128658073, 1516407439996489758]
         if not any(role.id in allowed_roles for role in interaction.user.roles):
