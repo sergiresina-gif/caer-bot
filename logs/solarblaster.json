@@ -24,8 +24,8 @@
     },
     {
       "name": "Sidevere",
-      "xp": 4500,
-      "gold": 442,
+      "xp": 4700,
+      "gold": 442.0,
       "pathfinder_class": "Guardian",
       "history": [
         {
@@ -153,6 +153,12 @@
           "gold": 0,
           "label": "RPXP lost in the couch",
           "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "RPXP",
+          "timestamp": "2026-10-26"
         }
       ]
     },

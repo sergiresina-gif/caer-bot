@@ -524,7 +524,7 @@
     },
     {
       "name": "Kassandra Of Oppara",
-      "xp": 3000,
+      "xp": 3030,
       "gold": 25,
       "pathfinder_class": "Rogue",
       "history": [
@@ -539,6 +539,24 @@
           "gold": 25,
           "label": "bitch",
           "timestamp": "2026-07-25"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-26"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-29"
         }
       ]
     },
@@ -752,7 +770,7 @@
     },
     {
       "name": "Yukime",
-      "xp": 2040,
+      "xp": 2050,
       "gold": 55,
       "pathfinder_class": "Monk",
       "history": [
@@ -875,13 +893,19 @@
           "gold": 0,
           "label": "weekly",
           "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-27"
         }
       ]
     },
     {
       "name": "Sarenith",
-      "xp": 2020,
-      "gold": 32,
+      "xp": 2320,
+      "gold": 32.0,
       "pathfinder_class": "Champion",
       "history": [
         {
@@ -985,6 +1009,18 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-10-24"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-10-25"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "weekly",
+          "timestamp": "2026-10-25"
         }
       ]
     },

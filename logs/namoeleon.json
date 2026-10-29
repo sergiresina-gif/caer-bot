@@ -32,8 +32,8 @@
     },
     {
       "name": "Ulrika",
-      "xp": 5115,
-      "gold": 692,
+      "xp": 5215,
+      "gold": 752.0,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -185,6 +185,12 @@
           "gold": 80,
           "label": "Challenge From The Badlands",
           "timestamp": "2026-10-23"
+        },
+        {
+          "xp": 100,
+          "gold": 60.0,
+          "label": "Skirmish",
+          "timestamp": "2026-10-28"
         }
       ]
     },

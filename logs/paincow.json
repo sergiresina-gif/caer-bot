@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Cynthia Hall",
-      "xp": 5015,
-      "gold": 790,
+      "xp": 5515,
+      "gold": 850.0,
       "pathfinder_class": "Wizard",
       "history": [
         {
@@ -139,6 +139,24 @@
           "gold": 60,
           "label": "Writing Prompt",
           "timestamp": "2026-10-05"
+        },
+        {
+          "xp": 100,
+          "gold": 60,
+          "label": "Skirmish Level 7",
+          "timestamp": "2026-10-25"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "weekly",
+          "timestamp": "2026-10-25"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "weekly",
+          "timestamp": "2026-10-25"
         }
       ]
     },

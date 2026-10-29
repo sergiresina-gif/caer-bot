@@ -177,8 +177,8 @@
     },
     {
       "name": "Leetha Tap Pr\u00e8v",
-      "xp": 1000,
-      "gold": 38,
+      "xp": 1100,
+      "gold": 38.0,
       "pathfinder_class": "Investigator",
       "history": [
         {
@@ -186,6 +186,12 @@
           "gold": 38,
           "label": "Leftover Gold on creation",
           "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 100,
+          "gold": 0.0,
+          "label": "Weekly Rewards",
+          "timestamp": "2026-10-25"
         }
       ]
     }

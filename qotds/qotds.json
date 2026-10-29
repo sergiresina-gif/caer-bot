@@ -269,7 +269,7 @@
     "content": "How crazy does your character think they are on a scale from 1 to 10?",
     "author": "songfireice",
     "datestamp": "2026-08-11T22:28:28.458277+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 209293179499839488
   },
   {
@@ -444,7 +444,7 @@
     "content": "If you had to pick an immunity and two weaknesses for your character, which damage types or specific traits would make the most sense for them?",
     "author": "errantsparks",
     "datestamp": "2026-08-23T12:59:03.575985+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 129711897950945281
   },
   {
@@ -493,7 +493,7 @@
     "content": "When your character dies, what would be the last thing they think of?",
     "author": "thearchitectoffate",
     "datestamp": "2026-09-08T14:11:58.405965+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 193537246836686858
   },
   {
@@ -775,5 +775,12 @@
     "datestamp": "2026-10-19T15:35:05.214352+00:00",
     "times-asked": 0,
     "author-id": 1130840443970662450
+  },
+  {
+    "content": "Which of your characters is the likeliest to have a backstory quest request?",
+    "author": "mrdyenamite",
+    "datestamp": "2026-10-28T21:51:18.699191+00:00",
+    "times-asked": 1,
+    "author-id": 363431378597052427
   }
 ]

@@ -8,6 +8,26 @@
       "gold": 0,
       "pathfinder_class": "Swashbuckler",
       "history": []
+    },
+    {
+      "name": "Isolde",
+      "xp": 1458,
+      "gold": 10.0,
+      "pathfinder_class": "Witch",
+      "history": [
+        {
+          "xp": 358,
+          "gold": 0.0,
+          "label": "gm xp",
+          "timestamp": "2026-10-29"
+        },
+        {
+          "xp": 100,
+          "gold": 10,
+          "label": "Skirmish Level 3",
+          "timestamp": "2026-10-29"
+        }
+      ]
     }
   ]
 }

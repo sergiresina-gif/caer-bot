@@ -4,10 +4,17 @@
   "characters": [
     {
       "name": "Gaijing (\u6539\u7d93)",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1100,
+      "gold": 0.0,
       "pathfinder_class": "Monk",
-      "history": []
+      "history": [
+        {
+          "xp": 100,
+          "gold": 0.0,
+          "label": "https://discord.com/channels/1510715535061684396/1529496985709580441/1562157593886195884",
+          "timestamp": "2026-10-28"
+        }
+      ]
     }
   ]
 }
