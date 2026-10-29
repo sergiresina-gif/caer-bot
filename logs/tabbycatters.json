@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Keffa",
-      "xp": 6560,
-      "gold": 148,
+      "xp": 6750,
+      "gold": 230.0,
       "pathfinder_class": "Witchwarper",
       "history": [
         {
@@ -571,6 +571,54 @@
           "gold": 0,
           "label": "Qotd Suggestion https://discord.com/channels/1510715535061684396/1510715536227696824/1562459727718514699",
           "timestamp": "2026-10-21"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-28"
+        },
+        {
+          "xp": 30,
+          "gold": 0.0,
+          "label": "Qotd Weekly (10/25)",
+          "timestamp": "2026-10-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-28"
+        },
+        {
+          "xp": 100,
+          "gold": 82,
+          "label": "Skirmish Level 8",
+          "timestamp": "2026-10-28"
         }
       ]
     },
@@ -832,8 +880,8 @@
     },
     {
       "name": "Zhato",
-      "xp": 2200,
-      "gold": 55,
+      "xp": 2400,
+      "gold": 55.0,
       "pathfinder_class": "Solarian",
       "history": [
         {
@@ -913,6 +961,12 @@
           "gold": 35,
           "label": "https://discord.com/channels/1510715535061684396/1510715538219728897/1563048028682854421",
           "timestamp": "2026-10-25"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "RP Exp",
+          "timestamp": "2026-10-28"
         }
       ]
     },

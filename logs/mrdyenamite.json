@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Imiola \"Moony\" Iasoga Gul",
-      "xp": 4270,
-      "gold": 430,
+      "xp": 4290,
+      "gold": 430.0,
       "pathfinder_class": "Summoner",
       "history": [
         {
@@ -361,13 +361,25 @@
           "gold": 0,
           "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1561319360767860747",
           "timestamp": "2026-10-18"
+        },
+        {
+          "xp": 10,
+          "gold": 0.0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1564897104285933579",
+          "timestamp": "2026-10-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0.0,
+          "label": "Qotdhttps://discord.com/channels/1510715535061684396/1510715536227696824/1564923904387059717",
+          "timestamp": "2026-10-28"
         }
       ]
     },
     {
       "name": "R\u00fanan Auglyph",
-      "xp": 3230,
-      "gold": 241,
+      "xp": 3250,
+      "gold": 241.0,
       "pathfinder_class": "Runesmith",
       "history": [
         {
@@ -633,6 +645,18 @@
           "gold": 0,
           "label": "All QoTD that week https://discord.com/channels/1510715535061684396/1533436573155328173/1563466870403760169",
           "timestamp": "2026-10-24"
+        },
+        {
+          "xp": 10,
+          "gold": 0.0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1564178205907099709",
+          "timestamp": "2026-10-26"
+        },
+        {
+          "xp": 10,
+          "gold": 0.0,
+          "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1564533139332661330",
+          "timestamp": "2026-10-27"
         }
       ]
     },
@@ -739,6 +763,13 @@
           "timestamp": "2026-10-25"
         }
       ]
+    },
+    {
+      "name": "Whistle",
+      "xp": 1000,
+      "gold": 0.0,
+      "pathfinder_class": "Monk",
+      "history": []
     }
   ]
 }

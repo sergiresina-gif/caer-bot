@@ -482,8 +482,8 @@
     },
     {
       "name": "Lady Tamsyn Ennes",
-      "xp": 1870,
-      "gold": 65,
+      "xp": 2070,
+      "gold": 65.0,
       "pathfinder_class": "Champion",
       "history": [
         {
@@ -521,6 +521,12 @@
           "gold": 20,
           "label": "Manual fix",
           "timestamp": "2026-10-21"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "rpxp",
+          "timestamp": "2026-10-26"
         }
       ]
     }

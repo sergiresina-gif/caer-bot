@@ -24,8 +24,8 @@
     },
     {
       "name": "Espes",
-      "xp": 2580,
-      "gold": 118,
+      "xp": 2850,
+      "gold": 118.0,
       "pathfinder_class": "Barbarian",
       "history": [
         {
@@ -159,6 +159,18 @@
           "gold": 0,
           "label": "QOTD recap (10/20/2026)",
           "timestamp": "2026-10-20"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "Daily RP XP",
+          "timestamp": "2026-10-25"
+        },
+        {
+          "xp": 70,
+          "gold": 0.0,
+          "label": "QOTD 10/27/2026",
+          "timestamp": "2026-10-27"
         }
       ]
     }
