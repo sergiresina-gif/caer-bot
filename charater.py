@@ -175,7 +175,7 @@ async def helper_show(interaction: discord.Interaction, name: str = None, activi
 
     if simplified:
         # Show a simplified view of all characters
-        desc = "\n".join([f"**{log.name}** | Level: {get_level(log.xp)} | Gold: {log.gold}" for log in logs])
+        desc = "\n".join([f"**{log.name}** | Level: {get_level(log.xp)} | XP: {log.xp} | Gold: {log.gold}" for log in logs])
         embed = discord.Embed(
             title=f"{user.name}'s Characters",
             description=desc,
