@@ -102,8 +102,8 @@ def setup(bot: discord.Client, guild_id: int):
 
     @character_group.command(name="show", description="View your characters!")
     @discord.app_commands.autocomplete(name=name_autocomplete, activity_log=true_false_autocomplete)
-    async def show(interaction: discord.Interaction, name: str = None, activity_log: str = "False"):
-        await helper_show(interaction, name, activity_log)
+    async def show(interaction: discord.Interaction, name: str = None, activity_log: str = "False", simplified: bool = False):
+        await helper_show(interaction, name, activity_log, simplified)
         
 
     @character_group.command(name="remove", description="Remove your character!")
@@ -149,12 +149,12 @@ def setup(bot: discord.Client, guild_id: int):
 
     @bot.tree.command(name="cs", guild=discord.Object(id=guild_id), description="Shorthand for /character show")
     @discord.app_commands.autocomplete(name=name_autocomplete, activity_log=true_false_autocomplete)
-    async def cs(interaction: discord.Interaction, name: str = None, activity_log: str = "False"):
-        await helper_show(interaction, name, activity_log)
-        
+    async def cs(interaction: discord.Interaction, name: str = None, activity_log: str = "False", simplified: bool = False):
+        await helper_show(interaction, name, activity_log, simplified)
 
 
-async def helper_show(interaction: discord.Interaction, name: str = None, activity_log: str = "False"):
+
+async def helper_show(interaction: discord.Interaction, name: str = None, activity_log: str = "False", simplified: bool = False):
     user = interaction.user
     logs = load_user_logs(user.name)  # Consider switching to user.id later
 
@@ -172,6 +172,17 @@ async def helper_show(interaction: discord.Interaction, name: str = None, activi
                 f"You have no character named '{name}'."
             )
             return
+
+    if simplified:
+        # Show a simplified view of all characters
+        desc = "\n".join([f"**{log.name}** | Level: {log.xp // 500 + 1} | Gold: {log.gold}" for log in logs])
+        embed = discord.Embed(
+            title=f"{user.name}'s Characters",
+            description=desc,
+            color=discord.Color.blue()
+        )
+        await interaction.response.send_message(embed=embed)
+        return
 
     # --- Build all embed pages ---
     all_embeds = []
