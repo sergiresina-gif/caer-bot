@@ -212,8 +212,8 @@
     },
     {
       "name": "Aina Meritxe-Thundermaw",
-      "xp": 3700,
-      "gold": 343.2,
+      "xp": 4000,
+      "gold": 368.2,
       "pathfinder_class": "Fighter",
       "history": [
         {
@@ -359,6 +359,24 @@
           "gold": 25,
           "label": "Skirmish Level 5",
           "timestamp": "2026-10-27"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-10-29"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Sidequest",
+          "timestamp": "2026-10-29"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Writing Prompt",
+          "timestamp": "2026-10-29"
         }
       ]
     },

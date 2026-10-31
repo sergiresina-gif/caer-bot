@@ -366,8 +366,8 @@
     },
     {
       "name": "Nettle",
-      "xp": 480,
-      "gold": 5,
+      "xp": 1000,
+      "gold": 25.0,
       "pathfinder_class": "Bard",
       "history": [
         {
@@ -483,6 +483,12 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-09-11"
+        },
+        {
+          "xp": 520,
+          "gold": 20.0,
+          "label": "Suffering in the Siphons",
+          "timestamp": "2026-10-30"
         }
       ]
     },

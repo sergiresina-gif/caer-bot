@@ -486,7 +486,7 @@
     "content": "What is an odd special interest for your character?",
     "author": "akuakumatatata",
     "datestamp": "2026-09-03T21:26:26.600905+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 307300407061774337
   },
   {
@@ -535,7 +535,7 @@
     "content": "What is the worst mistake your character ever made?",
     "author": "thearchitectoffate",
     "datestamp": "2026-09-08T14:12:37.282900+00:00",
-    "times-asked": 0,
+    "times-asked": 1,
     "author-id": 193537246836686858
   },
   {
@@ -782,5 +782,26 @@
     "datestamp": "2026-10-28T21:51:18.699191+00:00",
     "times-asked": 1,
     "author-id": 363431378597052427
+  },
+  {
+    "content": "What is your opinion on fiends?",
+    "author": "bat.cow",
+    "datestamp": "2026-10-31T00:07:41.479555+00:00",
+    "times-asked": 0,
+    "author-id": 310249535433867265
+  },
+  {
+    "content": "Tell us your pokemon ace/team",
+    "author": "bat.cow",
+    "datestamp": "2026-10-31T00:07:43.867877+00:00",
+    "times-asked": 0,
+    "author-id": 310249535433867265
+  },
+  {
+    "content": "Give us a win quote!",
+    "author": "akuakumatatata",
+    "datestamp": "2026-10-31T05:21:01.641560+00:00",
+    "times-asked": 0,
+    "author-id": 307300407061774337
   }
 ]

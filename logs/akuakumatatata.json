@@ -624,10 +624,17 @@
     },
     {
       "name": "Remedy and Cif",
-      "xp": 1000,
+      "xp": 1010,
       "gold": 0.0,
       "pathfinder_class": "Envoy",
-      "history": []
+      "history": [
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-29"
+        }
+      ]
     }
   ]
 }

@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Nargan",
-      "xp": 100,
-      "gold": 3,
+      "xp": 620,
+      "gold": 23.0,
       "pathfinder_class": "Gunslinger",
       "history": [
         {
@@ -19,6 +19,12 @@
           "gold": 0,
           "label": "RPXP",
           "timestamp": "2026-07-30"
+        },
+        {
+          "xp": 520,
+          "gold": 20.0,
+          "label": "Suffering in the Siphons: A Puddles Prologue",
+          "timestamp": "2026-10-29"
         }
       ]
     },

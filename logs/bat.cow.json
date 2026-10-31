@@ -524,7 +524,7 @@
     },
     {
       "name": "Kassandra Of Oppara",
-      "xp": 3030,
+      "xp": 3060,
       "gold": 25,
       "pathfinder_class": "Rogue",
       "history": [
@@ -557,6 +557,24 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-10-29"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-10-31"
         }
       ]
     },

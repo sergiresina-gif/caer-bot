@@ -662,8 +662,8 @@
     },
     {
       "name": "Boniface Xylobone",
-      "xp": 1010,
-      "gold": 13,
+      "xp": 1540,
+      "gold": 33.0,
       "pathfinder_class": "Bard",
       "history": [
         {
@@ -761,6 +761,18 @@
           "gold": 0,
           "label": "Qotd https://discord.com/channels/1510715535061684396/1510715536227696824/1563506305031872616",
           "timestamp": "2026-10-25"
+        },
+        {
+          "xp": 520,
+          "gold": 20.0,
+          "label": "Quest: Purifying Ladle https://discord.com/channels/1510715535061684396/1510715538219728897/1565090398634901644",
+          "timestamp": "2026-10-30"
+        },
+        {
+          "xp": 10,
+          "gold": 0.0,
+          "label": "Qotd  https://discord.com/channels/1510715535061684396/1510715536227696824/1565831410319753371",
+          "timestamp": "2026-10-30"
         }
       ]
     },

@@ -1039,44 +1039,6 @@
       ]
     },
     {
-      "name": "Babbles",
-      "xp": 1065,
-      "gold": 0,
-      "pathfinder_class": "Witchwarper",
-      "history": [
-        {
-          "xp": 25,
-          "gold": 0,
-          "label": "Achievement: Death by a Thousand Cuts",
-          "timestamp": "2026-09-17"
-        },
-        {
-          "xp": 10,
-          "gold": 0,
-          "label": "QOTD",
-          "timestamp": "2026-09-17"
-        },
-        {
-          "xp": 10,
-          "gold": 0,
-          "label": "QOTD",
-          "timestamp": "2026-09-20"
-        },
-        {
-          "xp": 10,
-          "gold": 0,
-          "label": "QOTD",
-          "timestamp": "2026-09-20"
-        },
-        {
-          "xp": 10,
-          "gold": 0,
-          "label": "QOTD",
-          "timestamp": "2026-09-20"
-        }
-      ]
-    },
-    {
       "name": "Muyuu",
       "xp": 1400,
       "gold": 26,
