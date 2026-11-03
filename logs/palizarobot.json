@@ -24,7 +24,7 @@
     },
     {
       "name": "Espes",
-      "xp": 2850,
+      "xp": 3000,
       "gold": 118.0,
       "pathfinder_class": "Barbarian",
       "history": [
@@ -171,6 +171,18 @@
           "gold": 0.0,
           "label": "QOTD 10/27/2026",
           "timestamp": "2026-10-27"
+        },
+        {
+          "xp": 100,
+          "gold": 0.0,
+          "label": "RP XP (11/2/2026)",
+          "timestamp": "2026-11-02"
+        },
+        {
+          "xp": 50,
+          "gold": 0.0,
+          "label": "Sidequest (11/2/2026)",
+          "timestamp": "2026-11-02"
         }
       ]
     }

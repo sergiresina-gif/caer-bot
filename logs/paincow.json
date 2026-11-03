@@ -226,8 +226,8 @@
     },
     {
       "name": "Winter Alastair",
-      "xp": 4520,
-      "gold": 290,
+      "xp": 5190,
+      "gold": 540.0,
       "pathfinder_class": "Swashbuckler",
       "history": [
         {
@@ -247,6 +247,18 @@
           "gold": 250,
           "label": "quest",
           "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 470,
+          "gold": 250.0,
+          "label": "quest",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "weekly",
+          "timestamp": "2026-11-01"
         }
       ]
     },

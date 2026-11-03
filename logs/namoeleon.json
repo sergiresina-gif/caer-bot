@@ -281,6 +281,20 @@
           "timestamp": "2026-10-20"
         }
       ]
+    },
+    {
+      "name": "Deldrenos Barkweaver",
+      "xp": 1000,
+      "gold": 0.0,
+      "pathfinder_class": "Runesmith",
+      "history": []
+    },
+    {
+      "name": "Claudio Mezzare",
+      "xp": 1000,
+      "gold": 0.0,
+      "pathfinder_class": "Vessel",
+      "history": []
     }
   ]
 }

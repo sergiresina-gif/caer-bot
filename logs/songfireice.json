@@ -86,8 +86,8 @@
     },
     {
       "name": "Paulie",
-      "xp": 3550,
-      "gold": 762,
+      "xp": 4020,
+      "gold": 1012.0,
       "pathfinder_class": "Champion",
       "history": [
         {
@@ -119,6 +119,12 @@
           "gold": 160,
           "label": "Quarry Quarrel",
           "timestamp": "2026-09-27"
+        },
+        {
+          "xp": 470,
+          "gold": 250.0,
+          "label": "It's just a little guy (part 2)",
+          "timestamp": "2026-11-01"
         }
       ]
     },

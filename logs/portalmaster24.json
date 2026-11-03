@@ -128,8 +128,8 @@
     },
     {
       "name": "Herea Sangre",
-      "xp": 2876,
-      "gold": 109,
+      "xp": 3508,
+      "gold": 134.0,
       "pathfinder_class": "Exemplar",
       "history": [
         {
@@ -167,6 +167,36 @@
           "gold": 74,
           "label": "Corrections",
           "timestamp": "2026-10-22"
+        },
+        {
+          "xp": 222,
+          "gold": 0.0,
+          "label": "xp fixing",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "11/1Weekly",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish Level 5",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Sidequest",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-11-02"
         }
       ]
     }

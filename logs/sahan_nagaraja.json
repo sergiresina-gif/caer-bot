@@ -1,0 +1,26 @@
+{
+  "user_name": null,
+  "user_pfp": null,
+  "characters": [
+    {
+      "name": "Gaijing (\u6539\u7d93)",
+      "xp": 1200,
+      "gold": 10.0,
+      "pathfinder_class": "monk",
+      "history": [
+        {
+          "xp": 100,
+          "gold": 0.0,
+          "label": "https://discord.com/channels/1510715535061684396/1529496985709580441/1561938128770572329",
+          "timestamp": "2026-11-02"
+        },
+        {
+          "xp": 100,
+          "gold": 10.0,
+          "label": "https://discord.com/channels/1510715535061684396/1566072551531216946/1566091855752331275",
+          "timestamp": "2026-11-02"
+        }
+      ]
+    }
+  ]
+}

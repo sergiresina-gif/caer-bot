@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Elle Mellei",
-      "xp": 2290,
-      "gold": 51,
+      "xp": 2590,
+      "gold": 51.0,
       "pathfinder_class": "Alchemist",
       "history": [
         {
@@ -109,6 +109,18 @@
           "gold": 0,
           "label": "RPXP 31/08",
           "timestamp": "2026-09-03"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "RPXP",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-11-01"
         }
       ]
     },

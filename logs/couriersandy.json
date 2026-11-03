@@ -462,8 +462,8 @@
     },
     {
       "name": "Briar Sweetes",
-      "xp": 1770,
-      "gold": 200,
+      "xp": 1685,
+      "gold": 100.0,
       "pathfinder_class": "Magus",
       "history": [
         {
@@ -477,6 +477,24 @@
           "gold": 100,
           "label": "The Revenge Of Lady Vandrean",
           "timestamp": "2026-10-22"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "RpXp",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": -385,
+          "gold": -100.0,
+          "label": "fixing double logged quest xp",
+          "timestamp": "2026-11-01"
         }
       ]
     },

@@ -4,7 +4,7 @@
   "characters": [
     {
       "name": "Imiola \"Moony\" Iasoga Gul",
-      "xp": 4290,
+      "xp": 4300,
       "gold": 430.0,
       "pathfinder_class": "Summoner",
       "history": [
@@ -373,6 +373,12 @@
           "gold": 0.0,
           "label": "Qotdhttps://discord.com/channels/1510715535061684396/1510715536227696824/1564923904387059717",
           "timestamp": "2026-10-28"
+        },
+        {
+          "xp": 10,
+          "gold": 0.0,
+          "label": "Qotd  https://discord.com/channels/1510715535061684396/1510715536227696824/1566359371896725545",
+          "timestamp": "2026-11-01"
         }
       ]
     },
@@ -662,8 +668,8 @@
     },
     {
       "name": "Boniface Xylobone",
-      "xp": 1540,
-      "gold": 33.0,
+      "xp": 1870,
+      "gold": 43.0,
       "pathfinder_class": "Bard",
       "history": [
         {
@@ -773,15 +779,46 @@
           "gold": 0.0,
           "label": "Qotd  https://discord.com/channels/1510715535061684396/1510715536227696824/1565831410319753371",
           "timestamp": "2026-10-30"
+        },
+        {
+          "xp": 30,
+          "gold": 0.0,
+          "label": "All QoTD that week https://discord.com/channels/1510715535061684396/1533436573155328173/1564180952257663057",
+          "timestamp": "2026-11-02"
+        },
+        {
+          "xp": 100,
+          "gold": 10.0,
+          "label": "Sidequest https://discord.com/channels/1510715535061684396/1520777223110398002/1565878887081185470",
+          "timestamp": "2026-11-02"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "Weekly RPxP https://discord.com/channels/1510715535061684396/1510715535619395801/1566360871473647677",
+          "timestamp": "2026-11-02"
         }
       ]
     },
     {
       "name": "Whistle",
-      "xp": 1000,
-      "gold": 0.0,
+      "xp": 1100,
+      "gold": 23.6,
       "pathfinder_class": "Monk",
-      "history": []
+      "history": [
+        {
+          "xp": 0,
+          "gold": 13.6,
+          "label": "Starting Gold",
+          "timestamp": "2026-11-02"
+        },
+        {
+          "xp": 100,
+          "gold": 10.0,
+          "label": "Skirmish https://discord.com/channels/1510715535061684396/1566072551531216946",
+          "timestamp": "2026-11-02"
+        }
+      ]
     }
   ]
 }

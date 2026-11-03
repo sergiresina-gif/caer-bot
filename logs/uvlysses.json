@@ -4,8 +4,8 @@
   "characters": [
     {
       "name": "Silas Gasluz",
-      "xp": 4120,
-      "gold": 154,
+      "xp": 4720,
+      "gold": 181.0,
       "pathfinder_class": "Gunslinger",
       "history": [
         {
@@ -169,6 +169,48 @@
           "gold": 60,
           "label": "Skirmish Level 7",
           "timestamp": "2026-10-25"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Writing Prompt",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Skirmish Level 6",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Sidequest",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Writing Prompt",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Sidequest",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Skirmish Level 6",
+          "timestamp": "2026-11-02"
+        },
+        {
+          "xp": 0,
+          "gold": -133.0,
+          "label": "buying Collar of the Shifting Spider",
+          "timestamp": "2026-11-02"
         }
       ]
     },
@@ -392,8 +434,8 @@
     },
     {
       "name": "Vlysses of Liachora",
-      "xp": 5330,
-      "gold": 293,
+      "xp": 6000,
+      "gold": 543.0,
       "pathfinder_class": "Cleric",
       "history": [
         {
@@ -545,6 +587,18 @@
           "gold": 0,
           "label": "weekly xbee",
           "timestamp": "2026-10-25"
+        },
+        {
+          "xp": 470,
+          "gold": 250.0,
+          "label": "It's just a lil guy! (part 2)",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "weekly xpbeee",
+          "timestamp": "2026-11-01"
         }
       ]
     },

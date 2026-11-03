@@ -151,8 +151,8 @@
     },
     {
       "name": "Tethra",
-      "xp": 4000,
-      "gold": 167,
+      "xp": 4870,
+      "gold": 207.0,
       "pathfinder_class": "Investigator",
       "history": [
         {
@@ -214,6 +214,24 @@
           "gold": 0,
           "label": "qotd week",
           "timestamp": "2026-09-28"
+        },
+        {
+          "xp": 470,
+          "gold": 0.0,
+          "label": "quest",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 300,
+          "gold": 0.0,
+          "label": "weeklies",
+          "timestamp": "2026-11-02"
+        },
+        {
+          "xp": 100,
+          "gold": 40,
+          "label": "Writing Prompt",
+          "timestamp": "2026-11-02"
         }
       ]
     },
@@ -313,10 +331,17 @@
     },
     {
       "name": "Asprin/Mina",
-      "xp": 1000,
-      "gold": 0,
+      "xp": 1220,
+      "gold": 35.0,
       "pathfinder_class": "Swashbuckler",
-      "history": []
+      "history": [
+        {
+          "xp": 220,
+          "gold": 35.0,
+          "label": "quest",
+          "timestamp": "2026-11-02"
+        }
+      ]
     },
     {
       "name": "Loki",
@@ -335,6 +360,20 @@
           "gold": 17,
           "label": "Skirmish Level 4",
           "timestamp": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "name": "Hecate",
+      "xp": 1290,
+      "gold": 20.0,
+      "pathfinder_class": "Runesmith",
+      "history": [
+        {
+          "xp": 290,
+          "gold": 20.0,
+          "label": "quest",
+          "timestamp": "2026-11-02"
         }
       ]
     }

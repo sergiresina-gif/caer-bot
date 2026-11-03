@@ -524,8 +524,8 @@
     },
     {
       "name": "Kassandra Of Oppara",
-      "xp": 3060,
-      "gold": 25,
+      "xp": 3630,
+      "gold": 75.0,
       "pathfinder_class": "Rogue",
       "history": [
         {
@@ -575,6 +575,48 @@
           "gold": 0,
           "label": "QOTD",
           "timestamp": "2026-10-31"
+        },
+        {
+          "xp": 100,
+          "gold": 25,
+          "label": "Skirmish Level 5",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "weekly",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 50,
+          "gold": 0.0,
+          "label": "suggestion",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 100,
+          "gold": 25.0,
+          "label": "shark",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 100,
+          "gold": 0,
+          "label": "QOTD (Whole Week)",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-11-02"
+        },
+        {
+          "xp": 10,
+          "gold": 0,
+          "label": "QOTD",
+          "timestamp": "2026-11-03"
         }
       ]
     },
@@ -1079,6 +1121,13 @@
           "timestamp": "2026-10-22"
         }
       ]
+    },
+    {
+      "name": "Mara Neverhome",
+      "xp": 1000,
+      "gold": 0.0,
+      "pathfinder_class": "Vessel",
+      "history": []
     }
   ]
 }

@@ -564,8 +564,8 @@
     },
     {
       "name": "Ts\u00f6l\u00f6gds\u00f6n Khurgaich",
-      "xp": 2950,
-      "gold": 60,
+      "xp": 3350,
+      "gold": 60.0,
       "pathfinder_class": "Ranger",
       "history": [
         {
@@ -717,6 +717,18 @@
           "gold": 0,
           "label": "[reset](https://discord.com/channels/1510715535061684396/1510715535619395801/1561292835930640404)",
           "timestamp": "2026-10-22"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "[reset](https://discord.com/channels/1510715535061684396/1510715535619395801/1563917409528844379)",
+          "timestamp": "2026-11-01"
+        },
+        {
+          "xp": 200,
+          "gold": 0.0,
+          "label": "[reset](https://discord.com/channels/1510715535061684396/1510715535619395801/1566360871473647677)",
+          "timestamp": "2026-11-01"
         }
       ]
     }
